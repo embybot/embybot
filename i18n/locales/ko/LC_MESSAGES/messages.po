@@ -1,0 +1,1987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EmbyBot v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-16 10:52+0000\n"
+"PO-Revision-Date: 2025-08-17 11:04+0000\n"
+"Last-Translator: admin@embybot.com\n"
+"Language-Team: Korean\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "❌ Telegram button callback_data exceeds 64-byte limit: {data} ({length} bytes)"
+msgstr "❌ Telegram 버튼의 callback_data가 64바이트 제한을 초과했습니다: {data} ({length} 바이트)"
+
+msgid "⚠️ Exception occurred during local check of reply_markup: {error}"
+msgstr "⚠️ reply_markup 로컬 확인 중 예외가 발생했습니다: {error}"
+
+msgid "Unknown API"
+msgstr "알 수 없는 API"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "TMDB"
+msgstr "TMDB"
+
+msgid "IP Geolocation"
+msgstr "IP 지리적 위치"
+
+msgid "Emby"
+msgstr "Emby"
+
+msgid "🌐 Making {api_name} API request (Attempt {attempt}), URL: {url}, Timeout: {timeout}s"
+msgstr "🌐 {api_name} API 요청 중 (시도 {attempt}), URL: {url}, 시간 초과: {timeout}초"
+
+msgid "✅ {api_name} API request successful, Status Code: {code}"
+msgstr "✅ {api_name} API 요청 성공, 상태 코드: {code}"
+
+msgid "ℹ️ Telegram returned an ignorable edit/delete type error, ignoring."
+msgstr "ℹ️ Telegram에서 무시할 수 있는 수정/삭제 유형의 오류를 반환하여 무시합니다."
+
+msgid "⏳ Telegram rate limit (429), retrying after {seconds}s. Error: {error_text}"
+msgstr "⏳ Telegram 요청 제한 (429), {seconds}초 후 재시도합니다. 오류: {error_text}"
+
+msgid "❌ {api_name} server error {code}, will retry. Error: {error_text}"
+msgstr "❌ {api_name} 서버 오류 {code}, 재시도합니다. 오류: {error_text}"
+
+msgid "❌ {api_name} API request failed (Attempt {attempt}), Status Code: {code}, Response: {response}"
+msgstr "❌ {api_name} API 요청 실패 (시도 {attempt}), 상태 코드: {code}, 응답: {response}"
+
+msgid "❌ Network error on {api_name} API request (Attempt {attempt}), URL: {url}, Error: {error}"
+msgstr "❌ {api_name} API 요청 중 네트워크 오류 발생 (시도 {attempt}), URL: {url}, 오류: {error}"
+
+msgid "❌ {api_name} API request failed, max retries reached ({max_retries}), URL: {url}"
+msgstr "❌ {api_name} API 요청 실패, 최대 재시도 횟수({max_retries})에 도달했습니다, URL: {url}"
+
+msgid "🔑 Getting Emby Access Token using username/password..."
+msgstr "🔑 사용자 이름/비밀번호를 사용하여 Emby 액세스 토큰을 가져오는 중..."
+
+msgid "❌ Missing Emby username or password configuration required to get a token."
+msgstr "❌ 토큰을 가져오는 데 필요한 Emby 사용자 이름 또는 비밀번호 구성이 없습니다."
+
+msgid "✅ Successfully obtained Access Token."
+msgstr "✅ 액세스 토큰을 성공적으로 가져왔습니다."
+
+msgid "❌ Failed to get Access Token. Status Code: {code}, Response: {text}"
+msgstr "❌ 액세스 토큰을 가져오지 못했습니다. 상태 코드: {code}, 응답: {text}"
+
+msgid "❌ Network error while getting Access Token: {error}"
+msgstr "❌ 액세스 토큰을 가져오는 중 네트워크 오류가 발생했습니다: {error}"
+
+msgid "🔎 Requesting scan for Emby item ID: {id}, Name: {name}"
+msgstr "🔎 Emby 항목 ID: {id}, 이름: {name}에 대한 스캔을 요청하는 중..."
+
+msgid "❌ Scan failed: Emby server configuration is incomplete."
+msgstr "❌ 스캔 실패: Emby 서버 구성이 완료되지 않았습니다."
+
+msgid "✅ Scan request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ \"{item_name}\"에 대한 스캔 요청이 Emby로 전송되었습니다. 이 프로세스는 백그라운드에서 실행됩니다. 나중에 Emby에서 결과를 확인하세요."
+
+msgid "❌ Failed to send scan request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ \"{item_name}\"(ID: {item_id})에 대한 스캔 요청을 보내지 못했습니다. 상태 코드: {code}, 서버 응답: {text}"
+
+msgid "🔎 Requesting to scan all Emby libraries..."
+msgstr "🔎 모든 Emby 라이브러리 스캔을 요청하는 중..."
+
+msgid "✅ Request to scan all libraries has been sent to Emby. The task will be executed in the background."
+msgstr "✅ 모든 라이브러리를 스캔하라는 요청이 Emby로 전송되었습니다. 이 작업은 백그라운드에서 실행됩니다."
+
+msgid "❌ Failed to send \"Scan All\" request. Status Code: {code}, Response: {text}"
+msgstr "❌ \"모두 스캔\" 요청을 보내지 못했습니다. 상태 코드: {code}, 응답: {text}"
+
+msgid "🔄 Requesting refresh for Emby item ID: {id}, Name: {name}"
+msgstr "🔄 Emby 항목 ID: {id}, 이름: {name}에 대한 새로고침을 요청하는 중..."
+
+msgid "❌ Refresh failed: Emby server configuration is incomplete."
+msgstr "❌ 새로고침 실패: Emby 서버 구성이 완료되지 않았습니다."
+
+msgid "✅ Refresh request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ \"{item_name}\"에 대한 새로고침 요청이 Emby로 전송되었습니다. 이 프로세스는 백그라운드에서 실행됩니다. 나중에 Emby에서 결과를 확인하세요."
+
+msgid "❌ Failed to send refresh request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ \"{item_name}\"(ID: {item_id})에 대한 새로고침 요청을 보내지 못했습니다. 상태 코드: {code}, 서버 응답: {text}"
+
+msgid "🗑️ Requesting to delete item from Emby. ID: {id}, Name: {name}"
+msgstr "🗑️ Emby에서 항목 삭제를 요청하는 중. ID: {id}, 이름: {name}"
+
+msgid "❌ Failed to delete \"{item_name}\": Could not obtain a valid user Access Token from the Emby server. Please check the username and password in config.yaml."
+msgstr "❌ \"{item_name}\" 삭제 실패: Emby 서버에서 유효한 사용자 액세스 토큰을 가져올 수 없습니다. config.yaml에서 사용자 이름과 비밀번호를 확인하세요."
+
+msgid "✅ The item \"{item_name}\" has been successfully deleted from the Emby library."
+msgstr "✅ \"{item_name}\" 항목이 Emby 라이브러리에서 성공적으로 삭제되었습니다."
+
+msgid "❌ Failed to delete Emby item \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ Emby 항목 \"{item_name}\"(ID: {item_id})을(를) 삭제하지 못했습니다. 상태 코드: {code}, 서버 응답: {text}"
+
+msgid "👤 Querying Emby user by username '{username}'..."
+msgstr "👤 사용자 이름 '{username}'으로 Emby 사용자 조회 중..."
+
+msgid "Emby server configuration is incomplete."
+msgstr "Emby 서버 구성이 완료되지 않았습니다."
+
+msgid "✅ Found user '{username}', ID: {id}"
+msgstr "✅ 사용자 '{username}'을(를) 찾았습니다, ID: {id}"
+
+msgid "Could not find a user with the username '{username}'."
+msgstr "사용자 이름이 '{username}'인 사용자를 찾을 수 없습니다."
+
+msgid "Could not parse the user list response from Emby."
+msgstr "Emby의 사용자 목록 응답을 구문 분석할 수 없습니다."
+
+msgid "Failed to get user list from Emby API."
+msgstr "Emby API에서 사용자 목록을 가져오지 못했습니다."
+
+msgid "📜 Getting full info for User ID {id} to extract policy..."
+msgstr "📜 정책을 추출하기 위해 사용자 ID {id}의 전체 정보를 가져오는 중..."
+
+msgid "Failed to get user policy: Policy object not found in the returned user data."
+msgstr "사용자 정책을 가져오지 못했습니다: 반환된 사용자 데이터에서 정책 개체를 찾을 수 없습니다."
+
+msgid "Failed to get user policy: Could not parse user information returned by the Emby server."
+msgstr "사용자 정책을 가져오지 못했습니다: Emby 서버에서 반환한 사용자 정보를 구문 분석할 수 없습니다."
+
+msgid "Failed to get user policy: Could not get user information from the Emby API (please check if template_user_id is correct)."
+msgstr "사용자 정책을 가져오지 못했습니다: Emby API에서 사용자 정보를 가져올 수 없습니다 (template_user_id가 올바른지 확인하세요)."
+
+msgid "🔑 Setting a new password for User ID {id}..."
+msgstr "🔑 사용자 ID {id}에 대한 새 비밀번호를 설정하는 중..."
+
+msgid "🗑️ Deleting User ID: {id}"
+msgstr "🗑️ 사용자 ID 삭제 중: {id}"
+
+msgid "✏️ Renaming username for User ID {id} to '{new_username}'..."
+msgstr "✏️ 사용자 ID {id}의 사용자 이름을 '{new_username}'(으)로 변경하는 중..."
+
+msgid "❌ Rename failed: Username '{new_username}' is already taken by another user."
+msgstr "❌ 이름 변경 실패: 사용자 이름 '{new_username}'은(는) 이미 다른 사용자가 사용 중입니다."
+
+msgid "❌ Rename failed: Could not get the details of the current user."
+msgstr "❌ 이름 변경 실패: 현재 사용자의 세부 정보를 가져올 수 없습니다."
+
+msgid "❌ Rename failed: Could not parse the current user's information."
+msgstr "❌ 이름 변경 실패: 현재 사용자의 정보를 구문 분석할 수 없습니다."
+
+msgid "✅ Username has been successfully changed to '{new_username}'."
+msgstr "✅ 사용자 이름이 '{new_username}'(으)로 성공적으로 변경되었습니다."
+
+msgid "❌ Failed to rename username, the server did not respond successfully."
+msgstr "❌ 사용자 이름을 변경하지 못했습니다. 서버가 성공적으로 응답하지 않았습니다."
+
+msgid "❌ Creation failed: `template_user_id` is not set in the configuration file."
+msgstr "❌ 생성 실패: 구성 파일에 `template_user_id`가 설정되어 있지 않습니다."
+
+msgid "❌ Creation failed: Username '{username}' already exists."
+msgstr "❌ 생성 실패: 사용자 이름 '{username}'이(가) 이미 존재합니다."
+
+msgid "❌ Creation failed: Could not get the configuration of the template user (ID: {id}). Error: {error}"
+msgstr "❌ 생성 실패: 템플릿 사용자(ID: {id})의 구성을 가져올 수 없습니다. 오류: {error}"
+
+msgid "✅ Successfully got the policy for template user {id}."
+msgstr "✅ 템플릿 사용자 {id}에 대한 정책을 성공적으로 가져왔습니다."
+
+msgid "➕ Creating new user: {username}..."
+msgstr "➕ 새 사용자 생성 중: {username}..."
+
+msgid "❌ Creation failed: Error when calling the Emby API to create a user."
+msgstr "❌ 생성 실패: 사용자를 생성하기 위해 Emby API를 호출하는 중 오류가 발생했습니다."
+
+msgid "✅ User '{username}' has been created, new ID: {id}."
+msgstr "✅ 사용자 '{username}'이(가) 생성되었습니다, 새 ID: {id}"
+
+msgid "❌ Creation failed: Could not parse new user information from the Emby API response."
+msgstr "❌ 생성 실패: Emby API 응답에서 새 사용자 정보를 구문 분석할 수 없습니다."
+
+msgid "📜 Applying template policy for new user {id}..."
+msgstr "📜 새 사용자 {id}에게 템플릿 정책을 적용하는 중..."
+
+msgid "❌ Creation failed: Error applying policy for the new user, operation has been rolled back."
+msgstr "❌ 생성 실패: 새 사용자에게 정책을 적용하는 중 오류가 발생하여 작업이 롤백되었습니다."
+
+msgid "✅ Policy applied successfully."
+msgstr "✅ 정책이 성공적으로 적용되었습니다."
+
+msgid "🔑 Setting password for new user {id}..."
+msgstr "🔑 새 사용자 {id}의 비밀번호를 설정하는 중..."
+
+msgid "❌ Creation failed: Error setting password for the new user, operation has been rolled back."
+msgstr "❌ 생성 실패: 새 사용자의 비밀번호를 설정하는 중 오류가 발생하여 작업이 롤백되었습니다."
+
+msgid "✅ Password set successfully."
+msgstr "✅ 비밀번호가 성공적으로 설정되었습니다."
+
+msgid "✅ Successfully created user '{username}', configuration cloned from template user."
+msgstr "✅ 사용자 '{username}'이(가) 성공적으로 생성되었으며, 구성은 템플릿 사용자로부터 복제되었습니다."
+
+msgid "ℹ️ Getting Emby user list from cache."
+msgstr "ℹ️ 캐시에서 Emby 사용자 목록을 가져오는 중..."
+
+msgid "🔑 Getting full user list from Emby API..."
+msgstr "🔑 Emby API에서 전체 사용자 목록을 가져오는 중..."
+
+msgid "❌ Missing Emby server configuration required to get user list."
+msgstr "❌ 사용자 목록을 가져오는 데 필요한 Emby 서버 구성이 없습니다."
+
+msgid "✅ Successfully retrieved and cached {count} usernames."
+msgstr "✅ {count}개의 사용자 이름을 성공적으로 검색하고 캐시했습니다."
+
+msgid "❌ Failed to get Emby user list: Could not parse server response."
+msgstr "❌ Emby 사용자 목록을 가져오지 못했습니다: 서버 응답을 구문 분석할 수 없습니다."
+
+msgid "❌ Failed to get Emby user list."
+msgstr "❌ Emby 사용자 목록을 가져오지 못했습니다."
+
+msgid "ℹ️ Querying active Emby sessions."
+msgstr "ℹ️ 활성 Emby 세션을 조회하는 중..."
+
+msgid "❌ Missing Emby server configuration, cannot query sessions."
+msgstr "❌ Emby 서버 구성이 없어 세션을 조회할 수 없습니다."
+
+msgid "✅ Found {count} active sessions."
+msgstr "✅ {count}개의 활성 세션을 찾았습니다."
+
+msgid "❌ Failed to query active sessions: Could not parse server response."
+msgstr "❌ 활성 세션을 조회하지 못했습니다: 서버 응답을 구문 분석할 수 없습니다."
+
+msgid "🛑 Attempting to stop playback session: {id}"
+msgstr "🛑 재생 세션 중지 시도 중: {id}"
+
+msgid "❌ Failed to stop session: Emby server configuration is incomplete."
+msgstr "❌ 세션 중지 실패: Emby 서버 구성이 완료되지 않았습니다."
+
+msgid "✅ Playback session {id} has been stopped successfully."
+msgstr "✅ 재생 세션 {id}이(가) 성공적으로 중지되었습니다."
+
+msgid "❌ Failed to stop playback session {id}."
+msgstr "❌ 재생 세션 {id}을(를) 중지하지 못했습니다."
+
+msgid "✉️ Sending message to session {id}."
+msgstr "✉️ 세션 {id}에 메시지를 보내는 중..."
+
+msgid "❌ Failed to send message: Emby server configuration is incomplete."
+msgstr "❌ 메시지를 보내지 못했습니다: Emby 서버 구성이 완료되지 않았습니다."
+
+msgid "Message from administrator"
+msgstr "관리자의 메시지"
+
+msgid "✅ Message sent successfully to session {id}."
+msgstr "✅ 메시지가 세션 {id}에 성공적으로 전송되었습니다."
+
+msgid "❌ Failed to send message to session {id}."
+msgstr "❌ 세션 {id}에 메시지를 보내지 못했습니다."
+
+msgid "ℹ️ Getting resolution for item {id}."
+msgstr "ℹ️ 항목 {id}의 해상도를 가져오는 중..."
+
+msgid "❌ Failed to get media source info for item {id}."
+msgstr "❌ 항목 {id}의 미디어 소스 정보를 가져오지 못했습니다."
+
+msgid "Unknown resolution"
+msgstr "알 수 없는 해상도"
+
+msgid "❌ Media source for item {id} is empty."
+msgstr "❌ 항목 {id}의 미디어 소스가 비어 있습니다."
+
+msgid "✅ Got resolution for item {id}: {w}x{h}"
+msgstr "✅ 항목 {id}의 해상도를 가져왔습니다: {w}x{h}"
+
+msgid "⚠️ No video stream found in item {id}."
+msgstr "⚠️ 항목 {id}에서 비디오 스트림을 찾을 수 없습니다."
+
+msgid "❌ Error parsing media source info for item {id}."
+msgstr "❌ 항목 {id}의 미디어 소스 정보를 구문 분석하는 중 오류가 발생했습니다."
+
+msgid "🗂️ Getting Emby library list..."
+msgstr "🗂️ Emby 라이브러리 목록을 가져오는 중..."
+
+msgid "Could not find any media libraries."
+msgstr "미디어 라이브러리를 찾을 수 없습니다."
+
+msgid "✅ Successfully retrieved {count} media libraries."
+msgstr "✅ {count}개의 미디어 라이브러리를 성공적으로 검색했습니다."
+
+msgid "Failed to parse media library list: {error}"
+msgstr "미디어 라이브러리 목록을 구문 분석하지 못했습니다: {error}"
+
+msgid "Failed to get media library list from Emby API."
+msgstr "Emby API에서 미디어 라이브러리 목록을 가져오지 못했습니다."
+
+msgid "ℹ️ Getting latest episode information for series {id}."
+msgstr "ℹ️ 시리즈 {id}의 최신 에피소드 정보를 가져오는 중..."
+
+msgid "✅ Got latest episode: S{s}E{e}"
+msgstr "✅ 최신 에피소드를 가져왔습니다: S{s}E{e}"
+
+msgid "ℹ️ Querying for exact item info of series {id} S{s:02d}E{e:02d}."
+msgstr "ℹ️ 시리즈 {id} S{s:02d}E{e:02d}의 정확한 항목 정보를 조회하는 중..."
+
+msgid "✅ Exact match successful, Item ID: {id}"
+msgstr "✅ 정확히 일치, 항목 ID: {id}"
+
+msgid "❌ Emby API could not find S{s:02d}E{e:02d}."
+msgstr "❌ Emby API가 S{s:02d}E{e:02d}을(를) 찾을 수 없습니다."
+
+msgid "ℹ️ Looking for any episode in season {num} as a spec reference..."
+msgstr "ℹ️ 사양 참조를 위해 시즌 {num}의 에피소드를 찾는 중..."
+
+msgid "✅ Found reference episode in season {num}, ID: {id}"
+msgstr "✅ 시즌 {num}에서 참조 에피소드를 찾았습니다, ID: {id}"
+
+msgid "❌ Could not find any episodes in season {num}."
+msgstr "❌ 시즌 {num}에서 에피소드를 찾을 수 없습니다."
+
+msgid "ℹ️ Getting media stream info for item {id}."
+msgstr "ℹ️ 항목 {id}의 미디어 스트림 정보를 가져오는 중..."
+
+msgid "✅ Got media stream info for item {id}."
+msgstr "✅ 항목 {id}의 미디어 스트림 정보를 가져왔습니다."
+
+msgid "ℹ️ Getting season specs for series {id}."
+msgstr "ℹ️ 시리즈 {id}의 시즌 사양을 가져오는 중..."
+
+msgid "Error: This feature requires an Emby User ID to be configured"
+msgstr "오류: 이 기능을 사용하려면 Emby 사용자 ID를 구성해야 합니다."
+
+msgid "Failed to query season list"
+msgstr "시즌 목록을 조회하지 못했습니다."
+
+msgid "No seasons found"
+msgstr "시즌을 찾을 수 없습니다."
+
+msgid "ℹ️ Querying episodes for season {num} ({id})."
+msgstr "ℹ️ 시즌 {num}({id})의 에피소드를 조회하는 중..."
+
+msgid "Error parsing season information"
+msgstr "시즌 정보를 구문 분석하는 중 오류가 발생했습니다."
+
+msgid "🟡 Emby season S{num:02d} not found"
+msgstr "🟡 Emby 시즌 S{num:02d}을(를) 찾을 수 없습니다."
+
+msgid "No seasons were deleted."
+msgstr "삭제된 시즌이 없습니다."
+
+msgid "❌ Failed to fetch episode list for Emby season S{num:02d}"
+msgstr "❌ Emby 시즌 S{num:02d}의 에피소드 목록을 가져오지 못했습니다."
+
+msgid "❌ Failed to parse episode list for Emby season S{num:02d}"
+msgstr "❌ Emby 시즌 S{num:02d}의 에피소드 목록을 구문 분석하지 못했습니다."
+
+msgid "🟡 Emby item S{s:02d}E{e:02d} not found"
+msgstr "🟡 Emby 항목 S{s:02d}E{e:02d}을(를) 찾을 수 없습니다."
+
+msgid "No episodes were deleted."
+msgstr "삭제된 에피소드가 없습니다."
+
+msgid "Unknown location"
+msgstr "알 수 없는 위치"
+
+msgid "✅ Successfully got geolocation for IP ({ip}) from Baidu API: {location}"
+msgstr "✅ Baidu API에서 IP({ip})의 지리적 위치를 성공적으로 가져왔습니다: {location}"
+
+msgid "❌ Error parsing Baidu API response. IP: {ip}, Error: {error}"
+msgstr "❌ Baidu API 응답을 구문 분석하는 중 오류가 발생했습니다. IP: {ip}, 오류: {error}"
+
+msgid "❌ IP138 API Error: 'ip_api_token_ip138' is not configured in config.yaml."
+msgstr "❌ IP138 API 오류: config.yaml에 'ip_api_token_ip138'이 구성되어 있지 않습니다."
+
+msgid "Unknown location (Token missing)"
+msgstr "알 수 없는 위치 (토큰 없음)"
+
+msgid "China"
+msgstr "중국"
+
+msgid "❌ Error parsing IP138 API response. IP: {ip}, Error: {error}"
+msgstr "❌ IP138 API 응답을 구문 분석하는 중 오류가 발생했습니다. IP: {ip}, 오류: {error}"
+
+msgid "❌ Error parsing PCOnline API response. IP: {ip}, Error: {error}"
+msgstr "❌ PCOnline API 응답을 구문 분석하는 중 오류가 발생했습니다. IP: {ip}, 오류: {error}"
+
+msgid "❌ Error parsing Vore API response. IP: {ip}, Error: {error}"
+msgstr "❌ Vore API 응답을 구문 분석하는 중 오류가 발생했습니다. IP: {ip}, 오류: {error}"
+
+msgid "Telecom"
+msgstr "통신사"
+
+msgid "Unicom"
+msgstr "유니콤"
+
+msgid "Mobile"
+msgstr "모바일"
+
+msgid "Broadcasting"
+msgstr "방송"
+
+msgid "❌ Error parsing IP-API.com response. IP: {ip}, Error: {error}"
+msgstr "❌ IP-API.com 응답을 구문 분석하는 중 오류가 발생했습니다. IP: {ip}, 오류: {error}"
+
+msgid "LAN"
+msgstr "LAN"
+
+msgid "🌍 Querying IP: {ip} using {provider} API"
+msgstr "🌍 {provider} API를 사용하여 IP 조회 중: {ip}"
+
+msgid "🔍 Querying details for TMDB ID: {id}"
+msgstr "🔍 TMDB ID: {id}에 대한 세부 정보 조회 중"
+
+msgid "✅ Found a match in TMDB: {title} (Type: {type})"
+msgstr "✅ TMDB에서 일치하는 항목을 찾았습니다: {title} (유형: {type})"
+
+msgid "❌ Nothing found in TMDB with ID {id}."
+msgstr "❌ TMDB에서 ID {id}을(를) 가진 항목을 찾을 수 없습니다."
+
+msgid "Any year"
+msgstr "모든 연도"
+
+msgid "🔍 Performing multi-search on TMDB: {title} ({year})"
+msgstr "🔍 TMDB에서 다중 검색 수행 중: {title} ({year})"
+
+msgid "✅ TMDB multi-search found {count} unique results."
+msgstr "✅ TMDB 다중 검색에서 {count}개의 고유한 결과를 찾았습니다."
+
+msgid "🔍 Searching TMDB: {title} ({year})"
+msgstr "🔍 TMDB 검색 중: {title} ({year})"
+
+msgid "❌ TMDB found no matching results."
+msgstr "❌ TMDB에서 일치하는 결과를 찾을 수 없습니다."
+
+msgid "✅ Found exact match: {title}, ID: {id}"
+msgstr "✅ 정확히 일치하는 항목을 찾았습니다: {title}, ID: {id}"
+
+msgid "⚠️ No exact match found, returning the most popular result: {title}, ID: {id}"
+msgstr "⚠️ 정확히 일치하는 항목을 찾을 수 없어 가장 인기 있는 결과를 반환합니다: {title}, ID: {id}"
+
+msgid "❌ TMDB search failed"
+msgstr "❌ TMDB 검색 실패"
+
+msgid "⚠️ TMDB_API_TOKEN is not configured, skipping fetching media details."
+msgstr "⚠️ TMDB_API_TOKEN이 구성되어 있지 않아 미디어 세부 정보 가져오기를 건너뜁니다."
+
+msgid "ℹ️ Getting media details for item {name} ({id}). Type: {type}"
+msgstr "ℹ️ 항목 {name}({id})의 미디어 세부 정보를 가져오는 중. 유형: {type}"
+
+msgid "⚠️ Cannot get TMDB ID from Episode, trying to get it from SeriesId ({id})."
+msgstr "⚠️ 에피소드에서 TMDB ID를 가져올 수 없어 SeriesId({id})에서 가져오려고 시도합니다."
+
+msgid "⚠️ Still no TMDB ID, trying to search TMDB by title."
+msgstr "⚠️ 여전히 TMDB ID가 없어 제목으로 TMDB를 검색하려고 시도합니다."
+
+msgid "✅ Got poster link for TMDB ID {id} from cache."
+msgstr "✅ 캐시에서 TMDB ID {id}의 포스터 링크를 가져왔습니다."
+
+msgid "✅ Successfully fetched and cached the poster from TMDB."
+msgstr "✅ TMDB에서 포스터를 성공적으로 가져와 캐시했습니다."
+
+msgid "ℹ️ Querying season list for TMDB series {id}."
+msgstr "ℹ️ TMDB 시리즈 {id}의 시즌 목록을 조회하는 중..."
+
+msgid "✅ TMDB Season List: {nums}"
+msgstr "✅ TMDB 시즌 목록: {nums}"
+
+msgid "ℹ️ Querying details for season {num} of TMDB series {id}."
+msgstr "ℹ️ TMDB 시리즈 {id}의 시즌 {num} 세부 정보를 조회하는 중..."
+
+msgid "❌ TMDB could not find the episode list for season {num}."
+msgstr "❌ TMDB가 시즌 {num}의 에피소드 목록을 찾을 수 없습니다."
+
+msgid "✅ TMDB Season {num}: {count} total entries, max episode number E{max_ep:02d}."
+msgstr "✅ TMDB 시즌 {num}: 총 {count}개의 항목, 최대 에피소드 번호 E{max_ep:02d}."
+
+msgid "ℹ️ Getting all aliases and years for ID {id} from TMDB..."
+msgstr "ℹ️ TMDB에서 ID {id}의 모든 별칭과 연도를 가져오는 중..."
+
+msgid "✅ Found {count} unique name/year combinations for ID {id}."
+msgstr "✅ ID {id}에 대해 {count}개의 고유한 이름/연도 조합을 찾았습니다."
+
+msgid "🖼️ Attempting to load poster cache: {path}"
+msgstr "🖼️ 포스터 캐시 로드 시도 중: {path}"
+
+msgid "✅ Poster cache loaded successfully."
+msgstr "✅ 포스터 캐시가 성공적으로 로드되었습니다."
+
+msgid "❌ Failed to load poster cache: {error}, will use an empty cache."
+msgstr "❌ 포스터 캐시를 로드하지 못했습니다: {error}. 빈 캐시를 사용합니다."
+
+msgid "💾 Attempting to save poster cache: {path}"
+msgstr "💾 포스터 캐시 저장 시도 중: {path}"
+
+msgid "✅ Poster cache saved successfully."
+msgstr "✅ 포스터 캐시가 성공적으로 저장되었습니다."
+
+msgid "❌ Failed to save poster cache: {error}"
+msgstr "❌ 포스터 캐시를 저장하지 못했습니다: {error}"
+
+msgid "🗺️ Attempting to load ID map cache: {path}"
+msgstr "🗺️ ID 맵 캐시 로드 시도 중: {path}"
+
+msgid "✅ ID map cache loaded successfully."
+msgstr "✅ ID 맵 캐시가 성공적으로 로드되었습니다."
+
+msgid "❌ Failed to load ID map cache: {error}, will use an empty cache."
+msgstr "❌ ID 맵 캐시를 로드하지 못했습니다: {error}. 빈 캐시를 사용합니다."
+
+msgid "✨ Updating ID map cache: TMDB {tmdb_id} -> Emby {emby_id}"
+msgstr "✨ ID 맵 캐시 업데이트 중: TMDB {tmdb_id} -> Emby {emby_id}"
+
+msgid "💾 Attempting to save ID map cache: {path}"
+msgstr "💾 ID 맵 캐시 저장 시도 중: {path}"
+
+msgid "✅ ID map cache saved successfully."
+msgstr "✅ ID 맵 캐시가 성공적으로 저장되었습니다."
+
+msgid "❌ Failed to save ID map cache: {error}"
+msgstr "❌ ID 맵 캐시를 저장하지 못했습니다: {error}"
+
+msgid "English"
+msgstr "영어"
+
+msgid "Japanese"
+msgstr "일본어"
+
+msgid "Chinese"
+msgstr "중국어"
+
+msgid "Korean"
+msgstr "한국어"
+
+msgid "Undetermined"
+msgstr "미정"
+
+msgid "Multiple languages"
+msgstr "다국어"
+
+msgid "🌍 Attempting to load language configuration file: {path}"
+msgstr "🌍 언어 구성 파일 로드 시도 중: {path}"
+
+msgid "⚠️ Language configuration file {path} not found..."
+msgstr "⚠️ 언어 구성 파일 {path}을(를) 찾을 수 없습니다..."
+
+msgid "✅ Language configuration file loaded successfully."
+msgstr "✅ 언어 구성 파일이 성공적으로 로드되었습니다."
+
+msgid "❌ Failed to load language configuration file: {error}..."
+msgstr "❌ 언어 구성 파일을 로드하지 못했습니다: {error}..."
+
+msgid "⚙️ Settings menu key map built."
+msgstr "⚙️ 설정 메뉴 키 맵이 빌드되었습니다."
+
+msgid "⚠️ WARNING: Key not found in user config or defaults: {path_str}"
+msgstr "⚠️ 경고: 사용자 구성 또는 기본값에서 키를 찾을 수 없습니다: {path_str}"
+
+msgid "📝 Attempting to load configuration file: {config_path}"
+msgstr "📝 구성 파일 로드 시도 중: {config_path}"
+
+msgid "✅ Configuration loaded successfully."
+msgstr "✅ 구성이 성공적으로 로드되었습니다."
+
+msgid "⚠️ WARNING: Configuration file {config_path} not found. Using built-in defaults."
+msgstr "⚠️ 경고: 구성 파일 {config_path}을(를) 찾을 수 없습니다. 내장된 기본값을 사용합니다."
+
+msgid "❌ ERROR: Failed to read or parse configuration file: {error}"
+msgstr "❌ 오류: 구성 파일을 읽거나 구문 분석하지 못했습니다: {error}"
+
+msgid "💾 Attempting to save configuration file: {config_path}"
+msgstr "💾 구성 파일 저장 시도 중: {config_path}"
+
+msgid "✅ Configuration saved successfully."
+msgstr "✅ 구성이 성공적으로 저장되었습니다."
+
+msgid "❌ Failed to save configuration: {error}"
+msgstr "❌ 구성을 저장하지 못했습니다: {error}"
+
+msgid "⚠️ WARNING: Could not parse timezone '{tz_str}', falling back to UTC. Error: {error}"
+msgstr "⚠️ 경고: 시간대 '{tz_str}'을(를) 구문 분석할 수 없어 UTC로 대체합니다. 오류: {error}"
+
+msgid "❌ ERROR: TELEGRAM_TOKEN or ADMIN_USER_ID is not set correctly in config.yaml"
+msgstr "❌ 오류: config.yaml에 TELEGRAM_TOKEN 또는 ADMIN_USER_ID가 올바르게 설정되어 있지 않습니다."
+
+msgid "⚠️ WARNING: 'template_user_id' is not configured in config.yaml, user creation will be unavailable."
+msgstr "⚠️ 경고: config.yaml에 'template_user_id'가 구성되어 있지 않아 사용자 생성 기능이 비활성화됩니다."
+
+msgid "🚀 Configuration initialization complete."
+msgstr "🚀 구성 초기화가 완료되었습니다."
+
+msgid "🗃️ User {id} initiated a search, query: {query}"
+msgstr "🗃️ 사용자 {id}이(가) 검색을 시작했습니다, 쿼리: {query}"
+
+msgid "Error: The bot administrator has not set the Emby `user_id` in the configuration file."
+msgstr "오류: 봇 관리자가 구성 파일에 Emby `user_id`를 설정하지 않았습니다."
+
+msgid "✅ Cache hit! TMDB ID {tmdb_id} corresponds to Emby ID {emby_id}."
+msgstr "✅ 캐시 적중! TMDB ID {tmdb_id}은(는) Emby ID {emby_id}에 해당합니다."
+
+msgid "ℹ️ Cache miss or invalid, performing TMDB API polling search..."
+msgstr "ℹ️ 캐시 미스 또는 유효하지 않아 TMDB API 폴링 검색을 수행합니다..."
+
+msgid "Could not find a program with ID `{id}` in TMDB."
+msgstr "TMDB에서 ID가 `{id}`인 프로그램을 찾을 수 없습니다."
+
+msgid "ℹ️ Searching in Emby using combination: (Name: {name}, Year: {year})"
+msgstr "ℹ️ Emby에서 조합을 사용하여 검색 중: (이름: {name}, 연도: {year})"
+
+msgid "Invalid keyword!"
+msgstr "잘못된 키워드입니다!"
+
+msgid "Could not find anything related to “{query}” in Emby."
+msgstr "Emby에서 “{query}”와(과) 관련된 항목을 찾을 수 없습니다."
+
+msgid "✅ Search successful, found {count} results, cache ID: {id}"
+msgstr "✅ 검색 성공, {count}개의 결과를 찾았습니다, 캐시 ID: {id}"
+
+msgid "ℹ️ No playback sessions currently active."
+msgstr "ℹ️ 현재 활성 재생 세션이 없습니다."
+
+msgid "✅ No one is currently watching Emby."
+msgstr "✅ 현재 Emby를 시청하는 사람이 없습니다."
+
+msgid "ℹ️ Found {count} sessions."
+msgstr "ℹ️ {count}개의 세션을 찾았습니다."
+
+msgid "⚠️ Warning: Skipping session because it lacks a NowPlayingItem or ID. Session data: {data}"
+msgstr "⚠️ 경고: NowPlayingItem 또는 ID가 없어 세션을 건너뜁니다. 세션 데이터: {data}"
+
+msgid "ℹ️ Processing session: {id}, User: {user}"
+msgstr "ℹ️ 세션 처리 중: {id}, 사용자: {user}"
+
+msgid "Unknown User"
+msgstr "알 수 없는 사용자"
+
+msgid "Unknown Player"
+msgstr "알 수 없는 플레이어"
+
+msgid "Unknown Device"
+msgstr "알 수 없는 기기"
+
+msgid "Unknown Title"
+msgstr "알 수 없는 제목"
+
+msgid "User"
+msgstr "사용자"
+
+msgid "Player: {player}"
+msgstr "플레이어: {player}"
+
+msgid "Device: {device}"
+msgstr "기기: {device}"
+
+msgid "Location: "
+msgstr "위치: "
+
+msgid "Location: `{ip}` {loc}"
+msgstr "위치: `{ip}` {loc}"
+
+msgid "Program: "
+msgstr "프로그램: "
+
+msgid "Progress: {progress}"
+msgstr "진행률: {progress}"
+
+msgid "Media Type: {type}"
+msgstr "미디어 유형: {type}"
+
+msgid "Overview: {overview}"
+msgstr "개요: {overview}"
+
+msgid "Time: {time}"
+msgstr "시간: {time}"
+
+msgid "➡️ View on Server"
+msgstr "➡️ 서버에서 보기"
+
+msgid "⏹️ Stop Playback"
+msgstr "⏹️ 재생 중지"
+
+msgid "✉️ Send Message"
+msgstr "✉️ 메시지 보내기"
+
+msgid "❌ Error processing session {id}: {error}"
+msgstr "❌ 세션 {id} 처리 중 오류 발생: {error}"
+
+msgid "ℹ️ Finally returned {count} data entries."
+msgstr "ℹ️ 최종적으로 {count}개의 데이터 항목을 반환했습니다."
+
+msgid "⚙️ Sending settings menu to user {id}, menu key: {key}"
+msgstr "⚙️ 사용자 {id}에게 설정 메뉴를 보내는 중, 메뉴 키: {key}"
+
+msgid "Please select the robot's interface language."
+msgstr "로봇의 인터페이스 언어를 선택하세요."
+
+msgid "Please select an IP Geolocation API service."
+msgstr "IP 지리적 위치 API 서비스를 선택하세요."
+
+msgid "☑️ Done"
+msgstr "☑️ 완료"
+
+msgid "📄 Sending results page {page}, cache ID: {id}"
+msgstr "📄 결과 페이지 {page} 전송 중, 캐시 ID: {id}"
+
+msgid "Sorry, this search result has expired. Please start a new search."
+msgstr "죄송합니다. 이 검색 결과가 만료되었습니다. 새 검색을 시작하세요."
+
+msgid "Please select the program you want to manage:"
+msgstr "관리할 프로그램을 선택하세요:"
+
+msgid "Found the following programs, click on a name to see details:"
+msgstr "다음 프로그램을 찾았습니다. 이름을 클릭하여 세부 정보를 확인하세요:"
+
+msgid "◀️ Previous Page"
+msgstr "◀️ 이전 페이지"
+
+msgid "Next Page ▶️"
+msgstr "다음 페이지 ▶️"
+
+msgid "ℹ️ Sending search result details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 검색 결과 세부 정보 전송 중, 캐시 ID: {id}, 인덱스: {index}"
+
+msgid "Sorry, this search result has expired or is invalid."
+msgstr "죄송합니다. 이 검색 결과가 만료되었거나 유효하지 않습니다."
+
+msgid "Error: The bot administrator has not set the Emby `user_id`."
+msgstr "오류: 봇 관리자가 Emby `user_id`를 설정하지 않았습니다."
+
+msgid "Failed to get detailed information."
+msgstr "세부 정보를 가져오지 못했습니다."
+
+msgid "No overview available."
+msgstr "개요가 없습니다."
+
+msgid "Name: [{title}]({link})"
+msgstr "이름: [{title}]({link})"
+
+msgid "Name: *{title}*"
+msgstr "이름: *{title}*"
+
+msgid "Type: {type}"
+msgstr "유형: {type}"
+
+msgid "Movie"
+msgstr "영화"
+
+msgid "Series"
+msgstr "시리즈"
+
+msgid "Category: {category}"
+msgstr "카테고리: {category}"
+
+msgid "Date Added: {time}"
+msgstr "추가된 날짜: {time}"
+
+msgid "Specs unknown"
+msgstr "사양 알 수 없음"
+
+msgid "Season Specs:"
+msgstr "시즌 사양:"
+
+msgid "Season {s} Episode {e}"
+msgstr "시즌 {s} 에피소드 {e}"
+
+msgid "Incomplete information"
+msgstr "불완전한 정보"
+
+msgid "Updated to: [{info}]({link})"
+msgstr "업데이트됨: [{info}]({link})"
+
+msgid "Updated to: {info}"
+msgstr "업데이트됨: {info}"
+
+msgid "ℹ️ Sending manage details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 관리 세부 정보 전송 중, 캐시 ID: {id}, 인덱스: {index}"
+
+msgid "🔄 Manage this program"
+msgstr "🔄 이 프로그램 관리"
+
+msgid "↩️ Exit Management"
+msgstr "↩️ 관리 종료"
+
+msgid "➡️ Received command from user {user_id} in Chat ID {chat_id}: {text}"
+msgstr "➡️ 채팅 ID {chat_id}의 사용자 {user_id}로부터 명령을 받았습니다: {text}"
+
+msgid "🚫 Ignoring message from unauthorized user."
+msgstr "🚫 권한 없는 사용자의 메시지를 무시합니다."
+
+msgid "ℹ️ User {id} entered a new command, canceling previous awaiting state."
+msgstr "ℹ️ 사용자 {id}이(가) 새 명령을 입력하여 이전 대기 상태를 취소합니다."
+
+msgid "🔍 User {id} initiated a search: {text}"
+msgstr "🔍 사용자 {id}이(가) 검색을 시작했습니다: {text}"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and password."
+msgstr "❌ 형식 오류. 사용자 이름에는 공백을 포함할 수 없으며 사용자 이름과 비밀번호는 공백 하나로만 구분해야 합니다."
+
+msgid "❌ Username cannot be empty."
+msgstr "❌ 사용자 이름은 비워둘 수 없습니다."
+
+msgid "❌ Format error. Please enter the old and new usernames, separated by a single space. Neither may contain spaces."
+msgstr "❌ 형식 오류. 이전 사용자 이름과 새 사용자 이름을 공백 하나로 구분하여 입력하세요. 둘 다 공백을 포함할 수 없습니다."
+
+msgid "Operation failed"
+msgstr "작업 실패"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and new password."
+msgstr "❌ 형식 오류. 사용자 이름에는 공백을 포함할 수 없으며 사용자 이름과 새 비밀번호는 공백 하나로만 구분해야 합니다."
+
+msgid "✅ The password for user '{username}' has been successfully changed."
+msgstr "✅ 사용자 '{username}'의 비밀번호가 성공적으로 변경되었습니다."
+
+msgid "❌ Failed to change the password for user '{username}'."
+msgstr "❌ 사용자 '{username}'의 비밀번호를 변경하지 못했습니다."
+
+msgid "❌ Cannot delete the administrator account the bot is currently using."
+msgstr "❌ 봇이 현재 사용 중인 관리자 계정은 삭제할 수 없습니다."
+
+msgid "❓ Are you sure you want to delete the user "
+msgstr "❓ 정말로 사용자 "
+
+msgid " (ID: "
+msgstr " (ID: "
+
+msgid ")?\n\n"
+msgstr "을(를) 삭제하시겠습니까?\n\n"
+
+msgid "This action cannot be undone!"
+msgstr "이 작업은 되돌릴 수 없습니다!"
+
+msgid "⚠️ Yes, delete"
+msgstr "⚠️ 예, 삭제합니다"
+
+msgid "◀️ Back to previous menu"
+msgstr "◀️ 이전 메뉴로 돌아가기"
+
+msgid "✉️ User {id} replied with a message to send to session {session_id}: {text}"
+msgstr "✉️ 사용자 {id}이(가) 세션 {session_id}에 보낼 메시지로 회신했습니다: {text}"
+
+msgid "No one is currently watching, no broadcast needed."
+msgstr "현재 시청하는 사람이 없어 전체 메시지를 보낼 필요가 없습니다."
+
+msgid "✅ Broadcast message sent to {count} sessions."
+msgstr "✅ {count}개의 세션에 전체 메시지를 보냈습니다."
+
+msgid "❌ Invalid input. Please enter as per the example: S01 S03 S05"
+msgstr "❌ 잘못된 입력입니다. 예시와 같이 입력하세요: S01 S03 S05"
+
+msgid "⚠️ Seasons to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ 삭제할 시즌: {preview}\n삭제 방법을 선택하세요:"
+
+msgid "⏏️ Delete from Emby"
+msgstr "⏏️ Emby에서 삭제"
+
+msgid "🗑️ Delete local files"
+msgstr "🗑️ 로컬 파일 삭제"
+
+msgid "☁️ Delete cloud files"
+msgstr "☁️ 클라우드 파일 삭제"
+
+msgid "💥 Delete local + cloud"
+msgstr "💥 로컬 + 클라우드 삭제"
+
+msgid "❌ Exception while processing season input: {error}"
+msgstr "❌ 시즌 입력 처리 중 예외 발생: {error}"
+
+msgid "❌ Could not parse any valid season/episode numbers. Example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "❌ 유효한 시즌/에피소드 번호를 구문 분석할 수 없습니다. 예시: `S01E03 E11 S02E03-E06 E10`"
+
+msgid "⚠️ Episodes to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ 삭제할 에피소드: {preview}\n삭제 방법을 선택하세요:"
+
+msgid "❌ Exception while processing episode input: {error}"
+msgstr "❌ 에피소드 입력 처리 중 예외 발생: {error}"
+
+msgid "🗃️ User {id} replied with a management query: {text}"
+msgstr "🗃️ 사용자 {id}이(가) 관리 쿼리로 회신했습니다: {text}"
+
+msgid "❌ Incorrect input format. Please ensure it includes a name, a four-digit year, and a type, separated by spaces."
+msgstr "❌ 잘못된 입력 형식입니다. 이름, 네 자리 연도, 유형을 공백으로 구분하여 포함했는지 확인하세요."
+
+msgid "Searching for \"{name} ({year})\" in the \"{folder}\" directory of the cloud drive. Results will be shown shortly."
+msgstr "클라우드 드라이브의 \"{folder}\" 디렉터리에서 \"{name} ({year})\"을(를) 검색 중입니다. 결과가 곧 표시됩니다."
+
+msgid "❌ Configuration Error: `media_cloud_path` or `media_base_path` is not set."
+msgstr "❌ 구성 오류: `media_cloud_path` 또는 `media_base_path`가 설정되어 있지 않습니다."
+
+msgid "❌ Cloud category directory not found: `{folder}`"
+msgstr "❌ 클라우드 카테고리 디렉터리를 찾을 수 없습니다: `{folder}`"
+
+msgid "❌ No matching program directory found for “{name} ({year})” under the `{folder}` category."
+msgstr "❌ `{folder}` 카테고리 아래에 “{name} ({year})”와(과) 일치하는 프로그램 디렉터리가 없습니다."
+
+msgid "❌ No .nfo file found in the directory `/{path}`."
+msgstr "❌ `/{path}` 디렉터리에서 .nfo 파일을 찾을 수 없습니다."
+
+msgid "❌ Could not parse a valid TMDB ID from the file `{filename}`."
+msgstr "❌ `{filename}` 파일에서 유효한 TMDB ID를 구문 분석할 수 없습니다."
+
+msgid "❌ Failed to query information using TMDB ID `{id}`."
+msgstr "❌ TMDB ID `{id}`을(를) 사용하여 정보를 조회하지 못했습니다."
+
+msgid "Please confirm if you want to sync the following program from the cloud drive:"
+msgstr "클라우드 드라이브에서 다음 프로그램을 동기화할지 확인하세요:"
+
+msgid "\nName: [{title}]({link})"
+msgstr "\n이름: [{title}]({link})"
+
+msgid "Category: {folder}"
+msgstr "카테고리: {folder}"
+
+msgid "⬇️ Confirm and Start Sync"
+msgstr "⬇️ 확인 및 동기화 시작"
+
+msgid "👋 Welcome to {bot_name}!\n\n"
+msgstr "👋 {bot_name}에 오신 것을 환영합니다!\n\n"
+
+msgid "This bot helps you interact with your Emby server.\n\n"
+msgstr "이 봇은 Emby 서버와 상호 작용하는 데 도움을 줍니다.\n\n"
+
+msgid "Here are the commands you can use:\n\n"
+msgstr "사용할 수 있는 명령어는 다음과 같습니다:\n\n"
+
+msgid " - Search for movies or series in your Emby library. Example: \n"
+msgstr " - Emby 라이브러리에서 영화나 시리즈를 검색합니다. 예시:\n"
+
+msgid "Kung Fu Panda"
+msgstr "쿵푸팬더"
+
+msgid "The Big Bang Theory 2007"
+msgstr "빅뱅이론 2007"
+
+msgid " (search a TMDB ID)\n\n"
+msgstr " (TMDB ID로 검색)\n\n"
+
+msgid " - Check the current playback status on the Emby server (server administrators only).\n\n"
+msgstr " - Emby 서버의 현재 재생 상태를 확인합니다 (서버 관리자만 해당).\n\n"
+
+msgid " - Access an interactive menu to configure bot notifications and features (server administrators only).\n\n"
+msgstr " - 대화형 메뉴에 액세스하여 봇 알림 및 기능을 구성합니다 (서버 관리자만 해당).\n\n"
+
+msgid " - Manage Emby programs, media files, and users (server administrators only).\n\n"
+msgstr " - Emby 프로그램, 미디어 파일 및 사용자를 관리합니다 (서버 관리자만 해당).\n\n"
+
+msgid "You can start by typing a command."
+msgstr "명령어를 입력하여 시작할 수 있습니다."
+
+msgid "Insufficient permissions: This command is for super administrators only."
+msgstr "권한 부족: 이 명령어는 최고 관리자만 사용할 수 있습니다."
+
+msgid "🚫 Denied user {id} from executing admin command {command}"
+msgstr "🚫 사용자 {id}의 관리자 명령어 {command} 실행이 거부되었습니다."
+
+msgid "🎬 Current Emby Playback Sessions: {count}"
+msgstr "🎬 현재 Emby 재생 세션: {count}"
+
+msgid "✉️ Broadcast Message"
+msgstr "✉️ 전체 메시지"
+
+msgid "⏹️ Stop All"
+msgstr "⏹️ 모두 중지"
+
+msgid "Please provide the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "검색하려는 프로그램 이름(연도 선택 사항) 또는 TMDB ID를 입력하세요.\n예: 쿵푸팬더 또는 빅뱅이론 2007 또는 299534"
+
+msgid "Please reply to this message with the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "이 메시지에 회신하여 검색하려는 프로그램 이름(연도 선택 사항) 또는 TMDB ID를 입력하세요.\n예: 쿵푸팬더 또는 빅뱅이론 2007 또는 299534"
+
+msgid "Please select a management category:"
+msgstr "관리 카테고리를 선택하세요:"
+
+msgid "🎦 Emby Program Management"
+msgstr "🎦 Emby 프로그램 관리"
+
+msgid "👤 Emby User Management"
+msgstr "👤 Emby 사용자 관리"
+
+msgid "✅ Update successful!\nSee the new message below for detailed logs."
+msgstr "✅ 업데이트 성공!\n자세한 로그는 아래 새 메시지를 확인하세요."
+
+msgid "⚠️ Exception occurred when posting update results, falling back to a separate text message: {error}"
+msgstr "⚠️ 업데이트 결과를 게시하는 중 예외가 발생하여 별도의 텍스트 메시지로 대체합니다: {error}"
+
+msgid "📞 Received callback query. ID: {id}, Data: {data}"
+msgstr "📞 콜백 쿼리를 받았습니다. ID: {id}, 데이터: {data}"
+
+msgid "Sorry, this action is only available to super administrators."
+msgstr "죄송합니다. 이 작업은 최고 관리자만 사용할 수 있습니다."
+
+msgid "This interaction was initiated by another user, you cannot operate it!"
+msgstr "이 상호 작용은 다른 사용자가 시작했으므로 조작할 수 없습니다!"
+
+msgid "Baidu API"
+msgstr "Baidu API"
+
+msgid "IP138 API (Token required)"
+msgstr "IP138 API (토큰 필요)"
+
+msgid "PCOnline API"
+msgstr "PCOnline API"
+
+msgid "Vore API"
+msgstr "Vore API"
+
+msgid "IP-API.com"
+msgstr "IP-API.com"
+
+msgid "API has been switched to: {name}"
+msgstr "API가 {name}(으)로 전환되었습니다."
+
+msgid "Callback parameter error."
+msgstr "콜백 매개변수 오류."
+
+msgid "Language switched to: {lang}!"
+msgstr "언어가 {lang}(으)로 전환되었습니다!"
+
+msgid "Invalid setting item."
+msgstr "잘못된 설정 항목입니다."
+
+msgid "Setting updated: {status}"
+msgstr "설정이 업데이트되었습니다: {status}"
+
+msgid "✅ Settings menu closed."
+msgstr "✅ 설정 메뉴가 닫혔습니다."
+
+msgid "Invalid action."
+msgstr "잘못된 작업입니다."
+
+msgid "This action has expired, please select again."
+msgstr "이 작업이 만료되었습니다. 다시 선택하세요."
+
+msgid "Executing deletion..."
+msgstr "삭제 실행 중..."
+
+msgid "❌ Unknown task type."
+msgstr "❌ 알 수 없는 작업 유형입니다."
+
+msgid "❌ Failed to get program path, cannot delete files."
+msgstr "❌ 프로그램 경로를 가져오지 못해 파일을 삭제할 수 없습니다."
+
+msgid "Invalid deletion method."
+msgstr "잘못된 삭제 방법입니다."
+
+msgid "✅ Operation complete."
+msgstr "✅ 작업이 완료되었습니다."
+
+msgid "Getting detailed information..."
+msgstr "세부 정보를 가져오는 중..."
+
+msgid "Please select a program and file management operation:"
+msgstr "프로그램 및 파일 관리 작업을 선택하세요:"
+
+msgid "🔀 Manage a single program"
+msgstr "🔀 단일 프로그램 관리"
+
+msgid "🔎 Scan media library"
+msgstr "🔎 미디어 라이브러리 스캔"
+
+msgid "⬇️ Sync new program from cloud drive"
+msgstr "⬇️ 클라우드 드라이브에서 새 프로그램 동기화"
+
+msgid "Please select a user management operation:"
+msgstr "사용자 관리 작업을 선택하세요:"
+
+msgid "➕ Create User"
+msgstr "➕ 사용자 생성"
+
+msgid "✏️ Rename User"
+msgstr "✏️ 사용자 이름 변경"
+
+msgid "🔑 Change Password"
+msgstr "🔑 비밀번호 변경"
+
+msgid "🗑️ Delete User"
+msgstr "🗑️ 사용자 삭제"
+
+msgid "✅ Management exited."
+msgstr "✅ 관리가 종료되었습니다."
+
+msgid "✍️ Please enter the user's **old username** and **new username**, separated by a space.\n\n*Note: Neither the old nor the new username may contain spaces.*"
+msgstr "✍️ 사용자의 **이전 사용자 이름**과 **새 사용자 이름**을 공백으로 구분하여 입력하세요.\n\n*참고: 이전 사용자 이름과 새 사용자 이름 모두 공백을 포함할 수 없습니다.*"
+
+msgid "❌ Operation failed: `template_user_id` is not configured in config.yaml."
+msgstr "❌ 작업 실패: config.yaml에 `template_user_id`가 구성되어 있지 않습니다."
+
+msgid "✍️ Please enter a **username** and an optional **initial password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ **사용자 이름**과 선택적으로 **초기 비밀번호**를 공백으로 구분하여 입력하세요.\n\n*참고:*\n*1. 사용자 이름과 비밀번호 모두 공백을 포함할 수 없습니다.\n2. 사용자 이름만 입력하면 비밀번호는 비워집니다.*"
+
+msgid "✍️ Please enter the **username** for the password change and the optional **new password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ 비밀번호를 변경할 **사용자 이름**과 선택적으로 **새 비밀번호**를 공백으로 구분하여 입력하세요.\n\n*참고:*\n*1. 사용자 이름과 비밀번호 모두 공백을 포함할 수 없습니다.\n2. 사용자 이름만 입력하면 비밀번호는 비워집니다.*"
+
+msgid "✍️ Please enter the **exact username** of the Emby user you wish to delete."
+msgstr "✍️ 삭제하려는 Emby 사용자의 **정확한 사용자 이름**을 입력하세요."
+
+msgid "✍️ Please enter the name of the program to manage (year optional) or a TMDB ID."
+msgstr "✍️ 관리할 프로그램 이름(연도 선택 사항) 또는 TMDB ID를 입력하세요."
+
+msgid "✍️ Please enter the program name, year, and media type (e.g., `Kung Fu Panda 9502 Movies`):"
+msgstr "✍️ 프로그램 이름, 연도, 미디어 유형을 입력하세요(예: `쿵푸팬더 2008 영화`):"
+
+msgid "❓ Are you sure you want to scan the folder containing *{item_name}*?\n\nThis action will look for new or changed files (e.g., new episodes)."
+msgstr "❓ *{item_name}*이(가) 포함된 폴더를 스캔하시겠습니까?\n\n이 작업은 새 파일이나 변경된 파일(예: 새 에피소드)을 찾습니다."
+
+msgid "⚠️ Yes, scan"
+msgstr "⚠️ 예, 스캔합니다"
+
+msgid "◀️ Back"
+msgstr "◀️ 뒤로"
+
+msgid "❓ Are you sure you want to refresh the metadata for *{item_name}*?\n\nThis action will rescan all related files and fetch information from the internet."
+msgstr "❓ *{item_name}*의 메타데이터를 새로고침하시겠습니까?\n\n이 작업은 모든 관련 파일을 다시 스캔하고 인터넷에서 정보를 가져옵니다."
+
+msgid "⚠️ Yes, refresh"
+msgstr "⚠️ 예, 새로고침합니다"
+
+msgid "Getting program type..."
+msgstr "프로그램 유형을 가져오는 중..."
+
+msgid "❌ Failed to get program type, please try again."
+msgstr "❌ 프로그램 유형을 가져오지 못했습니다. 다시 시도하세요."
+
+msgid "⏏️ Delete program from Emby"
+msgstr "⏏️ Emby에서 프로그램 삭제"
+
+msgid "💥 Delete local and cloud files"
+msgstr "💥 로컬 및 클라우드 파일 삭제"
+
+msgid "◀️ Back to previous step"
+msgstr "◀️ 이전 단계로 돌아가기"
+
+msgid "Detected this program is a **Movie**. Please select a deletion method:"
+msgstr "이 프로그램이 **영화**임을 감지했습니다. 삭제 방법을 선택하세요:"
+
+msgid "❌ Delete entire series"
+msgstr "❌ 전체 시리즈 삭제"
+
+msgid "❌ Delete seasons"
+msgstr "❌ 시즌 삭제"
+
+msgid "❌ Delete episodes"
+msgstr "❌ 에피소드 삭제"
+
+msgid "Detected this program is a **Series**. Please select what you want to delete:"
+msgstr "이 프로그램이 **시리즈**임을 감지했습니다. 삭제할 항목을 선택하세요:"
+
+msgid "❌ Unsupported program type: {type}, cannot perform deletion."
+msgstr "❌ 지원되지 않는 프로그램 유형: {type}. 삭제를 수행할 수 없습니다."
+
+msgid "✍️ Please enter the season numbers to delete, separated by spaces (S prefix or pure numbers are supported):\n"
+msgstr "✍️ 삭제할 시즌 번호를 공백으로 구분하여 입력하세요(S 접두사 또는 순수 숫자 지원):\n"
+
+msgid "For example: `S01 S03 S05` or `1 3 5`"
+msgstr "예시: `S01 S03 S05` 또는 `1 3 5`"
+
+msgid "✍️ Please enter the season and episode numbers to delete. Ranges and season-less notations are supported; separate multiple entries with spaces/commas:\n"
+msgstr "✍️ 삭제할 시즌 및 에피소드 번호를 입력하세요. 범위 및 시즌 없는 표기법이 지원됩니다. 여러 항목은 공백/쉼표로 구분하세요:\n"
+
+msgid "For example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "예시: `S01E03 E11 S02E03-E06 E10`"
+
+msgid "🗂️ Scan folder"
+msgstr "🗂️ 폴더 스캔"
+
+msgid "🔄 Refresh metadata"
+msgstr "🔄 메타데이터 새로고침"
+
+msgid "❌ Delete this program"
+msgstr "❌ 이 프로그램 삭제"
+
+msgid "🔄 Update this program from cloud"
+msgstr "🔄 클라우드에서 이 프로그램 업데이트"
+
+msgid "Please select a file operation to perform on this program:"
+msgstr "이 프로그램에서 수행할 파일 작업을 선택하세요:"
+
+msgid "Syncing files from cloud... Details will be listed shortly."
+msgstr "클라우드에서 파일 동기화 중... 세부 정보가 곧 표시됩니다."
+
+msgid "❌ Action expired or invalid. Please try again."
+msgstr "❌ 작업이 만료되었거나 유효하지 않습니다. 다시 시도하세요."
+
+msgid "✅ User (ID: {user_id}) has been successfully deleted."
+msgstr "✅ 사용자(ID: {user_id})가 성공적으로 삭제되었습니다."
+
+msgid "❌ Failed to delete user (ID: {user_id})."
+msgstr "❌ 사용자(ID: {user_id})를 삭제하지 못했습니다."
+
+msgid "Sending scan request..."
+msgstr "스캔 요청을 보내는 중..."
+
+msgid "Sending refresh request..."
+msgstr "새로고침 요청을 보내는 중..."
+
+msgid "Sending global scan request..."
+msgstr "전체 스캔 요청을 보내는 중..."
+
+msgid "Executing Emby deletion..."
+msgstr "Emby 삭제 실행 중..."
+
+msgid "Deleting files..."
+msgstr "파일 삭제 중..."
+
+msgid "❌ Failed to get item path, cannot delete files."
+msgstr "❌ 항목 경로를 가져오지 못해 파일을 삭제할 수 없습니다."
+
+msgid "Updating files from cloud... Details will be listed shortly."
+msgstr "클라우드에서 파일 업데이트 중... 세부 정보가 곧 표시됩니다."
+
+msgid "❌ Failed to get item path, cannot update."
+msgstr "❌ 항목 경로를 가져오지 못해 업데이트할 수 없습니다."
+
+msgid "❌ Operation failed: Cloud drive path (media_cloud_path) is not set in the configuration."
+msgstr "❌ 작업 실패: 클라우드 드라이브 경로(media_cloud_path)가 구성에 설정되어 있지 않습니다."
+
+msgid "Failed to get item information!"
+msgstr "항목 정보를 가져오지 못했습니다!"
+
+msgid "Unknown program"
+msgstr "알 수 없는 프로그램"
+
+msgid "*__{name}__* in Emby media library"
+msgstr "Emby 미디어 라이브러리의 *__{name}__*"
+
+msgid "local files"
+msgstr "로컬 파일"
+
+msgid "cloud files"
+msgstr "클라우드 파일"
+
+msgid "local and cloud files"
+msgstr "로컬 및 클라우드 파일"
+
+msgid "❓ Are you sure you want to delete `{target}`?\n\nThis action cannot be undone!"
+msgstr "❓ 정말로 `{target}`을(를) 삭제하시겠습니까?\n\n이 작업은 되돌릴 수 없습니다!"
+
+msgid "ℹ️ Getting library list..."
+msgstr "ℹ️ 라이브러리 목록을 가져오는 중..."
+
+msgid "❌ Failed to get media libraries: {error}"
+msgstr "❌ 미디어 라이브러리를 가져오지 못했습니다: {error}"
+
+msgid "💥 Scan all libraries"
+msgstr "💥 모든 라이브러리 스캔"
+
+msgid "Please select a library to scan:"
+msgstr "스캔할 라이브러리를 선택하세요:"
+
+msgid "❓ Are you sure you want to scan **all** media libraries?\n\nThis operation can be resource-intensive and may take some time."
+msgstr "❓ 정말로 **모든** 미디어 라이브러리를 스캔하시겠습니까?\n\n이 작업은 리소스를 많이 사용하며 시간이 걸릴 수 있습니다."
+
+msgid "⚠️ Yes, scan all"
+msgstr "⚠️ 예, 모두 스캔합니다"
+
+msgid "❓ Are you sure you want to scan the library *{library_name}*?\n\nThis may take some time."
+msgstr "❓ 라이브러리 *{library_name}*을(를) 스캔하시겠습니까?\n\n시간이 걸릴 수 있습니다."
+
+msgid "⚠️ Yes, stop all"
+msgstr "⚠️ 예, 모두 중지합니다"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "❓ Are you sure you want to stop *all* playback sessions? This action cannot be undone."
+msgstr "❓ 정말로 *모든* 재생 세션을 중지하시겠습니까? 이 작업은 되돌릴 수 없습니다."
+
+msgid "Stopping all sessions..."
+msgstr "모든 세션을 중지하는 중..."
+
+msgid "✅ No active sessions to stop."
+msgstr "✅ 중지할 활성 세션이 없습니다."
+
+msgid "✅ Operation complete, {count} playback sessions were stopped."
+msgstr "✅ 작업 완료, {count}개의 재생 세션이 중지되었습니다."
+
+msgid "✍️ Please enter the message you want to *broadcast* to all users:"
+msgstr "✍️ 모든 사용자에게 *전체 메시지*로 보낼 메시지를 입력하세요:"
+
+msgid "✍️ *Please reply to this message* with the content you want to *broadcast* to all users:"
+msgstr "✍️ *이 메시지에 회신*하여 모든 사용자에게 *전체 메시지*로 보낼 내용을 입력하세요:"
+
+msgid "Operation cancelled"
+msgstr "작업이 취소되었습니다."
+
+msgid "✅ Playback stopped successfully."
+msgstr "✅ 재생이 성공적으로 중지되었습니다."
+
+msgid "❌ Failed to stop playback."
+msgstr "❌ 재생을 중지하지 못했습니다."
+
+msgid "✍️ Please enter the message you want to send to this user:"
+msgstr "✍️ 이 사용자에게 보낼 메시지를 입력하세요:"
+
+msgid "✍️ *Please reply to this message* with the content you want to send to this user:"
+msgstr "✍️ *이 메시지에 회신*하여 이 사용자에게 보낼 내용을 입력하세요:"
+
+msgid "🔔 Webhook request received."
+msgstr "🔔 웹훅 요청을 받았습니다."
+
+msgid "❌ Unsupported Content-Type: {type}"
+msgstr "❌ 지원되지 않는 콘텐츠 유형: {type}"
+
+msgid "❌ No data in webhook request."
+msgstr "❌ 웹훅 요청에 데이터가 없습니다."
+
+msgid "\n--- Emby Webhook Payload Start ---\n"
+msgstr "\n--- Emby 웹훅 페이로드 시작 ---\n"
+
+msgid "\n--- Emby Webhook Payload End ---\n"
+msgstr "\n--- Emby 웹훅 페이로드 종료 ---\n"
+
+msgid "ℹ️ Emby event detected: {event}"
+msgstr "ℹ️ Emby 이벤트 감지: {event}"
+
+msgid "ℹ️ Unhandled event type: {event}"
+msgstr "ℹ️ 처리되지 않은 이벤트 유형: {event}"
+
+msgid "❌ Error processing webhook: {error}"
+msgstr "❌ 웹훅 처리 중 오류 발생: {error}"
+
+msgid "⚠️ New item notifications are disabled, skipping."
+msgstr "⚠️ 새 항목 알림이 비활성화되어 건너뜁니다."
+
+msgid "ℹ️ Supplementing metadata for item {id} using Emby API."
+msgstr "ℹ️ Emby API를 사용하여 항목 {id}의 메타데이터를 보충하는 중..."
+
+msgid "✅ Specs found successfully (Strategy 1): Using specs from {ep}."
+msgstr "✅ 사양을 성공적으로 찾았습니다 (전략 1): {ep}의 사양을 사용합니다."
+
+msgid "ℹ️ New item is a movie/episode, waiting 30s for Emby to analyze media source..."
+msgstr "ℹ️ 새 항목은 영화/에피소드입니다. Emby가 미디어 소스를 분석할 때까지 30초 동안 기다립니다..."
+
+msgid "❌ All spec-finding strategies failed, sending notification without specs."
+msgstr "❌ 모든 사양 찾기 전략이 실패하여 사양 없이 알림을 보냅니다."
+
+msgid "✅ New"
+msgstr "✅ 신규"
+
+msgid " (Total {count} episodes)"
+msgstr " (총 {count}개 에피소드)"
+
+msgid "Newly added: {summary}{count}"
+msgstr "새로 추가됨: {summary}{count}"
+
+msgid "✉️ Sending new item notification to group {id}."
+msgstr "✉️ 그룹 {id}에 새 항목 알림을 보내는 중..."
+
+msgid "✉️ Sending new item notification to channel {id}."
+msgstr "✉️ 채널 {id}에 새 항목 알림을 보내는 중..."
+
+msgid "✉️ Sending new item notification to admin {id}."
+msgstr "✉️ 관리자 {id}에게 새 항목 알림을 보내는 중..."
+
+msgid "⚠️ Deleted item notifications are disabled, skipping."
+msgstr "⚠️ 삭제된 항목 알림이 비활성화되어 건너뜁니다."
+
+msgid "⚠️ Ignoring unsupported delete event type: {type}"
+msgstr "⚠️ 지원되지 않는 삭제 이벤트 유형을 무시합니다: {type}"
+
+msgid " Season {s}"
+msgstr " 시즌 {s}"
+
+msgid "🗑️ Deleted"
+msgstr "🗑️ 삭제됨"
+
+msgid "Deleted: {summary}"
+msgstr "삭제됨: {summary}"
+
+msgid "Deletion Time: {time}"
+msgstr "삭제 시간: {time}"
+
+msgid "⚠️ Deletion notification skipped: ADMIN_USER_ID not configured."
+msgstr "⚠️ 삭제 알림 건너뜀: ADMIN_USER_ID가 구성되어 있지 않습니다."
+
+msgid "⚠️ Notifications for {event} are disabled, skipping."
+msgstr "⚠️ {event}에 대한 알림이 비활성화되어 건너뜁니다."
+
+msgid "⚠️ ADMIN_USER_ID not configured, skipping playback notification."
+msgstr "⚠️ ADMIN_USER_ID가 구성되어 있지 않아 재생 알림을 건너뜁니다."
+
+msgid "⏳ Ignoring {event} event due to debounce time ({seconds}s)."
+msgstr "⏳ 디바운스 시간({seconds}초)으로 인해 {event} 이벤트를 무시합니다."
+
+msgid "▶️ Playback Started"
+msgstr "▶️ 재생 시작됨"
+
+msgid "▶️ Playback Resumed"
+msgstr "▶️ 재생 재개됨"
+
+msgid "⏸️ Playback Paused"
+msgstr "⏸️ 재생 일시 중지됨"
+
+msgid "⏹️ Playback Stopped"
+msgstr "⏹️ 재생 중지됨"
+
+msgid "User: {user}"
+msgstr "사용자: {user}"
+
+msgid "Location: {location}"
+msgstr "위치: {location}"
+
+msgid "Location: `{ip}` {location}"
+msgstr "위치: `{ip}` {location}"
+
+msgid "Progress: Watched {percent:.1f}%"
+msgstr "진행률: {percent:.1f}% 시청함"
+
+msgid "Progress: {percent:.1f}% ({played} / {total})"
+msgstr "진행률: {percent:.1f}% ({played} / {total})"
+
+msgid "✉️ Sending playback notification to admin {id}."
+msgstr "✉️ 관리자 {id}에게 재생 알림을 보내는 중..."
+
+msgid "⚠️ Notifications for {event} event are disabled, skipping."
+msgstr "⚠️ {event} 이벤트에 대한 알림이 비활성화되어 건너뜁니다."
+
+msgid "⚠️ ADMIN_USER_ID not configured, cannot send user/system event notifications."
+msgstr "⚠️ ADMIN_USER_ID가 구성되어 있지 않아 사용자/시스템 이벤트 알림을 보낼 수 없습니다."
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "User {username} successfully logged in"
+msgstr "사용자 {username}이(가) 성공적으로 로그인했습니다."
+
+msgid "Client: {client}"
+msgstr "클라이언트: {client}"
+
+msgid "User {username} login failed"
+msgstr "사용자 {username}의 로그인이 실패했습니다."
+
+msgid "Unknown IP"
+msgstr "알 수 없는 IP"
+
+msgid "Reason for failure: Incorrect password"
+msgstr "실패 이유: 잘못된 비밀번호"
+
+msgid "Reason for failure: User does not exist"
+msgstr "실패 이유: 사용자가 존재하지 않음"
+
+msgid "User {username} successfully created"
+msgstr "사용자 {username}이(가) 성공적으로 생성되었습니다."
+
+msgid "User {username} has been deleted"
+msgstr "사용자 {username}이(가) 삭제되었습니다."
+
+msgid "Policy for user {username} has been updated"
+msgstr "사용자 {username}의 정책이 업데이트되었습니다."
+
+msgid "Password for user {username} has been changed"
+msgstr "사용자 {username}의 비밀번호가 변경되었습니다."
+
+msgid "Server restart required"
+msgstr "서버 재시작이 필요합니다."
+
+msgid "✅ i18n initialized successfully, current language: {lang}"
+msgstr "✅ i18n이 성공적으로 초기화되었습니다, 현재 언어: {lang}"
+
+msgid "❌ i18n initialization failed, will use default language (English). Error: {e}"
+msgstr "❌ i18n 초기화에 실패했습니다. 기본 언어(영어)를 사용합니다. 오류: {e}"
+
+msgid "🗑️ Requesting file deletion, Emby path: {path}, ℹ️ Local: {local}, ℹ️ Cloud: {cloud}"
+msgstr "🗑️ 파일 삭제 요청 중, Emby 경로: {path}, ℹ️ 로컬: {local}, ℹ️ 클라우드: {cloud}"
+
+msgid "Error: Item path '{item_path}' does not match or is invalid with base path '{base_path}'."
+msgstr "오류: 항목 경로 '{item_path}'이(가) 기본 경로 '{base_path}'과(와) 일치하지 않거나 유효하지 않습니다."
+
+msgid "✅ Successfully deleted local directory: {path}"
+msgstr "✅ 로컬 디렉터리를 성공적으로 삭제했습니다: {path}"
+
+msgid "❌ Failed to delete local directory: {error}"
+msgstr "❌ 로컬 디렉터리를 삭제하지 못했습니다: {error}"
+
+msgid "❌ Error deleting local directory '{path}': {error}"
+msgstr "❌ 로컬 디렉터리 '{path}' 삭제 중 오류 발생: {error}"
+
+msgid "🟡 Local directory not found: {path}"
+msgstr "🟡 로컬 디렉터리를 찾을 수 없습니다: {path}"
+
+msgid "✅ Successfully deleted cloud directory: {path}"
+msgstr "✅ 클라우드 디렉터리를 성공적으로 삭제했습니다: {path}"
+
+msgid "❌ Failed to delete cloud directory: {error}"
+msgstr "❌ 클라우드 디렉터리를 삭제하지 못했습니다: {error}"
+
+msgid "⚠️ Warning: Failed to delete cloud path '{path}': {error}"
+msgstr "⚠️ 경고: 클라우드 경로 '{path}'을(를) 삭제하지 못했습니다: {error}"
+
+msgid "🟡 Cloud directory not found: {path}"
+msgstr "🟡 클라우드 디렉터리를 찾을 수 없습니다: {path}"
+
+msgid "🤷 No deletion operations were performed."
+msgstr "🤷 삭제 작업이 수행되지 않았습니다."
+
+msgid "✅ Deletion operation complete:"
+msgstr "✅ 삭제 작업이 완료되었습니다:"
+
+msgid "🔄 Requesting media update, Emby path: {path}"
+msgstr "🔄 미디어 업데이트 요청 중, Emby 경로: {path}"
+
+msgid "Error: `media_base_path` or `media_cloud_path` is not set in the configuration."
+msgstr "오류: 구성에 `media_base_path` 또는 `media_cloud_path`가 설정되어 있지 않습니다."
+
+msgid "Error: Item path '{item_path}' does not match base path '{base_path}'."
+msgstr "오류: 항목 경로 '{item_path}'이(가) 기본 경로 '{base_path}'과(와) 일치하지 않습니다."
+
+msgid "Error: Source directory '{path}' not found in the cloud drive."
+msgstr "오류: 클라우드 드라이브에서 소스 디렉터리 '{path}'을(를) 찾을 수 없습니다."
+
+msgid "• Copied metadata: {filename}"
+msgstr "• 메타데이터 복사됨: {filename}"
+
+msgid "Created"
+msgstr "생성됨"
+
+msgid "Updated"
+msgstr "업데이트됨"
+
+msgid "⚠️ Warning: Failed to set file timestamp: {error}"
+msgstr "⚠️ 경고: 파일 타임스탬프를 설정하지 못했습니다: {error}"
+
+msgid "• {action} link: {filename}"
+msgstr "• {action} 링크: {filename}"
+
+msgid "✅ `/{path}` requires no update, files are already up to date."
+msgstr "✅ `/{path}`은(는) 업데이트가 필요하지 않으며, 파일은 이미 최신 상태입니다."
+
+msgid "✅ `/{path}` update complete."
+msgstr "✅ `/{path}` 업데이트 완료."
+
+msgid "✅ `/{path}` has been updated successfully!\n\nChange details:\n{details}"
+msgstr "✅ `/{path}`이(가) 성공적으로 업데이트되었습니다!\n\n변경 세부 정보:\n{details}"
+
+msgid "No deletion target specified."
+msgstr "삭제 대상이 지정되지 않았습니다."
+
+msgid "🟡 {label} root directory is unknown or not configured."
+msgstr "🟡 {label} 루트 디렉터리가 알 수 없거나 구성되어 있지 않습니다."
+
+msgid "✅ Deleted {label} directory: {path}"
+msgstr "✅ {label} 디렉터리 삭제됨: {path}"
+
+msgid "❌ Failed to delete {label} directory: {path} | {error}"
+msgstr "❌ {label} 디렉터리 삭제 실패: {path} | {error}"
+
+msgid "🟡 {label} season directory not found: S{num:02d}"
+msgstr "🟡 {label} 시즌 디렉터리를 찾을 수 없습니다: S{num:02d}"
+
+msgid "Local"
+msgstr "로컬"
+
+msgid "Cloud"
+msgstr "클라우드"
+
+msgid "🟡 {label} files not found: S{s:02d}E{e:02d}"
+msgstr "🟡 {label} 파일을 찾을 수 없습니다: S{s:02d}E{e:02d}"
+
+msgid "✅ Deleted {label} file: {path}"
+msgstr "✅ {label} 파일 삭제됨: {path}"
+
+msgid "❌ Failed to delete {label} file: {path} | {error}"
+msgstr "❌ {label} 파일 삭제 실패: {path} | {error}"
+
+msgid "ℹ️ Compiling local season/episode numbers for series {id}."
+msgstr "ℹ️ 시리즈 {id}의 로컬 시즌/에피소드 번호를 컴파일하는 중..."
+
+msgid "✅ Local season/episode count complete ({count} seasons total)."
+msgstr "✅ 로컬 시즌/에피소드 개수 계산 완료 (총 {count} 시즌)."
+
+msgid "Finished"
+msgstr "완결"
+
+msgid "Finished (may be inaccurate)"
+msgstr "완결 (부정확할 수 있음)"
+
+msgid "{count} episodes remaining"
+msgstr "{count}개 에피소드 남음"
+
+msgid "Update Progress: {status}"
+msgstr "업데이트 진행률: {status}"
+
+msgid "…({count} episodes total)"
+msgstr "…(총 {count}개 에피소드)"
+
+msgid "Missing: S{s:02d} {head}{suffix}"
+msgstr "누락: S{s:02d} {head}{suffix}"
+
+msgid "⚠️ Exception generating progress/missing info for new library notification: {error}"
+msgstr "⚠️ 새 라이브러리 알림에 대한 진행률/누락 정보 생성 중 예외 발생: {error}"
+
+msgid "❌ Error: chat_id not specified."
+msgstr "❌ 오류: chat_id가 지정되지 않았습니다."
+
+msgid "💬 Sending Telegram notification to Chat ID {id}..."
+msgstr "💬 채팅 ID {id}에 Telegram 알림을 보내는 중..."
+
+msgid "💬 Sending deletable notification to Chat ID {id}, deleting after {seconds} seconds."
+msgstr "💬 채팅 ID {id}에 삭제 가능한 알림을 보내는 중, {seconds}초 후 삭제됩니다."
+
+msgid "⏳ Deleting message ID: {id}."
+msgstr "⏳ 메시지 ID 삭제 중: {id}."
+
+msgid "ℹ️ Delete message {id}: It may no longer exist or permissions are insufficient. Ignored."
+msgstr "ℹ️ 메시지 {id} 삭제: 더 이상 존재하지 않거나 권한이 부족할 수 있습니다. 무시됨."
+
+msgid "📞 Answering callback query: {id}"
+msgstr "📞 콜백 쿼리에 응답하는 중: {id}"
+
+msgid "✏️ Editing message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "✏️ 채팅 ID {chat_id}, 메시지 ID {msg_id}의 메시지를 수정하는 중..."
+
+msgid "❌ Exception in edit_telegram_message call: {error}"
+msgstr "❌ edit_telegram_message 호출 중 예외 발생: {error}"
+
+msgid "🗑️ Deleting message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "🗑️ 채팅 ID {chat_id}, 메시지 ID {msg_id}의 메시지를 삭제하는 중..."
+
+msgid "⚠️ ADMIN_USER_ID not configured, all users will be unable to perform admin actions."
+msgstr "⚠️ ADMIN_USER_ID가 구성되어 있지 않아 모든 사용자가 관리자 작업을 수행할 수 없습니다."
+
+msgid "👥 Authorization status for user {id} retrieved from cache: {is_member}"
+msgstr "👥 캐시에서 검색한 사용자 {id}의 인증 상태: {is_member}"
+
+msgid "👥 Querying membership status for user {user_id} in group {group_id}."
+msgstr "👥 그룹 {group_id}에서 사용자 {user_id}의 멤버십 상태를 조회하는 중..."
+
+msgid "✅ User {id} verified successfully."
+msgstr "✅ 사용자 {id}이(가) 성공적으로 확인되었습니다."
+
+msgid "❌ User {id} verification failed, status: {status}."
+msgstr "❌ 사용자 {id} 확인 실패, 상태: {status}."
+
+msgid "❌ Authorization failed: Error parsing group membership for user {id}."
+msgstr "❌ 인증 실패: 사용자 {id}의 그룹 멤버십을 구문 분석하는 중 오류가 발생했습니다."
+
+msgid "❌ Authorization failed: Query for group membership of user {id} failed, access denied."
+msgstr "❌ 인증 실패: 사용자 {id}의 그룹 멤버십 조회에 실패하여 액세스가 거부되었습니다."
+
+msgid "🚀 Server started on http://0.0.0.0:{port}..."
+msgstr "🚀 서버가 http://0.0.0.0:{port}에서 시작되었습니다..."
+
+msgid "❌ Failed to start HTTP server, port {port} may already be in use. Error: {error}"
+msgstr "❌ HTTP 서버를 시작하지 못했습니다. 포트 {port}이(가) 이미 사용 중일 수 있습니다. 오류: {error}"
+
+msgid "❌ An unknown error occurred while starting the HTTP server: {error}"
+msgstr "❌ HTTP 서버를 시작하는 중 알 수 없는 오류가 발생했습니다: {error}"
+
+msgid "❌ Could not parse Bot ID from TELEGRAM_TOKEN. Auto-deleting reply messages may not work correctly."
+msgstr "❌ TELEGRAM_TOKEN에서 봇 ID를 구문 분석할 수 없습니다. 답장 메시지 자동 삭제가 올바르게 작동하지 않을 수 있습니다."
+
+msgid "🤖 Telegram command polling service started..."
+msgstr "🤖 Telegram 명령어 폴링 서비스가 시작되었습니다..."
+
+msgid "❌ API error while polling for Telegram updates: {error}"
+msgstr "❌ Telegram 업데이트를 폴링하는 중 API 오류가 발생했습니다: {error}"
+
+msgid "⚠️ Received a message with missing core fields, skipping: {msg}"
+msgstr "⚠️ 핵심 필드가 누락된 메시지를 받아 건너뜁니다: {msg}"
+
+msgid "❌ Error processing a single Telegram update (Update ID: {uid}). This update will be skipped. Error: {err}"
+msgstr "❌ 단일 Telegram 업데이트 처리 중 오류 발생 (업데이트 ID: {uid}). 이 업데이트는 건너뜁니다. 오류: {err}"
+
+msgid "❌ Failed to poll for Telegram updates: {code} - {text}"
+msgstr "❌ Telegram 업데이트를 폴링하지 못했습니다: {code} - {text}"
+
+msgid "❌ Network error while polling Telegram: {error}"
+msgstr "❌ Telegram을 폴링하는 중 네트워크 오류가 발생했습니다: {error}"
+
+msgid "❌ A critical error occurred while polling Telegram: {error}"
+msgstr "❌ Telegram을 폴링하는 중 심각한 오류가 발생했습니다: {error}"
+
+msgid "Video Specs: "
+msgstr "비디오 사양: "
+
+msgid "Video: "
+msgstr "비디오: "
+
+msgid "Audio Specs: "
+msgstr "오디오 사양: "
+
+msgid "Audio: "
+msgstr "오디오: "
+
+msgid " and {count} more..."
+msgstr " 및 {count}개 더..."
+
+msgid "Subtitle Specs: "
+msgstr "자막 사양: "
+
+msgid "Subtitles: "
+msgstr "자막: "
+
+msgid "❌ Error reading directory {directory}: {error}"
+msgstr "❌ 디렉터리 {directory} 읽기 오류: {error}"
+
+msgid "✅ NFO Parse: Found default <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO 구문 분석: 기본 <uniqueid type='tmdb'>을(를) 찾았습니다 -> {id}"
+
+msgid "✅ NFO Parse: Found <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO 구문 분석: <uniqueid type='tmdb'>을(를) 찾았습니다 -> {id}"
+
+msgid "✅ NFO Parse: Found <tmdbid> -> {id}"
+msgstr "✅ NFO 구문 분석: <tmdbid>을(를) 찾았습니다 -> {id}"
+
+msgid "⚠️ NFO file '{filename}' is not valid XML, falling back to regex matching."
+msgstr "⚠️ NFO 파일 '{filename}'이(가) 유효한 XML이 아니므로 정규식 일치로 대체합니다."
+
+msgid "✅ NFO Parse (regex): Found from URL -> {id}"
+msgstr "✅ NFO 구문 분석 (정규식): URL에서 찾았습니다 -> {id}"
+
+msgid "✅ NFO Parse (regex): Found from tag -> {id}"
+msgstr "✅ NFO 구문 분석 (정규식): 태그에서 찾았습니다 -> {id}"
+
+msgid "❌ Error parsing NFO file {path}: {error}"
+msgstr "❌ NFO 파일 {path} 구문 분석 오류: {error}"
+
+msgid "❌ Failed to find TMDB ID in NFO file '{filename}'."
+msgstr "❌ NFO 파일 '{filename}'에서 TMDB ID를 찾지 못했습니다."
+
+msgid "============================================================\n⚠️ CRITICAL WARNING: 'user_id' not found in config.yaml.\n This may cause some Emby API requests that require user context to fail.\n It is strongly recommended to configure a valid user ID to ensure all features work correctly.\n============================================================"
+msgstr "============================================================\n⚠️ 심각한 경고: config.yaml에서 'user_id'를 찾을 수 없습니다.\n 이로 인해 사용자 컨텍스트가 필요한 일부 Emby API 요청이 실패할 수 있습니다.\n 모든 기능이 올바르게 작동하도록 유효한 사용자 ID를 구성하는 것이 좋습니다.\n============================================================"
+
+msgid "⚙️ Main Menu"
+msgstr "⚙️ 주 메뉴"
+
+msgid "Manage the bot's various features and notifications!"
+msgstr "봇의 다양한 기능과 알림을 관리하세요!"
+
+msgid "Content Settings"
+msgstr "콘텐츠 설정"
+
+msgid "New Content Notification Settings"
+msgstr "새 콘텐츠 알림 설정"
+
+msgid "Show Update Progress/Missing"
+msgstr "업데이트 진행률/누락 표시"
+
+msgid "Show Poster"
+msgstr "포스터 표시"
+
+msgid "Show Media Details"
+msgstr "미디어 세부 정보 표시"
+
+msgid "Add TMDB Link to Details"
+msgstr "세부 정보에 TMDB 링크 추가"
+
+msgid "Show Overview"
+msgstr "개요 표시"
+
+msgid "Show Media Type"
+msgstr "미디어 유형 표시"
+
+msgid "Show Video Specs"
+msgstr "비디오 사양 표시"
+
+msgid "Show Audio Specs"
+msgstr "오디오 사양 표시"
+
+msgid "Show Subtitle Specs"
+msgstr "자막 사양 표시"
+
+msgid "Show Timestamp"
+msgstr "타임스탬프 표시"
+
+msgid "Show \"View on Server\" Button"
+msgstr "\"서버에서 보기\" 버튼 표시"
+
+msgid "Playback Status Feedback Settings"
+msgstr "재생 상태 피드백 설정"
+
+msgid "Show Player"
+msgstr "플레이어 표시"
+
+msgid "Show Device"
+msgstr "기기 표시"
+
+msgid "Show Location Info"
+msgstr "위치 정보 표시"
+
+msgid "Show \"Terminate Session\" Button"
+msgstr "\"세션 종료\" 버튼 표시"
+
+msgid "Show \"Send Message\" Button"
+msgstr "\"메시지 보내기\" 버튼 표시"
+
+msgid "Show \"Broadcast Message\" Button"
+msgstr "\"전체 메시지\" 버튼 표시"
+
+msgid "Show \"Terminate All\" Button"
+msgstr "\"모두 종료\" 버튼 표시"
+
+msgid "Playback Action Notification Settings"
+msgstr "재생 작업 알림 설정"
+
+msgid "Show Username"
+msgstr "사용자 이름 표시"
+
+msgid "Show Playback Progress"
+msgstr "재생 진행률 표시"
+
+msgid "Deleted Content Notification Settings"
+msgstr "삭제된 콘텐츠 알림 설정"
+
+msgid "Show Deletion Time"
+msgstr "삭제 시간 표시"
+
+msgid "Search Results Display Settings"
+msgstr "검색 결과 표시 설정"
+
+msgid "Show Media Type in Search List"
+msgstr "검색 목록에 미디어 유형 표시"
+
+msgid "Movie Display Settings"
+msgstr "영화 표시 설정"
+
+msgid "Add TMDB Link to Movie Title"
+msgstr "영화 제목에 TMDB 링크 추가"
+
+msgid "Show Type"
+msgstr "유형 표시"
+
+msgid "Show Category"
+msgstr "카테고리 표시"
+
+msgid "Show Added Time"
+msgstr "추가된 시간 표시"
+
+msgid "Series Display Settings"
+msgstr "시리즈 표시 설정"
+
+msgid "Add TMDB Link to Series Title"
+msgstr "시리즈 제목에 TMDB 링크 추가"
+
+msgid "Season Specs"
+msgstr "시즌 사양"
+
+msgid "Show Season Video Specs"
+msgstr "시즌 비디오 사양 표시"
+
+msgid "Show Season Audio Specs"
+msgstr "시즌 오디오 사양 표시"
+
+msgid "Show Season Subtitle Specs"
+msgstr "시즌 자막 사양 표시"
+
+msgid "Update Progress"
+msgstr "업데이트 진행률"
+
+msgid "Show \"Updated to\""
+msgstr "\"업데이트됨\" 표시"
+
+msgid "Add TMDB Link to \"Updated to\""
+msgstr "\"업데이트됨\"에 TMDB 링크 추가"
+
+msgid "Show Update Progress"
+msgstr "업데이트 진행률 표시"
+
+msgid "Notification Management"
+msgstr "알림 관리"
+
+msgid "New/Deleted Content Notifications"
+msgstr "새/삭제된 콘텐츠 알림"
+
+msgid "New Content Notifications"
+msgstr "새 콘텐츠 알림"
+
+msgid "Deleted Content Notifications"
+msgstr "삭제된 콘텐츠 알림"
+
+msgid "Playback Action Notifications"
+msgstr "재생 작업 알림"
+
+msgid "Playback Start/Resume Notifications"
+msgstr "재생 시작/재개 알림"
+
+msgid "Playback Pause Notifications"
+msgstr "재생 일시 중지 알림"
+
+msgid "Playback Stop Notifications"
+msgstr "재생 중지 알림"
+
+msgid "Send to Group"
+msgstr "그룹에 보내기"
+
+msgid "Send to Channel"
+msgstr "채널에 보내기"
+
+msgid "Send to Admin"
+msgstr "관리자에게 보내기"
+
+msgid "Advanced Notification Management"
+msgstr "고급 알림 관리"
+
+msgid "User Login Success"
+msgstr "사용자 로그인 성공"
+
+msgid "User Login Failure"
+msgstr "사용자 로그인 실패"
+
+msgid "User Creation/Deletion"
+msgstr "사용자 생성/삭제"
+
+msgid "User Policy/Password Updates"
+msgstr "사용자 정책/비밀번호 업데이트"
+
+msgid "Server Restart Required"
+msgstr "서버 재시작 필요"
+
+msgid "Auto-Delete Message Settings"
+msgstr "메시지 자동 삭제 설정"
+
+msgid "Auto-delete messages sent to Group"
+msgstr "그룹에 보낸 메시지 자동 삭제"
+
+msgid "Auto-delete messages sent to Channel"
+msgstr "채널에 보낸 메시지 자동 삭제"
+
+msgid "Auto-delete messages sent to Admin"
+msgstr "관리자에게 보낸 메시지 자동 삭제"
+
+msgid "Advanced Notifications"
+msgstr "고급 알림"
+
+msgid "User Login Success/Failure"
+msgstr "사용자 로그인 성공/실패"
+
+msgid "User Create/Delete/Update"
+msgstr "사용자 생성/삭제/업데이트"
+
+msgid "Server Events"
+msgstr "서버 이벤트"
+
+msgid "System Settings"
+msgstr "시스템 설정"
+
+msgid "Language Settings"
+msgstr "언어 설정"
+
+msgid "IP Geolocation API Settings"
+msgstr "IP 지리적 위치 API 설정"
+
+msgid "Please Restart Emby Server: {server_name}"
+msgstr "Emby 서버를 다시 시작하세요: {server_name}"
+
+msgid "🔍 Specs not found, trying fallback: finding another episode in S{num:02d} for reference..."
+msgstr "🔍 사양을 찾을 수 없어 대체 방법을 시도합니다: 참고용으로 S{num:02d}의 다른 에피소드를 찾고 있습니다..."
+
+msgid "✅ Fallback successful: using specs from reference episode (ID: {id})."
+msgstr "✅ 대체 방법 성공: 참고 에피소드(ID: {id})의 사양을 사용합니다."
+
+msgid "Page {current}/{total}"
+msgstr "페이지 {current}/{total}"
+
+msgid "Previous Page"
+msgstr "이전 페이지"
+
+msgid "This message has expired."
+msgstr "이 메시지는 만료되었습니다."
+
+msgid "Name: <b>{title}</b>"
+msgstr "이름: <b>{title}</b>"
+
+msgid "Name: <a href=\"{link}\">{title}</a>"
+msgstr "이름: <a href=\"{link}\">{title}</a>"
+
+msgid "Updated to: <a href=\"{link}\">{info}</a>"
+msgstr "업데이트: <a href=\"{link}\">{info}</a>"
+
+msgid "Location: <code>{ip}</code> {loc}"
+msgstr "위치: <code>{ip}</code> {loc}"
+
+msgid "Location: <code>{ip}</code> {location}"
+msgstr "위치: <code>{ip}</code> {location}"

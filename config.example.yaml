@@ -1,0 +1,167 @@
+# ============================================================
+# EmbyBot Configuration File
+# Copy this file to /config/config.yaml and fill in your values.
+# ============================================================
+
+# ---- Telegram ----
+telegram:
+  # Required: Your bot token from @BotFather
+  token: "YOUR_BOT_TOKEN_HERE"
+
+  # Required: Telegram user ID(s) of bot administrators.
+  # Admins can use /status, /settings, /manage and receive all notifications.
+  # Can be a single integer or a YAML list.
+  admin_user_id:
+    - 123456789
+    # - 987654321
+
+  # Optional: Group chat ID(s) to receive "new library content" notifications.
+  # Use a negative number for groups/supergroups.
+  group_id:
+    # - -1001234567890
+
+  # Optional: Channel ID(s) to receive "new library content" notifications.
+  channel_id:
+    # - -1009876543210
+
+  # Optional: HTTPS URL of your server for Telegram Webhook mode.
+  # Only required if settings.telegram_mode is set to "webhook".
+  # The bot will listen at <webhook_url>/telegram_webhook
+  webhook_url: ""
+
+  # Optional: Telegram user ID to display as "customer service" contact
+  # in user-facing error messages (e.g., when binding fails).
+  customer_service_id: null
+
+
+# ---- Emby ----
+emby:
+  # Required: URL of your Emby server (no trailing slash)
+  server_url: "http://192.168.1.100:8096"
+
+  # Required: Emby API key (Dashboard → Advanced → API Keys)
+  api_key: "YOUR_EMBY_API_KEY_HERE"
+
+  # Recommended: An Emby user ID used for search/browse API requests.
+  # Without this, search features will be unavailable.
+  user_id: "YOUR_EMBY_USER_UUID_HERE"
+
+  # Required for item deletion: Admin username and password.
+  # Item deletion requires a user access token, not just an API key.
+  username: ""
+  password: ""
+
+  # Required for user creation: The ID of a "template" user.
+  # New users will inherit this user's library access and policy.
+  template_user_id: ""
+
+  # Optional: Public-facing URL of your Emby server.
+  # Used to generate "View on Server" buttons in notifications.
+  remote_url: ""
+
+  # Optional: Deep-link URL scheme for Emby mobile apps.
+  # e.g. "emby" will generate emby://... links
+  app_scheme: ""
+
+
+# ---- TMDB (The Movie Database) ----
+tmdb:
+  # Optional but strongly recommended.
+  # Enables poster art, TMDB links, and series progress tracking.
+  # Get a free API key at: https://www.themoviedb.org/settings/api
+  api_token: ""
+
+
+# ---- Database ----
+# Optional. Defaults to SQLite at /config/data/embybot.db
+# For PostgreSQL or MySQL, provide a full connection URL.
+database:
+  url: ""
+  # Examples:
+  # url: "postgresql://user:password@localhost:5432/embybot"
+  # url: "mysql+pymysql://user:password@localhost:3306/embybot"
+
+
+# ---- Bot Settings ----
+settings:
+  # Bot display name (used in welcome message)
+  bot_name: "EmbyBot"
+
+  # Interface language. Supported: en, zh_hans, zh_hant, ja, ko, ru, de, fr, es, pt, it
+  language: "en"
+
+  # Timezone for timestamps in notifications.
+  # Use standard timezone names: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "UTC"
+
+  # How the bot receives Telegram updates.
+  # "polling": Long polling (simpler, works behind NAT)
+  # "webhook": Webhook (requires a public HTTPS URL)
+  telegram_mode: "polling"
+
+  # Ignore duplicate playback.start / playback.unpause events within this many seconds.
+  # Prevents notification spam when users seek or switch audio tracks.
+  debounce_seconds: 10
+
+  # How many days to cache poster images from TMDB before re-fetching.
+  poster_cache_ttl_days: 30
+
+  # IP geolocation provider for login/playback location display.
+  # Options: baidu | pconline | vore | ipapi | ip138
+  # "ip138" requires ip_api_token_ip138 to be set below.
+  ip_api_provider: "baidu"
+
+  # Token for ip138 API (only needed if ip_api_provider is "ip138")
+  ip_api_token_ip138: ""
+
+  # Local filesystem path that Emby uses for media files.
+  # Required for file deletion and cloud sync operations.
+  # Example: "/mnt/media" or "D:/Media"
+  media_base_path: ""
+
+  # Cloud/source filesystem path for sync operations.
+  # Files here are synced to media_base_path as .strm links.
+  media_cloud_path: ""
+
+  # ---- Notification Management ----
+  # These can all be toggled via the /settings menu inside Telegram.
+  notification_management:
+    library_new:
+      to_group: false      # Send new-content notifications to group_id(s)
+      to_channel: false    # Send new-content notifications to channel_id(s)
+      to_private: false    # Send new-content notifications to admin(s)
+    library_deleted: false
+    playback_start: false
+    playback_pause: false
+    playback_stop: false
+    advanced:
+      user_login_success: false
+      user_login_failure: false
+      user_creation_deletion: false
+      user_updates: false
+      server_restart_required: false
+
+  # ---- Session Control ----
+  session_control:
+    enabled: false
+    max_sessions: 3        # Maximum simultaneous playback sessions per user
+
+  # ---- Points & Check-in ----
+  points:
+    enabled: false
+    transfer_enabled: false
+    group_chat:
+      enabled: false
+      points_per_message: 1
+
+  checkin:
+    enabled: false
+    points_per_checkin: 5
+    methods:
+      group_command: true
+      group_text: true
+      private_command: true
+      private_text: true
+    captcha:
+      group_enabled: false
+      private_enabled: false

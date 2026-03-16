@@ -1,0 +1,1987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EmbyBot v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-16 10:52+0000\n"
+"PO-Revision-Date: 2025-08-17 10:53+0000\\n"
+"Last-Translator: admin@embybot.com\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "❌ Telegram button callback_data exceeds 64-byte limit: {data} ({length} bytes)"
+msgstr "❌ Telegramボタンのcallback_dataが64バイトの制限を超えています：{data} ({length} バイト)"
+
+msgid "⚠️ Exception occurred during local check of reply_markup: {error}"
+msgstr "⚠️ reply_markupのローカルチェック中に例外が発生しました：{error}"
+
+msgid "Unknown API"
+msgstr "不明なAPI"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "TMDB"
+msgstr "TMDB"
+
+msgid "IP Geolocation"
+msgstr "IPジオロケーション"
+
+msgid "Emby"
+msgstr "Emby"
+
+msgid "🌐 Making {api_name} API request (Attempt {attempt}), URL: {url}, Timeout: {timeout}s"
+msgstr "🌐 {api_name} APIリクエストを実行中 (試行 {attempt}), URL: {url}, タイムアウト: {timeout}秒"
+
+msgid "✅ {api_name} API request successful, Status Code: {code}"
+msgstr "✅ {api_name} APIリクエスト成功、ステータスコード: {code}"
+
+msgid "ℹ️ Telegram returned an ignorable edit/delete type error, ignoring."
+msgstr "ℹ️ Telegramから無視できる編集/削除タイプのエラーが返されたため、無視します。"
+
+msgid "⏳ Telegram rate limit (429), retrying after {seconds}s. Error: {error_text}"
+msgstr "⏳ Telegramレート制限 (429)、{seconds}秒後に再試行します。エラー: {error_text}"
+
+msgid "❌ {api_name} server error {code}, will retry. Error: {error_text}"
+msgstr "❌ {api_name} サーバーエラー {code}、再試行します。エラー: {error_text}"
+
+msgid "❌ {api_name} API request failed (Attempt {attempt}), Status Code: {code}, Response: {response}"
+msgstr "❌ {api_name} APIリクエスト失敗 (試行 {attempt})、ステータスコード: {code}, レスポンス: {response}"
+
+msgid "❌ Network error on {api_name} API request (Attempt {attempt}), URL: {url}, Error: {error}"
+msgstr "❌ {api_name} APIリクエストでネットワークエラーが発生しました (試行 {attempt})、URL: {url}, エラー: {error}"
+
+msgid "❌ {api_name} API request failed, max retries reached ({max_retries}), URL: {url}"
+msgstr "❌ {api_name} APIリクエストが失敗し、最大再試行回数({max_retries})に達しました、URL: {url}"
+
+msgid "🔑 Getting Emby Access Token using username/password..."
+msgstr "🔑 ユーザー名/パスワードを使用してEmbyアクセストークンを取得中..."
+
+msgid "❌ Missing Emby username or password configuration required to get a token."
+msgstr "❌ トークン取得に必要なEmbyのユーザー名またはパスワードの設定がありません。"
+
+msgid "✅ Successfully obtained Access Token."
+msgstr "✅ アクセストークンの取得に成功しました。"
+
+msgid "❌ Failed to get Access Token. Status Code: {code}, Response: {text}"
+msgstr "❌ アクセストークンの取得に失敗しました。ステータスコード: {code}, レスポンス: {text}"
+
+msgid "❌ Network error while getting Access Token: {error}"
+msgstr "❌ アクセストークン取得中にネットワークエラーが発生しました: {error}"
+
+msgid "🔎 Requesting scan for Emby item ID: {id}, Name: {name}"
+msgstr "🔎 EmbyアイテムID: {id}, 名前: {name} のスキャンをリクエスト中..."
+
+msgid "❌ Scan failed: Emby server configuration is incomplete."
+msgstr "❌ スキャンに失敗しました: Embyサーバーの設定が不完全です。"
+
+msgid "✅ Scan request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ 「{item_name}」のスキャンリクエストをEmbyに送信しました。処理はバックグラウンドで実行されます。後ほどEmbyで結果を確認してください。"
+
+msgid "❌ Failed to send scan request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ 「{item_name}」(ID: {item_id})のスキャンリクエストの送信に失敗しました。ステータスコード: {code}, サーバーレスポンス: {text}"
+
+msgid "🔎 Requesting to scan all Emby libraries..."
+msgstr "🔎 すべてのEmbyライブラリのスキャンをリクエスト中..."
+
+msgid "✅ Request to scan all libraries has been sent to Emby. The task will be executed in the background."
+msgstr "✅ すべてのライブラリをスキャンするリクエストをEmbyに送信しました。タスクはバックグラウンドで実行されます。"
+
+msgid "❌ Failed to send \"Scan All\" request. Status Code: {code}, Response: {text}"
+msgstr "❌ 「すべてスキャン」リクエストの送信に失敗しました。ステータスコード: {code}, レスポンス: {text}"
+
+msgid "🔄 Requesting refresh for Emby item ID: {id}, Name: {name}"
+msgstr "🔄 EmbyアイテムID: {id}, 名前: {name} の更新をリクエスト中..."
+
+msgid "❌ Refresh failed: Emby server configuration is incomplete."
+msgstr "❌ 更新に失敗しました: Embyサーバーの設定が不完全です。"
+
+msgid "✅ Refresh request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ 「{item_name}」の更新リクエストをEmbyに送信しました。処理はバックグラウンドで実行されます。後ほどEmbyで結果を確認してください。"
+
+msgid "❌ Failed to send refresh request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ 「{item_name}」(ID: {item_id})の更新リクエストの送信に失敗しました。ステータスコード: {code}, サーバーレスポンス: {text}"
+
+msgid "🗑️ Requesting to delete item from Emby. ID: {id}, Name: {name}"
+msgstr "🗑️ Embyからアイテムの削除をリクエスト中。ID: {id}, 名前: {name}"
+
+msgid "❌ Failed to delete \"{item_name}\": Could not obtain a valid user Access Token from the Emby server. Please check the username and password in config.yaml."
+msgstr "❌ 「{item_name}」の削除に失敗しました: Embyサーバーから有効なユーザーアクセストークンを取得できませんでした。config.yamlのユーザー名とパスワードを確認してください。"
+
+msgid "✅ The item \"{item_name}\" has been successfully deleted from the Emby library."
+msgstr "✅ アイテム「{item_name}」がEmbyライブラリから正常に削除されました。"
+
+msgid "❌ Failed to delete Emby item \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ Embyアイテム「{item_name}」(ID: {item_id})の削除に失敗しました。ステータスコード: {code}, サーバーレスポンス: {text}"
+
+msgid "👤 Querying Emby user by username '{username}'..."
+msgstr "👤 ユーザー名'{username}'でEmbyユーザーを検索中..."
+
+msgid "Emby server configuration is incomplete."
+msgstr "Embyサーバーの設定が不完全です。"
+
+msgid "✅ Found user '{username}', ID: {id}"
+msgstr "✅ ユーザー'{username}'が見つかりました、ID: {id}"
+
+msgid "Could not find a user with the username '{username}'."
+msgstr "ユーザー名'{username}'のユーザーが見つかりませんでした。"
+
+msgid "Could not parse the user list response from Emby."
+msgstr "Embyからのユーザーリストのレスポンスを解析できませんでした。"
+
+msgid "Failed to get user list from Emby API."
+msgstr "Emby APIからユーザーリストの取得に失敗しました。"
+
+msgid "📜 Getting full info for User ID {id} to extract policy..."
+msgstr "📜 ポリシーを抽出するためにユーザーID {id} の完全な情報を取得中..."
+
+msgid "Failed to get user policy: Policy object not found in the returned user data."
+msgstr "ユーザーポリシーの取得に失敗しました: 返されたユーザーデータにポリシーオブジェクトが見つかりません。"
+
+msgid "Failed to get user policy: Could not parse user information returned by the Emby server."
+msgstr "ユーザーポリシーの取得に失敗しました: Embyサーバーから返されたユーザー情報を解析できませんでした。"
+
+msgid "Failed to get user policy: Could not get user information from the Emby API (please check if template_user_id is correct)."
+msgstr "ユーザーポリシーの取得に失敗しました: Emby APIからユーザー情報を取得できませんでした（template_user_idが正しいか確認してください）。"
+
+msgid "🔑 Setting a new password for User ID {id}..."
+msgstr "🔑 ユーザーID {id} に新しいパスワードを設定中..."
+
+msgid "🗑️ Deleting User ID: {id}"
+msgstr "🗑️ ユーザーID {id} を削除中..."
+
+msgid "✏️ Renaming username for User ID {id} to '{new_username}'..."
+msgstr "✏️ ユーザーID {id} のユーザー名を'{new_username}'に変更中..."
+
+msgid "❌ Rename failed: Username '{new_username}' is already taken by another user."
+msgstr "❌ 名前の変更に失敗しました: ユーザー名'{new_username}'は既に使用されています。"
+
+msgid "❌ Rename failed: Could not get the details of the current user."
+msgstr "❌ 名前の変更に失敗しました: 現在のユーザーの詳細を取得できませんでした。"
+
+msgid "❌ Rename failed: Could not parse the current user's information."
+msgstr "❌ 名前の変更に失敗しました: 現在のユーザー情報を解析できませんでした。"
+
+msgid "✅ Username has been successfully changed to '{new_username}'."
+msgstr "✅ ユーザー名が正常に'{new_username}'に変更されました。"
+
+msgid "❌ Failed to rename username, the server did not respond successfully."
+msgstr "❌ ユーザー名の変更に失敗しました。サーバーが正常に応答しませんでした。"
+
+msgid "❌ Creation failed: `template_user_id` is not set in the configuration file."
+msgstr "❌ 作成に失敗しました: `template_user_id`が設定ファイルに設定されていません。"
+
+msgid "❌ Creation failed: Username '{username}' already exists."
+msgstr "❌ 作成に失敗しました: ユーザー名'{username}'は既に存在します。"
+
+msgid "❌ Creation failed: Could not get the configuration of the template user (ID: {id}). Error: {error}"
+msgstr "❌ 作成に失敗しました: テンプレートユーザー(ID: {id})の設定を取得できませんでした。エラー: {error}"
+
+msgid "✅ Successfully got the policy for template user {id}."
+msgstr "✅ テンプレートユーザー{id}のポリシーを正常に取得しました。"
+
+msgid "➕ Creating new user: {username}..."
+msgstr "➕ 新規ユーザーを作成中: {username}..."
+
+msgid "❌ Creation failed: Error when calling the Emby API to create a user."
+msgstr "❌ 作成に失敗しました: Emby APIを呼び出してユーザーを作成中にエラーが発生しました。"
+
+msgid "✅ User '{username}' has been created, new ID: {id}."
+msgstr "✅ ユーザー'{username}'が作成されました、新しいID: {id}"
+
+msgid "❌ Creation failed: Could not parse new user information from the Emby API response."
+msgstr "❌ 作成に失敗しました: Emby APIのレスポンスから新しいユーザー情報を解析できませんでした。"
+
+msgid "📜 Applying template policy for new user {id}..."
+msgstr "📜 新規ユーザー{id}にテンプレートポリシーを適用中..."
+
+msgid "❌ Creation failed: Error applying policy for the new user, operation has been rolled back."
+msgstr "❌ 作成に失敗しました: 新規ユーザーへのポリシー適用中にエラーが発生したため、操作はロールバックされました。"
+
+msgid "✅ Policy applied successfully."
+msgstr "✅ ポリシーが正常に適用されました。"
+
+msgid "🔑 Setting password for new user {id}..."
+msgstr "🔑 新規ユーザー{id}のパスワードを設定中..."
+
+msgid "❌ Creation failed: Error setting password for the new user, operation has been rolled back."
+msgstr "❌ 作成に失敗しました: 新規ユーザーのパスワード設定中にエラーが発生したため、操作はロールバックされました。"
+
+msgid "✅ Password set successfully."
+msgstr "✅ パスワードが正常に設定されました。"
+
+msgid "✅ Successfully created user '{username}', configuration cloned from template user."
+msgstr "✅ ユーザー'{username}'の作成に成功しました。設定はテンプレートユーザーから複製されました。"
+
+msgid "ℹ️ Getting Emby user list from cache."
+msgstr "ℹ️ Embyユーザーリストをキャッシュから取得中..."
+
+msgid "🔑 Getting full user list from Emby API..."
+msgstr "🔑 Emby APIから完全なユーザーリストを取得中..."
+
+msgid "❌ Missing Emby server configuration required to get user list."
+msgstr "❌ ユーザーリスト取得に必要なEmbyサーバーの設定がありません。"
+
+msgid "✅ Successfully retrieved and cached {count} usernames."
+msgstr "✅ {count}件のユーザー名を正常に取得し、キャッシュしました。"
+
+msgid "❌ Failed to get Emby user list: Could not parse server response."
+msgstr "❌ Embyユーザーリストの取得に失敗しました: サーバーのレスポンスを解析できませんでした。"
+
+msgid "❌ Failed to get Emby user list."
+msgstr "❌ Embyユーザーリストの取得に失敗しました。"
+
+msgid "ℹ️ Querying active Emby sessions."
+msgstr "ℹ️ アクティブなEmbyセッションを照会中..."
+
+msgid "❌ Missing Emby server configuration, cannot query sessions."
+msgstr "❌ Embyサーバーの設定がないため、セッションを照会できません。"
+
+msgid "✅ Found {count} active sessions."
+msgstr "✅ {count}件のアクティブなセッションが見つかりました。"
+
+msgid "❌ Failed to query active sessions: Could not parse server response."
+msgstr "❌ アクティブなセッションの照会に失敗しました: サーバーのレスポンスを解析できませんでした。"
+
+msgid "🛑 Attempting to stop playback session: {id}"
+msgstr "🛑 再生セッションを停止しようとしています: {id}"
+
+msgid "❌ Failed to stop session: Emby server configuration is incomplete."
+msgstr "❌ セッションの停止に失敗しました: Embyサーバーの設定が不完全です。"
+
+msgid "✅ Playback session {id} has been stopped successfully."
+msgstr "✅ 再生セッション{id}が正常に停止されました。"
+
+msgid "❌ Failed to stop playback session {id}."
+msgstr "❌ 再生セッション{id}の停止に失敗しました。"
+
+msgid "✉️ Sending message to session {id}."
+msgstr "✉️ セッション{id}にメッセージを送信中..."
+
+msgid "❌ Failed to send message: Emby server configuration is incomplete."
+msgstr "❌ メッセージの送信に失敗しました: Embyサーバーの設定が不完全です。"
+
+msgid "Message from administrator"
+msgstr "管理者からのメッセージ"
+
+msgid "✅ Message sent successfully to session {id}."
+msgstr "✅ セッション{id}にメッセージが正常に送信されました。"
+
+msgid "❌ Failed to send message to session {id}."
+msgstr "❌ セッション{id}へのメッセージ送信に失敗しました。"
+
+msgid "ℹ️ Getting resolution for item {id}."
+msgstr "ℹ️ アイテム{id}の解像度を取得中..."
+
+msgid "❌ Failed to get media source info for item {id}."
+msgstr "❌ アイテム{id}のメディアソース情報の取得に失敗しました。"
+
+msgid "Unknown resolution"
+msgstr "不明な解像度"
+
+msgid "❌ Media source for item {id} is empty."
+msgstr "❌ アイテム{id}のメディアソースが空です。"
+
+msgid "✅ Got resolution for item {id}: {w}x{h}"
+msgstr "✅ アイテム{id}の解像度を取得しました: {w}x{h}"
+
+msgid "⚠️ No video stream found in item {id}."
+msgstr "⚠️ アイテム{id}にビデオストリームが見つかりません。"
+
+msgid "❌ Error parsing media source info for item {id}."
+msgstr "❌ アイテム{id}のメディアソース情報の解析中にエラーが発生しました。"
+
+msgid "🗂️ Getting Emby library list..."
+msgstr "🗂️ Embyライブラリリストを取得中..."
+
+msgid "Could not find any media libraries."
+msgstr "メディアライブラリが見つかりませんでした。"
+
+msgid "✅ Successfully retrieved {count} media libraries."
+msgstr "✅ {count}件のメディアライブラリを正常に取得しました。"
+
+msgid "Failed to parse media library list: {error}"
+msgstr "メディアライブラリリストの解析に失敗しました: {error}"
+
+msgid "Failed to get media library list from Emby API."
+msgstr "Emby APIからメディアライブラリリストの取得に失敗しました。"
+
+msgid "ℹ️ Getting latest episode information for series {id}."
+msgstr "ℹ️ シリーズ{id}の最新エピソード情報を取得中..."
+
+msgid "✅ Got latest episode: S{s}E{e}"
+msgstr "✅ 最新エピソードを取得しました: S{s}E{e}"
+
+msgid "ℹ️ Querying for exact item info of series {id} S{s:02d}E{e:02d}."
+msgstr "ℹ️ シリーズ{id} S{s:02d}E{e:02d} の正確なアイテム情報を照会中..."
+
+msgid "✅ Exact match successful, Item ID: {id}"
+msgstr "✅ 完全一致成功、アイテムID: {id}"
+
+msgid "❌ Emby API could not find S{s:02d}E{e:02d}."
+msgstr "❌ Emby APIがS{s:02d}E{e:02d}を見つけられませんでした。"
+
+msgid "ℹ️ Looking for any episode in season {num} as a spec reference..."
+msgstr "ℹ️ スペック参照としてシーズン{num}内の任意のエピソードを検索中..."
+
+msgid "✅ Found reference episode in season {num}, ID: {id}"
+msgstr "✅ シーズン{num}に参照エピソードが見つかりました、ID: {id}"
+
+msgid "❌ Could not find any episodes in season {num}."
+msgstr "❌ シーズン{num}にエピソードが見つかりませんでした。"
+
+msgid "ℹ️ Getting media stream info for item {id}."
+msgstr "ℹ️ アイテム{id}のメディアストリーム情報を取得中..."
+
+msgid "✅ Got media stream info for item {id}."
+msgstr "✅ アイテム{id}のメディアストリーム情報を取得しました。"
+
+msgid "ℹ️ Getting season specs for series {id}."
+msgstr "ℹ️ シリーズ{id}のシーズンスペックを取得中..."
+
+msgid "Error: This feature requires an Emby User ID to be configured"
+msgstr "エラー: この機能にはEmbyユーザーIDの設定が必要です"
+
+msgid "Failed to query season list"
+msgstr "シーズンリストの照会に失敗しました"
+
+msgid "No seasons found"
+msgstr "シーズンが見つかりません"
+
+msgid "ℹ️ Querying episodes for season {num} ({id})."
+msgstr "ℹ️ シーズン{num} ({id}) のエピソードを照会中..."
+
+msgid "Error parsing season information"
+msgstr "シーズン情報の解析中にエラーが発生しました"
+
+msgid "🟡 Emby season S{num:02d} not found"
+msgstr "🟡 EmbyシーズンS{num:02d}が見つかりません"
+
+msgid "No seasons were deleted."
+msgstr "削除されたシーズンはありませんでした。"
+
+msgid "❌ Failed to fetch episode list for Emby season S{num:02d}"
+msgstr "❌ EmbyシーズンS{num:02d}のエピソードリストの取得に失敗しました"
+
+msgid "❌ Failed to parse episode list for Emby season S{num:02d}"
+msgstr "❌ EmbyシーズンS{num:02d}のエピソードリストの解析に失敗しました"
+
+msgid "🟡 Emby item S{s:02d}E{e:02d} not found"
+msgstr "🟡 EmbyアイテムS{s:02d}E{e:02d}が見つかりません"
+
+msgid "No episodes were deleted."
+msgstr "削除されたエピソードはありませんでした。"
+
+msgid "Unknown location"
+msgstr "不明な場所"
+
+msgid "✅ Successfully got geolocation for IP ({ip}) from Baidu API: {location}"
+msgstr "✅ Baidu APIからIP({ip})のジオロケーションを正常に取得しました: {location}"
+
+msgid "❌ Error parsing Baidu API response. IP: {ip}, Error: {error}"
+msgstr "❌ Baidu APIレスポンスの解析中にエラーが発生しました。IP: {ip}, エラー: {error}"
+
+msgid "❌ IP138 API Error: 'ip_api_token_ip138' is not configured in config.yaml."
+msgstr "❌ IP138 APIエラー: 'ip_api_token_ip138'がconfig.yamlに設定されていません。"
+
+msgid "Unknown location (Token missing)"
+msgstr "不明な場所 (トークンがありません)"
+
+msgid "China"
+msgstr "中国"
+
+msgid "❌ Error parsing IP138 API response. IP: {ip}, Error: {error}"
+msgstr "❌ IP138 APIレスポンスの解析中にエラーが発生しました。IP: {ip}, エラー: {error}"
+
+msgid "❌ Error parsing PCOnline API response. IP: {ip}, Error: {error}"
+msgstr "❌ PCOnline APIレスポンスの解析中にエラーが発生しました。IP: {ip}, エラー: {error}"
+
+msgid "❌ Error parsing Vore API response. IP: {ip}, Error: {error}"
+msgstr "❌ Vore APIレスポンスの解析中にエラーが発生しました。IP: {ip}, エラー: {error}"
+
+msgid "Telecom"
+msgstr "通信"
+
+msgid "Unicom"
+msgstr "聯通"
+
+msgid "Mobile"
+msgstr "移動"
+
+msgid "Broadcasting"
+msgstr "放送"
+
+msgid "❌ Error parsing IP-API.com response. IP: {ip}, Error: {error}"
+msgstr "❌ IP-API.comレスポンスの解析中にエラーが発生しました。IP: {ip}, エラー: {error}"
+
+msgid "LAN"
+msgstr "LAN"
+
+msgid "🌍 Querying IP: {ip} using {provider} API"
+msgstr "🌍 {provider} APIを使用してIPを照会中: {ip}"
+
+msgid "🔍 Querying details for TMDB ID: {id}"
+msgstr "🔍 TMDB ID: {id} の詳細を照会中"
+
+msgid "✅ Found a match in TMDB: {title} (Type: {type})"
+msgstr "✅ TMDBで一致が見つかりました: {title} (タイプ: {type})"
+
+msgid "❌ Nothing found in TMDB with ID {id}."
+msgstr "❌ TMDBでID {id} のものが見つかりませんでした。"
+
+msgid "Any year"
+msgstr "任意の年"
+
+msgid "🔍 Performing multi-search on TMDB: {title} ({year})"
+msgstr "🔍 TMDBでマルチ検索を実行中: {title} ({year})"
+
+msgid "✅ TMDB multi-search found {count} unique results."
+msgstr "✅ TMDBマルチ検索で{count}件のユニークな結果が見つかりました。"
+
+msgid "🔍 Searching TMDB: {title} ({year})"
+msgstr "🔍 TMDBを検索中: {title} ({year})"
+
+msgid "❌ TMDB found no matching results."
+msgstr "❌ TMDBで一致する結果が見つかりませんでした。"
+
+msgid "✅ Found exact match: {title}, ID: {id}"
+msgstr "✅ 完全一致が見つかりました: {title}, ID: {id}"
+
+msgid "⚠️ No exact match found, returning the most popular result: {title}, ID: {id}"
+msgstr "⚠️ 完全一致が見つからなかったため、最も人気のある結果を返します: {title}, ID: {id}"
+
+msgid "❌ TMDB search failed"
+msgstr "❌ TMDB検索に失敗しました"
+
+msgid "⚠️ TMDB_API_TOKEN is not configured, skipping fetching media details."
+msgstr "⚠️ TMDB_API_TOKENが設定されていないため、メディア詳細の取得をスキップします。"
+
+msgid "ℹ️ Getting media details for item {name} ({id}). Type: {type}"
+msgstr "ℹ️ アイテム{name} ({id})のメディア詳細を取得中。タイプ: {type}"
+
+msgid "⚠️ Cannot get TMDB ID from Episode, trying to get it from SeriesId ({id})."
+msgstr "⚠️ エピソードからTMDB IDを取得できないため、シリーズID({id})から取得を試みます。"
+
+msgid "⚠️ Still no TMDB ID, trying to search TMDB by title."
+msgstr "⚠️ まだTMDB IDがないため、タイトルでTMDBを検索してみます。"
+
+msgid "✅ Got poster link for TMDB ID {id} from cache."
+msgstr "✅ TMDB ID {id} のポスターリンクをキャッシュから取得しました。"
+
+msgid "✅ Successfully fetched and cached the poster from TMDB."
+msgstr "✅ TMDBからポスターを正常に取得し、キャッシュしました。"
+
+msgid "ℹ️ Querying season list for TMDB series {id}."
+msgstr "ℹ️ TMDBシリーズ{id}のシーズンリストを照会中..."
+
+msgid "✅ TMDB Season List: {nums}"
+msgstr "✅ TMDBシーズンリスト: {nums}"
+
+msgid "ℹ️ Querying details for season {num} of TMDB series {id}."
+msgstr "ℹ️ TMDBシリーズ{id}のシーズン{num}の詳細を照会中..."
+
+msgid "❌ TMDB could not find the episode list for season {num}."
+msgstr "❌ TMDBはシーズン{num}のエピソードリストを見つけられませんでした。"
+
+msgid "✅ TMDB Season {num}: {count} total entries, max episode number E{max_ep:02d}."
+msgstr "✅ TMDBシーズン{num}: 合計{count}件、最大エピソード番号E{max_ep:02d}。"
+
+msgid "ℹ️ Getting all aliases and years for ID {id} from TMDB..."
+msgstr "ℹ️ TMDBからID {id} のすべてのエイリアスと年を取得中..."
+
+msgid "✅ Found {count} unique name/year combinations for ID {id}."
+msgstr "✅ ID {id} に{count}件のユニークな名前/年の組み合わせが見つかりました。"
+
+msgid "🖼️ Attempting to load poster cache: {path}"
+msgstr "🖼️ ポスターキャッシュを読み込み中: {path}"
+
+msgid "✅ Poster cache loaded successfully."
+msgstr "✅ ポスターキャッシュが正常に読み込まれました。"
+
+msgid "❌ Failed to load poster cache: {error}, will use an empty cache."
+msgstr "❌ ポスターキャッシュの読み込みに失敗しました: {error}。空のキャッシュを使用します。"
+
+msgid "💾 Attempting to save poster cache: {path}"
+msgstr "💾 ポスターキャッシュを保存中: {path}"
+
+msgid "✅ Poster cache saved successfully."
+msgstr "✅ ポスターキャッシュが正常に保存されました。"
+
+msgid "❌ Failed to save poster cache: {error}"
+msgstr "❌ ポスターキャッシュの保存に失敗しました: {error}"
+
+msgid "🗺️ Attempting to load ID map cache: {path}"
+msgstr "🗺️ IDマップキャッシュを読み込み中: {path}"
+
+msgid "✅ ID map cache loaded successfully."
+msgstr "✅ IDマップキャッシュが正常に読み込まれました。"
+
+msgid "❌ Failed to load ID map cache: {error}, will use an empty cache."
+msgstr "❌ IDマップキャッシュの読み込みに失敗しました: {error}。空のキャッシュを使用します。"
+
+msgid "✨ Updating ID map cache: TMDB {tmdb_id} -> Emby {emby_id}"
+msgstr "✨ IDマップキャッシュを更新中: TMDB {tmdb_id} -> Emby {emby_id}"
+
+msgid "💾 Attempting to save ID map cache: {path}"
+msgstr "💾 IDマップキャッシュを保存中: {path}"
+
+msgid "✅ ID map cache saved successfully."
+msgstr "✅ IDマップキャッシュが正常に保存されました。"
+
+msgid "❌ Failed to save ID map cache: {error}"
+msgstr "❌ IDマップキャッシュの保存に失敗しました: {error}"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Japanese"
+msgstr "日本語"
+
+msgid "Chinese"
+msgstr "中国語"
+
+msgid "Korean"
+msgstr "韓国語"
+
+msgid "Undetermined"
+msgstr "未定"
+
+msgid "Multiple languages"
+msgstr "多言語"
+
+msgid "🌍 Attempting to load language configuration file: {path}"
+msgstr "🌍 言語設定ファイルを読み込み中: {path}"
+
+msgid "⚠️ Language configuration file {path} not found..."
+msgstr "⚠️ 言語設定ファイル{path}が見つかりません..."
+
+msgid "✅ Language configuration file loaded successfully."
+msgstr "✅ 言語設定ファイルが正常に読み込まれました。"
+
+msgid "❌ Failed to load language configuration file: {error}..."
+msgstr "❌ 言語設定ファイルの読み込みに失敗しました: {error}..."
+
+msgid "⚙️ Settings menu key map built."
+msgstr "⚙️ 設定メニューのキーマップが構築されました。"
+
+msgid "⚠️ WARNING: Key not found in user config or defaults: {path_str}"
+msgstr "⚠️ 警告: キーがユーザー設定またはデフォルト設定に見つかりません: {path_str}"
+
+msgid "📝 Attempting to load configuration file: {config_path}"
+msgstr "📝 設定ファイルを読み込み中: {config_path}"
+
+msgid "✅ Configuration loaded successfully."
+msgstr "✅ 設定が正常に読み込まれました。"
+
+msgid "⚠️ WARNING: Configuration file {config_path} not found. Using built-in defaults."
+msgstr "⚠️ 警告: 設定ファイル{config_path}が見つかりません。組み込みのデフォルト値を使用します。"
+
+msgid "❌ ERROR: Failed to read or parse configuration file: {error}"
+msgstr "❌ エラー: 設定ファイルの読み込みまたは解析に失敗しました: {error}"
+
+msgid "💾 Attempting to save configuration file: {config_path}"
+msgstr "💾 設定ファイルを保存中: {config_path}"
+
+msgid "✅ Configuration saved successfully."
+msgstr "✅ 設定が正常に保存されました。"
+
+msgid "❌ Failed to save configuration: {error}"
+msgstr "❌ 設定の保存に失敗しました: {error}"
+
+msgid "⚠️ WARNING: Could not parse timezone '{tz_str}', falling back to UTC. Error: {error}"
+msgstr "⚠️ 警告: タイムゾーン'{tz_str}'を解析できませんでした。UTCにフォールバックします。エラー: {error}"
+
+msgid "❌ ERROR: TELEGRAM_TOKEN or ADMIN_USER_ID is not set correctly in config.yaml"
+msgstr "❌ エラー: TELEGRAM_TOKENまたはADMIN_USER_IDがconfig.yamlで正しく設定されていません。"
+
+msgid "⚠️ WARNING: 'template_user_id' is not configured in config.yaml, user creation will be unavailable."
+msgstr "⚠️ 警告: 'template_user_id'がconfig.yamlに設定されていないため、ユーザー作成機能は利用できません。"
+
+msgid "🚀 Configuration initialization complete."
+msgstr "🚀 設定の初期化が完了しました。"
+
+msgid "🗃️ User {id} initiated a search, query: {query}"
+msgstr "🗃️ ユーザー{id}が検索を開始しました、クエリ: {query}"
+
+msgid "Error: The bot administrator has not set the Emby `user_id` in the configuration file."
+msgstr "エラー: ボット管理者が設定ファイルにEmby `user_id`を設定していません。"
+
+msgid "✅ Cache hit! TMDB ID {tmdb_id} corresponds to Emby ID {emby_id}."
+msgstr "✅ キャッシュヒット！TMDB ID {tmdb_id} はEmby ID {emby_id} に対応しています。"
+
+msgid "ℹ️ Cache miss or invalid, performing TMDB API polling search..."
+msgstr "ℹ️ キャッシュミスまたは無効なため、TMDB APIポーリング検索を実行中..."
+
+msgid "Could not find a program with ID `{id}` in TMDB."
+msgstr "TMDBにID `{id}` のプログラムが見つかりませんでした。"
+
+msgid "ℹ️ Searching in Emby using combination: (Name: {name}, Year: {year})"
+msgstr "ℹ️ Embyで組み合わせを使用して検索中: (名前: {name}, 年: {year})"
+
+msgid "Invalid keyword!"
+msgstr "無効なキーワードです！"
+
+msgid "Could not find anything related to “{query}” in Emby."
+msgstr "Embyで「{query}」に関連するものが見つかりませんでした。"
+
+msgid "✅ Search successful, found {count} results, cache ID: {id}"
+msgstr "✅ 検索成功、{count}件の結果が見つかりました、キャッシュID: {id}"
+
+msgid "ℹ️ No playback sessions currently active."
+msgstr "ℹ️ 現在アクティブな再生セッションはありません。"
+
+msgid "✅ No one is currently watching Emby."
+msgstr "✅ 現在Embyを視聴している人はいません。"
+
+msgid "ℹ️ Found {count} sessions."
+msgstr "ℹ️ {count}件のセッションが見つかりました。"
+
+msgid "⚠️ Warning: Skipping session because it lacks a NowPlayingItem or ID. Session data: {data}"
+msgstr "⚠️ 警告: NowPlayingItemまたはIDがないためセッションをスキップします。セッションデータ: {data}"
+
+msgid "ℹ️ Processing session: {id}, User: {user}"
+msgstr "ℹ️ セッションを処理中: {id}, ユーザー: {user}"
+
+msgid "Unknown User"
+msgstr "不明なユーザー"
+
+msgid "Unknown Player"
+msgstr "不明なプレイヤー"
+
+msgid "Unknown Device"
+msgstr "不明なデバイス"
+
+msgid "Unknown Title"
+msgstr "不明なタイトル"
+
+msgid "User"
+msgstr "ユーザー"
+
+msgid "Player: {player}"
+msgstr "プレイヤー: {player}"
+
+msgid "Device: {device}"
+msgstr "デバイス: {device}"
+
+msgid "Location: "
+msgstr "場所: "
+
+msgid "Location: `{ip}` {loc}"
+msgstr "場所: `{ip}` {loc}"
+
+msgid "Program: "
+msgstr "番組: "
+
+msgid "Progress: {progress}"
+msgstr "進捗: {progress}"
+
+msgid "Media Type: {type}"
+msgstr "メディアタイプ: {type}"
+
+msgid "Overview: {overview}"
+msgstr "概要: {overview}"
+
+msgid "Time: {time}"
+msgstr "時間: {time}"
+
+msgid "➡️ View on Server"
+msgstr "➡️ サーバーで表示"
+
+msgid "⏹️ Stop Playback"
+msgstr "⏹️ 再生停止"
+
+msgid "✉️ Send Message"
+msgstr "✉️ メッセージを送信"
+
+msgid "❌ Error processing session {id}: {error}"
+msgstr "❌ セッション{id}の処理中にエラーが発生しました: {error}"
+
+msgid "ℹ️ Finally returned {count} data entries."
+msgstr "ℹ️ 最終的に{count}件のデータエントリが返されました。"
+
+msgid "⚙️ Sending settings menu to user {id}, menu key: {key}"
+msgstr "⚙️ 設定メニューをユーザー{id}に送信中、メニューキー: {key}"
+
+msgid "Please select the robot's interface language."
+msgstr "ロボットのインターフェース言語を選択してください。"
+
+msgid "Please select an IP Geolocation API service."
+msgstr "IPジオロケーションAPIサービスを選択してください。"
+
+msgid "☑️ Done"
+msgstr "☑️ 完了"
+
+msgid "📄 Sending results page {page}, cache ID: {id}"
+msgstr "📄 結果ページ{page}を送信中、キャッシュID: {id}"
+
+msgid "Sorry, this search result has expired. Please start a new search."
+msgstr "申し訳ありませんが、この検索結果は期限切れです。新しい検索を開始してください。"
+
+msgid "Please select the program you want to manage:"
+msgstr "管理したい番組を選択してください:"
+
+msgid "Found the following programs, click on a name to see details:"
+msgstr "以下の番組が見つかりました。名前をクリックして詳細を表示してください:"
+
+msgid "◀️ Previous Page"
+msgstr "◀️ 前のページ"
+
+msgid "Next Page ▶️"
+msgstr "次のページ ▶️"
+
+msgid "ℹ️ Sending search result details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 検索結果詳細を送信中、キャッシュID: {id}, インデックス: {index}"
+
+msgid "Sorry, this search result has expired or is invalid."
+msgstr "申し訳ありませんが、この検索結果は期限切れまたは無効です。"
+
+msgid "Error: The bot administrator has not set the Emby `user_id`."
+msgstr "エラー: ボット管理者がEmby `user_id`を設定していません。"
+
+msgid "Failed to get detailed information."
+msgstr "詳細情報の取得に失敗しました。"
+
+msgid "No overview available."
+msgstr "概要はありません。"
+
+msgid "Name: [{title}]({link})"
+msgstr "名前: [{title}]({link})"
+
+msgid "Name: *{title}*"
+msgstr "名前: *{title}*"
+
+msgid "Type: {type}"
+msgstr "タイプ: {type}"
+
+msgid "Movie"
+msgstr "映画"
+
+msgid "Series"
+msgstr "シリーズ"
+
+msgid "Category: {category}"
+msgstr "カテゴリ: {category}"
+
+msgid "Date Added: {time}"
+msgstr "追加日: {time}"
+
+msgid "Specs unknown"
+msgstr "スペック不明"
+
+msgid "Season Specs:"
+msgstr "シーズンスペック:"
+
+msgid "Season {s} Episode {e}"
+msgstr "シーズン{s} エピソード{e}"
+
+msgid "Incomplete information"
+msgstr "情報が不完全です"
+
+msgid "Updated to: [{info}]({link})"
+msgstr "更新済み: [{info}]({link})"
+
+msgid "Updated to: {info}"
+msgstr "更新済み: {info}"
+
+msgid "ℹ️ Sending manage details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 管理詳細を送信中、キャッシュID: {id}, インデックス: {index}"
+
+msgid "🔄 Manage this program"
+msgstr "🔄 この番組を管理"
+
+msgid "↩️ Exit Management"
+msgstr "↩️ 管理を終了"
+
+msgid "➡️ Received command from user {user_id} in Chat ID {chat_id}: {text}"
+msgstr "➡️ ユーザー{user_id}からチャットID{chat_id}でコマンドを受信しました: {text}"
+
+msgid "🚫 Ignoring message from unauthorized user."
+msgstr "🚫 未承認ユーザーからのメッセージを無視しました。"
+
+msgid "ℹ️ User {id} entered a new command, canceling previous awaiting state."
+msgstr "ℹ️ ユーザー{id}が新しいコマンドを入力したため、以前の待機状態をキャンセルしました。"
+
+msgid "🔍 User {id} initiated a search: {text}"
+msgstr "🔍 ユーザー{id}が検索を開始しました: {text}"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and password."
+msgstr "❌ フォーマットエラー。ユーザー名にスペースを含めることはできません。また、ユーザー名とパスワードは1つのスペースで区切る必要があります。"
+
+msgid "❌ Username cannot be empty."
+msgstr "❌ ユーザー名は空にできません。"
+
+msgid "❌ Format error. Please enter the old and new usernames, separated by a single space. Neither may contain spaces."
+msgstr "❌ フォーマットエラー。旧ユーザー名と新ユーザー名を1つのスペースで区切って入力してください。どちらにもスペースを含めることはできません。"
+
+msgid "Operation failed"
+msgstr "操作に失敗しました"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and new password."
+msgstr "❌ フォーマットエラー。ユーザー名にスペースを含めることはできません。また、ユーザー名と新しいパスワードは1つのスペースで区切る必要があります。"
+
+msgid "✅ The password for user '{username}' has been successfully changed."
+msgstr "✅ ユーザー'{username}'のパスワードが正常に変更されました。"
+
+msgid "❌ Failed to change the password for user '{username}'."
+msgstr "❌ ユーザー'{username}'のパスワード変更に失敗しました。"
+
+msgid "❌ Cannot delete the administrator account the bot is currently using."
+msgstr "❌ ボットが現在使用している管理者アカウントは削除できません。"
+
+msgid "❓ Are you sure you want to delete the user "
+msgstr "❓ 本当にユーザー "
+
+msgid " (ID: "
+msgstr " (ID: "
+
+msgid ")?\n\n"
+msgstr ") を削除しますか？\n\n"
+
+msgid "This action cannot be undone!"
+msgstr "この操作は元に戻せません！"
+
+msgid "⚠️ Yes, delete"
+msgstr "⚠️ はい、削除します"
+
+msgid "◀️ Back to previous menu"
+msgstr "◀️ 前のメニューに戻る"
+
+msgid "✉️ User {id} replied with a message to send to session {session_id}: {text}"
+msgstr "✉️ ユーザー{id}がセッション{session_id}に送信するメッセージで返信しました: {text}"
+
+msgid "No one is currently watching, no broadcast needed."
+msgstr "現在視聴中のユーザーがいないため、一斉送信は不要です。"
+
+msgid "✅ Broadcast message sent to {count} sessions."
+msgstr "✅ {count}件のセッションに一斉送信メッセージを送信しました。"
+
+msgid "❌ Invalid input. Please enter as per the example: S01 S03 S05"
+msgstr "❌ 無効な入力です。例に従って入力してください: S01 S03 S05"
+
+msgid "⚠️ Seasons to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ 削除するシーズン: {preview}\n削除方法を選択してください:"
+
+msgid "⏏️ Delete from Emby"
+msgstr "⏏️ Embyから削除"
+
+msgid "🗑️ Delete local files"
+msgstr "🗑️ ローカルファイルを削除"
+
+msgid "☁️ Delete cloud files"
+msgstr "☁️ クラウドファイルを削除"
+
+msgid "💥 Delete local + cloud"
+msgstr "💥 ローカル + クラウドを削除"
+
+msgid "❌ Exception while processing season input: {error}"
+msgstr "❌ シーズン入力の処理中に例外が発生しました: {error}"
+
+msgid "❌ Could not parse any valid season/episode numbers. Example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "❌ 有効なシーズン/エピソード番号を解析できませんでした。例: `S01E03 E11 S02E03-E06 E10`"
+
+msgid "⚠️ Episodes to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ 削除するエピソード: {preview}\n削除方法を選択してください:"
+
+msgid "❌ Exception while processing episode input: {error}"
+msgstr "❌ エピソード入力の処理中に例外が発生しました: {error}"
+
+msgid "🗃️ User {id} replied with a management query: {text}"
+msgstr "🗃️ ユーザー{id}が管理クエリで返信しました: {text}"
+
+msgid "❌ Incorrect input format. Please ensure it includes a name, a four-digit year, and a type, separated by spaces."
+msgstr "❌ 入力形式が正しくありません。名前、4桁の年、タイプをスペースで区切って含めてください。"
+
+msgid "Searching for \"{name} ({year})\" in the \"{folder}\" directory of the cloud drive. Results will be shown shortly."
+msgstr "クラウドドライブの「{folder}」ディレクトリで「{name} ({year})」を検索しています。結果はまもなく表示されます。"
+
+msgid "❌ Configuration Error: `media_cloud_path` or `media_base_path` is not set."
+msgstr "❌ 設定エラー: `media_cloud_path` または `media_base_path` が設定されていません。"
+
+msgid "❌ Cloud category directory not found: `{folder}`"
+msgstr "❌ クラウドのカテゴリディレクトリが見つかりません: `{folder}`"
+
+msgid "❌ No matching program directory found for “{name} ({year})” under the `{folder}` category."
+msgstr "❌ `{folder}`カテゴリ内に「{name} ({year})」に一致する番組ディレクトリが見つかりませんでした。"
+
+msgid "❌ No .nfo file found in the directory `/{path}`."
+msgstr "❌ ディレクトリ `/{path}` に.nfoファイルが見つかりませんでした。"
+
+msgid "❌ Could not parse a valid TMDB ID from the file `{filename}`."
+msgstr "❌ ファイル `{filename}` から有効なTMDB IDを解析できませんでした。"
+
+msgid "❌ Failed to query information using TMDB ID `{id}`."
+msgstr "❌ TMDB ID `{id}` を使用した情報照会に失敗しました。"
+
+msgid "Please confirm if you want to sync the following program from the cloud drive:"
+msgstr "クラウドドライブから以下の番組を同期するか確認してください:"
+
+msgid "\nName: [{title}]({link})"
+msgstr "\n名前: [{title}]({link})"
+
+msgid "Category: {folder}"
+msgstr "カテゴリ: {folder}"
+
+msgid "⬇️ Confirm and Start Sync"
+msgstr "⬇️ 確認して同期を開始"
+
+msgid "👋 Welcome to {bot_name}!\n\n"
+msgstr "👋 {bot_name}へようこそ！\n\n"
+
+msgid "This bot helps you interact with your Emby server.\n\n"
+msgstr "このボットはEmbyサーバーとの対話を支援します。\n\n"
+
+msgid "Here are the commands you can use:\n\n"
+msgstr "使用できるコマンドは以下の通りです:\n\n"
+
+msgid " - Search for movies or series in your Emby library. Example: \n"
+msgstr " - Embyライブラリ内の映画やシリーズを検索します。例:\n"
+
+msgid "Kung Fu Panda"
+msgstr "君の名は"
+
+msgid "The Big Bang Theory 2007"
+msgstr "進撃の巨人 2013"
+
+msgid " (search a TMDB ID)\n\n"
+msgstr " (TMDB IDで検索)\n\n"
+
+msgid " - Check the current playback status on the Emby server (server administrators only).\n\n"
+msgstr " - Embyサーバーの現在の再生状況を確認します（サーバー管理者のみ）。\n\n"
+
+msgid " - Access an interactive menu to configure bot notifications and features (server administrators only).\n\n"
+msgstr " - インタラクティブメニューにアクセスして、ボットの通知や機能を設定します（サーバー管理者のみ）。\n\n"
+
+msgid " - Manage Emby programs, media files, and users (server administrators only).\n\n"
+msgstr " - Embyの番組、メディアファイル、ユーザーを管理します（サーバー管理者のみ）。\n\n"
+
+msgid "You can start by typing a command."
+msgstr "コマンドを入力して開始できます。"
+
+msgid "Insufficient permissions: This command is for super administrators only."
+msgstr "権限が不足しています: このコマンドはスーパー管理者専用です。"
+
+msgid "🚫 Denied user {id} from executing admin command {command}"
+msgstr "🚫 ユーザー{id}による管理者コマンド{command}の実行が拒否されました"
+
+msgid "🎬 Current Emby Playback Sessions: {count}"
+msgstr "🎬 現在のEmby再生セッション数: {count}"
+
+msgid "✉️ Broadcast Message"
+msgstr "✉️ 一斉送信メッセージ"
+
+msgid "⏹️ Stop All"
+msgstr "⏹️ すべて停止"
+
+msgid "Please provide the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "検索したい番組名（年は任意）またはTMDB IDを入力してください。\n例: 君の名は or 進撃の巨人 2013 or 299534"
+
+msgid "Please reply to this message with the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "このメッセージに返信する形で、検索したい番組名（年は任意）またはTMDB IDを入力してください。\n例: 君の名は or 進撃の巨人 2013 or 299534"
+
+msgid "Please select a management category:"
+msgstr "管理カテゴリを選択してください:"
+
+msgid "🎦 Emby Program Management"
+msgstr "🎦 Emby番組管理"
+
+msgid "👤 Emby User Management"
+msgstr "👤 Embyユーザー管理"
+
+msgid "✅ Update successful!\nSee the new message below for detailed logs."
+msgstr "✅ 更新成功！\n詳細なログは下の新しいメッセージをご覧ください。"
+
+msgid "⚠️ Exception occurred when posting update results, falling back to a separate text message: {error}"
+msgstr "⚠️ 更新結果の投稿中に例外が発生したため、別のテキストメッセージにフォールバックします: {error}"
+
+msgid "📞 Received callback query. ID: {id}, Data: {data}"
+msgstr "📞 コールバッククエリを受信しました。ID: {id}, データ: {data}"
+
+msgid "Sorry, this action is only available to super administrators."
+msgstr "申し訳ありませんが、この操作はスーパー管理者のみが利用できます。"
+
+msgid "This interaction was initiated by another user, you cannot operate it!"
+msgstr "この対話は他のユーザーによって開始されたため、操作できません！"
+
+msgid "Baidu API"
+msgstr "Baidu API"
+
+msgid "IP138 API (Token required)"
+msgstr "IP138 API (トークンが必要)"
+
+msgid "PCOnline API"
+msgstr "PCOnline API"
+
+msgid "Vore API"
+msgstr "Vore API"
+
+msgid "IP-API.com"
+msgstr "IP-API.com"
+
+msgid "API has been switched to: {name}"
+msgstr "APIが{name}に切り替わりました"
+
+msgid "Callback parameter error."
+msgstr "コールバックパラメータエラー。"
+
+msgid "Language switched to: {lang}!"
+msgstr "言語が{lang}に切り替わりました！"
+
+msgid "Invalid setting item."
+msgstr "無効な設定項目です。"
+
+msgid "Setting updated: {status}"
+msgstr "設定が更新されました: {status}"
+
+msgid "✅ Settings menu closed."
+msgstr "✅ 設定メニューを閉じました。"
+
+msgid "Invalid action."
+msgstr "無効な操作です。"
+
+msgid "This action has expired, please select again."
+msgstr "この操作は期限切れです。もう一度選択してください。"
+
+msgid "Executing deletion..."
+msgstr "削除を実行中..."
+
+msgid "❌ Unknown task type."
+msgstr "❌ 不明なタスクタイプです。"
+
+msgid "❌ Failed to get program path, cannot delete files."
+msgstr "❌ 番組パスの取得に失敗したため、ファイルを削除できません。"
+
+msgid "Invalid deletion method."
+msgstr "無効な削除方法です。"
+
+msgid "✅ Operation complete."
+msgstr "✅ 操作が完了しました。"
+
+msgid "Getting detailed information..."
+msgstr "詳細情報を取得中..."
+
+msgid "Please select a program and file management operation:"
+msgstr "番組とファイルの管理操作を選択してください:"
+
+msgid "🔀 Manage a single program"
+msgstr "🔀 個別の番組を管理"
+
+msgid "🔎 Scan media library"
+msgstr "🔎 メディアライブラリをスキャン"
+
+msgid "⬇️ Sync new program from cloud drive"
+msgstr "⬇️ クラウドから新しい番組を同期"
+
+msgid "Please select a user management operation:"
+msgstr "ユーザー管理操作を選択してください:"
+
+msgid "➕ Create User"
+msgstr "➕ ユーザーを作成"
+
+msgid "✏️ Rename User"
+msgstr "✏️ ユーザー名を変更"
+
+msgid "🔑 Change Password"
+msgstr "🔑 パスワードを変更"
+
+msgid "🗑️ Delete User"
+msgstr "🗑️ ユーザーを削除"
+
+msgid "✅ Management exited."
+msgstr "✅ 管理を終了しました。"
+
+msgid "✍️ Please enter the user's **old username** and **new username**, separated by a space.\n\n*Note: Neither the old nor the new username may contain spaces.*"
+msgstr "✍️ ユーザーの**旧ユーザー名**と**新ユーザー名**をスペースで区切って入力してください。\n\n*注意: 旧ユーザー名と新ユーザー名のどちらにもスペースを含めることはできません。*"
+
+msgid "❌ Operation failed: `template_user_id` is not configured in config.yaml."
+msgstr "❌ 操作に失敗しました: `template_user_id`がconfig.yamlに設定されていません。"
+
+msgid "✍️ Please enter a **username** and an optional **initial password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ **ユーザー名**と、任意で**初期パスワード**をスペースで区切って入力してください。\n\n*注意:*\n*1. ユーザー名とパスワードのどちらにもスペースを含めることはできません。\n2. ユーザー名のみ入力した場合、パスワードは空に設定されます。*"
+
+msgid "✍️ Please enter the **username** for the password change and the optional **new password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ パスワードを変更する**ユーザー名**と、任意で**新しいパスワード**をスペースで区切って入力してください。\n\n*注意:*\n*1. ユーザー名とパスワードのどちらにもスペースを含めることはできません。\n2. ユーザー名のみ入力した場合、パスワードは空に設定されます。*"
+
+msgid "✍️ Please enter the **exact username** of the Emby user you wish to delete."
+msgstr "✍️ 削除したいEmbyユーザーの**正確なユーザー名**を入力してください。"
+
+msgid "✍️ Please enter the name of the program to manage (year optional) or a TMDB ID."
+msgstr "✍️ 管理する番組名（年は任意）またはTMDB IDを入力してください。"
+
+msgid "✍️ Please enter the program name, year, and media type (e.g., `Kung Fu Panda 9502 Movies`):"
+msgstr "✍️ 番組名、年、メディアタイプをスペースで区切って入力してください（例: `君の名は 2016 映画`）:"
+
+msgid "❓ Are you sure you want to scan the folder containing *{item_name}*?\n\nThis action will look for new or changed files (e.g., new episodes)."
+msgstr "❓ *{item_name}* を含むフォルダをスキャンしますか？\n\nこの操作は新しいファイルや変更されたファイル（例: 新しいエピソード）を探します。"
+
+msgid "⚠️ Yes, scan"
+msgstr "⚠️ はい、スキャンします"
+
+msgid "◀️ Back"
+msgstr "◀️ 戻る"
+
+msgid "❓ Are you sure you want to refresh the metadata for *{item_name}*?\n\nThis action will rescan all related files and fetch information from the internet."
+msgstr "❓ *{item_name}* のメタデータを更新しますか？\n\nこの操作は関連するすべてのファイルを再スキャンし、インターネットから情報を取得します。"
+
+msgid "⚠️ Yes, refresh"
+msgstr "⚠️ はい、更新します"
+
+msgid "Getting program type..."
+msgstr "番組タイプを取得中..."
+
+msgid "❌ Failed to get program type, please try again."
+msgstr "❌ 番組タイプの取得に失敗しました。再試行してください。"
+
+msgid "⏏️ Delete program from Emby"
+msgstr "⏏️ Embyから番組を削除"
+
+msgid "💥 Delete local and cloud files"
+msgstr "💥 ローカルとクラウドのファイルを削除"
+
+msgid "◀️ Back to previous step"
+msgstr "◀️ 前のステップに戻る"
+
+msgid "Detected this program is a **Movie**. Please select a deletion method:"
+msgstr "この番組は**映画**です。削除方法を選択してください:"
+
+msgid "❌ Delete entire series"
+msgstr "❌ シリーズ全体を削除"
+
+msgid "❌ Delete seasons"
+msgstr "❌ シーズンを削除"
+
+msgid "❌ Delete episodes"
+msgstr "❌ エピソードを削除"
+
+msgid "Detected this program is a **Series**. Please select what you want to delete:"
+msgstr "この番組は**シリーズ**です。削除したいものを選択してください:"
+
+msgid "❌ Unsupported program type: {type}, cannot perform deletion."
+msgstr "❌ サポートされていない番組タイプです: {type}。削除を実行できません。"
+
+msgid "✍️ Please enter the season numbers to delete, separated by spaces (S prefix or pure numbers are supported):\n"
+msgstr "✍️ 削除するシーズン番号をスペースで区切って入力してください（Sプレフィックスまたは数字のみをサポート）:\n"
+
+msgid "For example: `S01 S03 S05` or `1 3 5`"
+msgstr "例: `S01 S03 S05` または `1 3 5`"
+
+msgid "✍️ Please enter the season and episode numbers to delete. Ranges and season-less notations are supported; separate multiple entries with spaces/commas:\n"
+msgstr "✍️ 削除するシーズンとエピソード番号を入力してください。範囲指定やシーズン省略表記もサポートされています。複数のエントリはスペース/カンマで区切ってください:\n"
+
+msgid "For example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "例: `S01E03 E11 S02E03-E06 E10`"
+
+msgid "🗂️ Scan folder"
+msgstr "🗂️ フォルダをスキャン"
+
+msgid "🔄 Refresh metadata"
+msgstr "🔄 メタデータを更新"
+
+msgid "❌ Delete this program"
+msgstr "❌ この番組を削除"
+
+msgid "🔄 Update this program from cloud"
+msgstr "🔄 この番組をクラウドから更新"
+
+msgid "Please select a file operation to perform on this program:"
+msgstr "この番組に対して実行するファイル操作を選択してください:"
+
+msgid "Syncing files from cloud... Details will be listed shortly."
+msgstr "クラウドからファイルを同期中... 詳細はまもなく表示されます。"
+
+msgid "❌ Action expired or invalid. Please try again."
+msgstr "❌ 操作は期限切れか無効です。再試行してください。"
+
+msgid "✅ User (ID: {user_id}) has been successfully deleted."
+msgstr "✅ ユーザー(ID: {user_id})が正常に削除されました。"
+
+msgid "❌ Failed to delete user (ID: {user_id})."
+msgstr "❌ ユーザー(ID: {user_id})の削除に失敗しました。"
+
+msgid "Sending scan request..."
+msgstr "スキャンリクエストを送信中..."
+
+msgid "Sending refresh request..."
+msgstr "更新リクエストを送信中..."
+
+msgid "Sending global scan request..."
+msgstr "グローバルスキャンリクエストを送信中..."
+
+msgid "Executing Emby deletion..."
+msgstr "Embyの削除を実行中..."
+
+msgid "Deleting files..."
+msgstr "ファイルを削除中..."
+
+msgid "❌ Failed to get item path, cannot delete files."
+msgstr "❌ アイテムパスの取得に失敗したため、ファイルを削除できません。"
+
+msgid "Updating files from cloud... Details will be listed shortly."
+msgstr "クラウドからファイルを更新中... 詳細はまもなく表示されます。"
+
+msgid "❌ Failed to get item path, cannot update."
+msgstr "❌ アイテムパスの取得に失敗したため、更新できません。"
+
+msgid "❌ Operation failed: Cloud drive path (media_cloud_path) is not set in the configuration."
+msgstr "❌ 操作に失敗しました: クラウドドライブのパス(media_cloud_path)が設定にありません。"
+
+msgid "Failed to get item information!"
+msgstr "アイテム情報の取得に失敗しました！"
+
+msgid "Unknown program"
+msgstr "不明な番組"
+
+msgid "*__{name}__* in Emby media library"
+msgstr "Embyメディアライブラリ内の *{name}*"
+
+msgid "local files"
+msgstr "ローカルファイル"
+
+msgid "cloud files"
+msgstr "クラウドファイル"
+
+msgid "local and cloud files"
+msgstr "ローカルとクラウドのファイル"
+
+msgid "❓ Are you sure you want to delete `{target}`?\n\nThis action cannot be undone!"
+msgstr "❓ 本当に`{target}`を削除しますか？\n\nこの操作は元に戻せません！"
+
+msgid "ℹ️ Getting library list..."
+msgstr "ℹ️ ライブラリリストを取得中..."
+
+msgid "❌ Failed to get media libraries: {error}"
+msgstr "❌ メディアライブラリの取得に失敗しました: {error}"
+
+msgid "💥 Scan all libraries"
+msgstr "💥 すべてのライブラリをスキャン"
+
+msgid "Please select a library to scan:"
+msgstr "スキャンするライブラリを選択してください:"
+
+msgid "❓ Are you sure you want to scan **all** media libraries?\n\nThis operation can be resource-intensive and may take some time."
+msgstr "❓ 本当に**すべて**のメディアライブラリをスキャンしますか？\n\nこの操作はリソースを大量に消費し、時間がかかる場合があります。"
+
+msgid "⚠️ Yes, scan all"
+msgstr "⚠️ はい、すべてスキャンします"
+
+msgid "❓ Are you sure you want to scan the library *{library_name}*?\n\nThis may take some time."
+msgstr "❓ ライブラリ *{library_name}* をスキャンしますか？\n\nこれには時間がかかる場合があります。"
+
+msgid "⚠️ Yes, stop all"
+msgstr "⚠️ はい、すべて停止します"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "❓ Are you sure you want to stop *all* playback sessions? This action cannot be undone."
+msgstr "❓ 本当に*すべて*の再生セッションを停止しますか？この操作は元に戻せません。"
+
+msgid "Stopping all sessions..."
+msgstr "すべてのセッションを停止中..."
+
+msgid "✅ No active sessions to stop."
+msgstr "✅ 停止するアクティブなセッションはありません。"
+
+msgid "✅ Operation complete, {count} playback sessions were stopped."
+msgstr "✅ 操作完了、{count}件の再生セッションが停止されました。"
+
+msgid "✍️ Please enter the message you want to *broadcast* to all users:"
+msgstr "✍️ すべてのユーザーに*一斉送信*したいメッセージを入力してください:"
+
+msgid "✍️ *Please reply to this message* with the content you want to *broadcast* to all users:"
+msgstr "✍️ *このメッセージに返信*して、すべてのユーザーに*一斉送信*したい内容を入力してください:"
+
+msgid "Operation cancelled"
+msgstr "操作はキャンセルされました"
+
+msgid "✅ Playback stopped successfully."
+msgstr "✅ 再生が正常に停止しました。"
+
+msgid "❌ Failed to stop playback."
+msgstr "❌ 再生の停止に失敗しました。"
+
+msgid "✍️ Please enter the message you want to send to this user:"
+msgstr "✍️ このユーザーに送信したいメッセージを入力してください:"
+
+msgid "✍️ *Please reply to this message* with the content you want to send to this user:"
+msgstr "✍️ *このメッセージに返信*して、このユーザーに送信したい内容を入力してください:"
+
+msgid "🔔 Webhook request received."
+msgstr "🔔 Webhookリクエストを受信しました。"
+
+msgid "❌ Unsupported Content-Type: {type}"
+msgstr "❌ サポートされていないContent-Typeです: {type}"
+
+msgid "❌ No data in webhook request."
+msgstr "❌ Webhookリクエストにデータがありません。"
+
+msgid "\n--- Emby Webhook Payload Start ---\n"
+msgstr "\n--- Emby Webhook ペイロード開始 ---\n"
+
+msgid "\n--- Emby Webhook Payload End ---\n"
+msgstr "\n--- Emby Webhook ペイロード終了 ---\n"
+
+msgid "ℹ️ Emby event detected: {event}"
+msgstr "ℹ️ Embyイベントを検出しました: {event}"
+
+msgid "ℹ️ Unhandled event type: {event}"
+msgstr "ℹ️ 未処理のイベントタイプ: {event}"
+
+msgid "❌ Error processing webhook: {error}"
+msgstr "❌ Webhookの処理中にエラーが発生しました: {error}"
+
+msgid "⚠️ New item notifications are disabled, skipping."
+msgstr "⚠️ 新規アイテム通知が無効になっているため、スキップします。"
+
+msgid "ℹ️ Supplementing metadata for item {id} using Emby API."
+msgstr "ℹ️ Emby APIを使用してアイテム{id}のメタデータを補完中..."
+
+msgid "✅ Specs found successfully (Strategy 1): Using specs from {ep}."
+msgstr "✅ スペックの検索に成功しました (戦略1): {ep}のスペックを使用します。"
+
+msgid "ℹ️ New item is a movie/episode, waiting 30s for Emby to analyze media source..."
+msgstr "ℹ️ 新規アイテムは映画/エピソードです。Embyがメディアソースを分析するまで30秒待機します..."
+
+msgid "❌ All spec-finding strategies failed, sending notification without specs."
+msgstr "❌ すべてのスペック検索戦略が失敗したため、スペックなしで通知を送信します。"
+
+msgid "✅ New"
+msgstr "✅ 新規"
+
+msgid " (Total {count} episodes)"
+msgstr " (全{count}話)"
+
+msgid "Newly added: {summary}{count}"
+msgstr "今回追加分: {summary}{count}"
+
+msgid "✉️ Sending new item notification to group {id}."
+msgstr "✉️ グループ{id}に新規アイテム通知を送信中..."
+
+msgid "✉️ Sending new item notification to channel {id}."
+msgstr "✉️ チャンネル{id}に新規アイテム通知を送信中..."
+
+msgid "✉️ Sending new item notification to admin {id}."
+msgstr "✉️ 管理者{id}に新規アイテム通知を送信中..."
+
+msgid "⚠️ Deleted item notifications are disabled, skipping."
+msgstr "⚠️ 削除済みアイテム通知が無効になっているため、スキップします。"
+
+msgid "⚠️ Ignoring unsupported delete event type: {type}"
+msgstr "⚠️ サポートされていない削除イベントタイプを無視します: {type}"
+
+msgid " Season {s}"
+msgstr " シーズン {s}"
+
+msgid "🗑️ Deleted"
+msgstr "🗑️ 削除済み"
+
+msgid "Deleted: {summary}"
+msgstr "削除済み: {summary}"
+
+msgid "Deletion Time: {time}"
+msgstr "削除時刻: {time}"
+
+msgid "⚠️ Deletion notification skipped: ADMIN_USER_ID not configured."
+msgstr "⚠️ 削除通知をスキップしました: ADMIN_USER_IDが設定されていません。"
+
+msgid "⚠️ Notifications for {event} are disabled, skipping."
+msgstr "⚠️ {event}の通知が無効になっているため、スキップします。"
+
+msgid "⚠️ ADMIN_USER_ID not configured, skipping playback notification."
+msgstr "⚠️ ADMIN_USER_IDが設定されていないため、再生通知をスキップします。"
+
+msgid "⏳ Ignoring {event} event due to debounce time ({seconds}s)."
+msgstr "⏳ デバウンス時間({seconds}秒)のため、{event}イベントを無視します。"
+
+msgid "▶️ Playback Started"
+msgstr "▶️ 再生開始"
+
+msgid "▶️ Playback Resumed"
+msgstr "▶️ 再生再開"
+
+msgid "⏸️ Playback Paused"
+msgstr "⏸️ 再生一時停止"
+
+msgid "⏹️ Playback Stopped"
+msgstr "⏹️ 再生停止"
+
+msgid "User: {user}"
+msgstr "ユーザー: {user}"
+
+msgid "Location: {location}"
+msgstr "場所: {location}"
+
+msgid "Location: `{ip}` {location}"
+msgstr "場所: `{ip}` {location}"
+
+msgid "Progress: Watched {percent:.1f}%"
+msgstr "進捗: {percent:.1f}% 視聴済み"
+
+msgid "Progress: {percent:.1f}% ({played} / {total})"
+msgstr "進捗: {percent:.1f}% ({played} / {total})"
+
+msgid "✉️ Sending playback notification to admin {id}."
+msgstr "✉️ 管理者{id}に再生通知を送信中..."
+
+msgid "⚠️ Notifications for {event} event are disabled, skipping."
+msgstr "⚠️ {event}イベントの通知が無効になっているため、スキップします。"
+
+msgid "⚠️ ADMIN_USER_ID not configured, cannot send user/system event notifications."
+msgstr "⚠️ ADMIN_USER_IDが設定されていないため、ユーザー/システムイベント通知を送信できません。"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "User {username} successfully logged in"
+msgstr "ユーザー{username}が正常にログインしました"
+
+msgid "Client: {client}"
+msgstr "クライアント: {client}"
+
+msgid "User {username} login failed"
+msgstr "ユーザー{username}のログインに失敗しました"
+
+msgid "Unknown IP"
+msgstr "不明なIP"
+
+msgid "Reason for failure: Incorrect password"
+msgstr "失敗の理由: パスワードが間違っています"
+
+msgid "Reason for failure: User does not exist"
+msgstr "失敗の理由: ユーザーが存在しません"
+
+msgid "User {username} successfully created"
+msgstr "ユーザー{username}が正常に作成されました"
+
+msgid "User {username} has been deleted"
+msgstr "ユーザー{username}が削除されました"
+
+msgid "Policy for user {username} has been updated"
+msgstr "ユーザー{username}のポリシーが更新されました"
+
+msgid "Password for user {username} has been changed"
+msgstr "ユーザー{username}のパスワードが変更されました"
+
+msgid "Server restart required"
+msgstr "サーバーの再起動が必要です"
+
+msgid "✅ i18n initialized successfully, current language: {lang}"
+msgstr "✅ i18nが正常に初期化されました。現在の言語: {lang}"
+
+msgid "❌ i18n initialization failed, will use default language (English). Error: {e}"
+msgstr "❌ i18nの初期化に失敗しました。デフォルト言語(英語)を使用します。エラー: {e}"
+
+msgid "🗑️ Requesting file deletion, Emby path: {path}, ℹ️ Local: {local}, ℹ️ Cloud: {cloud}"
+msgstr "🗑️ ファイル削除をリクエスト中、Embyパス: {path}, ℹ️ ローカル: {local}, ℹ️ クラウド: {cloud}"
+
+msgid "Error: Item path '{item_path}' does not match or is invalid with base path '{base_path}'."
+msgstr "エラー: アイテムパス'{item_path}'がベースパス'{base_path}'と一致しないか、無効です。"
+
+msgid "✅ Successfully deleted local directory: {path}"
+msgstr "✅ ローカルディレクトリを正常に削除しました: {path}"
+
+msgid "❌ Failed to delete local directory: {error}"
+msgstr "❌ ローカルディレクトリの削除に失敗しました: {error}"
+
+msgid "❌ Error deleting local directory '{path}': {error}"
+msgstr "❌ ローカルディレクトリ'{path}'の削除中にエラーが発生しました: {error}"
+
+msgid "🟡 Local directory not found: {path}"
+msgstr "🟡 ローカルディレクトリが見つかりません: {path}"
+
+msgid "✅ Successfully deleted cloud directory: {path}"
+msgstr "✅ クラウドディレクトリを正常に削除しました: {path}"
+
+msgid "❌ Failed to delete cloud directory: {error}"
+msgstr "❌ クラウドディレクトリの削除に失敗しました: {error}"
+
+msgid "⚠️ Warning: Failed to delete cloud path '{path}': {error}"
+msgstr "⚠️ 警告: クラウドパス'{path}'の削除に失敗しました: {error}"
+
+msgid "🟡 Cloud directory not found: {path}"
+msgstr "🟡 クラウドディレクトリが見つかりません: {path}"
+
+msgid "🤷 No deletion operations were performed."
+msgstr "🤷 削除操作は実行されませんでした。"
+
+msgid "✅ Deletion operation complete:"
+msgstr "✅ 削除操作が完了しました:"
+
+msgid "🔄 Requesting media update, Emby path: {path}"
+msgstr "🔄 メディア更新をリクエスト中、Embyパス: {path}"
+
+msgid "Error: `media_base_path` or `media_cloud_path` is not set in the configuration."
+msgstr "エラー: `media_base_path`または`media_cloud_path`が設定にありません。"
+
+msgid "Error: Item path '{item_path}' does not match base path '{base_path}'."
+msgstr "エラー: アイテムパス'{item_path}'がベースパス'{base_path}'と一致しません。"
+
+msgid "Error: Source directory '{path}' not found in the cloud drive."
+msgstr "エラー: ソースディレクトリ'{path}'がクラウドドライブに見つかりません。"
+
+msgid "• Copied metadata: {filename}"
+msgstr "• メタデータをコピーしました: {filename}"
+
+msgid "Created"
+msgstr "作成"
+
+msgid "Updated"
+msgstr "更新"
+
+msgid "⚠️ Warning: Failed to set file timestamp: {error}"
+msgstr "⚠️ 警告: ファイルのタイムスタンプ設定に失敗しました: {error}"
+
+msgid "• {action} link: {filename}"
+msgstr "• {action}リンク: {filename}"
+
+msgid "✅ `/{path}` requires no update, files are already up to date."
+msgstr "✅ `/{path}`は更新不要です。ファイルは既に最新です。"
+
+msgid "✅ `/{path}` update complete."
+msgstr "✅ `/{path}`の更新が完了しました。"
+
+msgid "✅ `/{path}` has been updated successfully!\n\nChange details:\n{details}"
+msgstr "✅ `/{path}`が正常に更新されました！\n\n変更詳細:\n{details}"
+
+msgid "No deletion target specified."
+msgstr "削除対象が指定されていません。"
+
+msgid "🟡 {label} root directory is unknown or not configured."
+msgstr "🟡 {label}のルートディレクトリが不明または設定されていません。"
+
+msgid "✅ Deleted {label} directory: {path}"
+msgstr "✅ {label}ディレクトリを削除しました: {path}"
+
+msgid "❌ Failed to delete {label} directory: {path} | {error}"
+msgstr "❌ {label}ディレクトリの削除に失敗しました: {path} | {error}"
+
+msgid "🟡 {label} season directory not found: S{num:02d}"
+msgstr "🟡 {label}のシーズンディレクトリが見つかりません: S{num:02d}"
+
+msgid "Local"
+msgstr "ローカル"
+
+msgid "Cloud"
+msgstr "クラウド"
+
+msgid "🟡 {label} files not found: S{s:02d}E{e:02d}"
+msgstr "🟡 {label}ファイルが見つかりません: S{s:02d}E{e:02d}"
+
+msgid "✅ Deleted {label} file: {path}"
+msgstr "✅ {label}ファイルを削除しました: {path}"
+
+msgid "❌ Failed to delete {label} file: {path} | {error}"
+msgstr "❌ {label}ファイルの削除に失敗しました: {path} | {error}"
+
+msgid "ℹ️ Compiling local season/episode numbers for series {id}."
+msgstr "ℹ️ シリーズ{id}のローカルシーズン/エピソード番号を編集中..."
+
+msgid "✅ Local season/episode count complete ({count} seasons total)."
+msgstr "✅ ローカルシーズン/エピソード数の集計が完了しました (全{count}シーズン)。"
+
+msgid "Finished"
+msgstr "完結"
+
+msgid "Finished (may be inaccurate)"
+msgstr "完結 (不正確な可能性あり)"
+
+msgid "{count} episodes remaining"
+msgstr "残り{count}話"
+
+msgid "Update Progress: {status}"
+msgstr "更新進捗: {status}"
+
+msgid "…({count} episodes total)"
+msgstr "…(全{count}話)"
+
+msgid "Missing: S{s:02d} {head}{suffix}"
+msgstr "未取得: S{s:02d} {head}{suffix}"
+
+msgid "⚠️ Exception generating progress/missing info for new library notification: {error}"
+msgstr "⚠️ 新規ライブラリ通知の進捗/未取得情報生成中に例外が発生しました: {error}"
+
+msgid "❌ Error: chat_id not specified."
+msgstr "❌ エラー: chat_idが指定されていません。"
+
+msgid "💬 Sending Telegram notification to Chat ID {id}..."
+msgstr "💬 チャットID {id} にTelegram通知を送信中..."
+
+msgid "💬 Sending deletable notification to Chat ID {id}, deleting after {seconds} seconds."
+msgstr "💬 チャットID {id} に削除可能な通知を送信中、{seconds}秒後に削除されます。"
+
+msgid "⏳ Deleting message ID: {id}."
+msgstr "⏳ メッセージID {id} を削除中..."
+
+msgid "ℹ️ Delete message {id}: It may no longer exist or permissions are insufficient. Ignored."
+msgstr "ℹ️ メッセージ{id}の削除: 存在しないか権限が不足している可能性があるため、無視されました。"
+
+msgid "📞 Answering callback query: {id}"
+msgstr "📞 コールバッククエリに応答中: {id}"
+
+msgid "✏️ Editing message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "✏️ チャットID {chat_id}、メッセージID {msg_id} のメッセージを編集中..."
+
+msgid "❌ Exception in edit_telegram_message call: {error}"
+msgstr "❌ edit_telegram_message呼び出し中に例外が発生しました: {error}"
+
+msgid "🗑️ Deleting message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "🗑️ チャットID {chat_id}、メッセージID {msg_id} のメッセージを削除中..."
+
+msgid "⚠️ ADMIN_USER_ID not configured, all users will be unable to perform admin actions."
+msgstr "⚠️ ADMIN_USER_IDが設定されていないため、すべてのユーザーは管理者アクションを実行できません。"
+
+msgid "👥 Authorization status for user {id} retrieved from cache: {is_member}"
+msgstr "👥 ユーザー{id}の認証ステータスをキャッシュから取得しました: {is_member}"
+
+msgid "👥 Querying membership status for user {user_id} in group {group_id}."
+msgstr "👥 グループ{group_id}内のユーザー{user_id}のメンバーシップステータスを照会中..."
+
+msgid "✅ User {id} verified successfully."
+msgstr "✅ ユーザー{id}の検証に成功しました。"
+
+msgid "❌ User {id} verification failed, status: {status}."
+msgstr "❌ ユーザー{id}の検証に失敗しました、ステータス: {status}。"
+
+msgid "❌ Authorization failed: Error parsing group membership for user {id}."
+msgstr "❌ 認証に失敗しました: ユーザー{id}のグループメンバーシップの解析中にエラーが発生しました。"
+
+msgid "❌ Authorization failed: Query for group membership of user {id} failed, access denied."
+msgstr "❌ 認証に失敗しました: ユーザー{id}のグループメンバーシップの照会に失敗したため、アクセスが拒否されました。"
+
+msgid "🚀 Server started on http://0.0.0.0:{port}..."
+msgstr "🚀 サーバーが http://0.0.0.0:{port} で起動しました..."
+
+msgid "❌ Failed to start HTTP server, port {port} may already be in use. Error: {error}"
+msgstr "❌ HTTPサーバーの起動に失敗しました。ポート{port}が既に使用されている可能性があります。エラー: {error}"
+
+msgid "❌ An unknown error occurred while starting the HTTP server: {error}"
+msgstr "❌ HTTPサーバーの起動中に不明なエラーが発生しました: {error}"
+
+msgid "❌ Could not parse Bot ID from TELEGRAM_TOKEN. Auto-deleting reply messages may not work correctly."
+msgstr "❌ TELEGRAM_TOKENからボットIDを解析できませんでした。返信メッセージの自動削除が正常に機能しない可能性があります。"
+
+msgid "🤖 Telegram command polling service started..."
+msgstr "🤖 Telegramコマンドポーリングサービスが開始しました..."
+
+msgid "❌ API error while polling for Telegram updates: {error}"
+msgstr "❌ Telegramの更新をポーリング中にAPIエラーが発生しました: {error}"
+
+msgid "⚠️ Received a message with missing core fields, skipping: {msg}"
+msgstr "⚠️ コアフィールドが欠落したメッセージを受信したため、スキップします: {msg}"
+
+msgid "❌ Error processing a single Telegram update (Update ID: {uid}). This update will be skipped. Error: {err}"
+msgstr "❌ 単一のTelegram更新の処理中にエラーが発生しました (更新ID: {uid})。この更新はスキップされます。エラー: {err}"
+
+msgid "❌ Failed to poll for Telegram updates: {code} - {text}"
+msgstr "❌ Telegramの更新のポーリングに失敗しました: {code} - {text}"
+
+msgid "❌ Network error while polling Telegram: {error}"
+msgstr "❌ Telegramのポーリング中にネットワークエラーが発生しました: {error}"
+
+msgid "❌ A critical error occurred while polling Telegram: {error}"
+msgstr "❌ Telegramのポーリング中に重大なエラーが発生しました: {error}"
+
+msgid "Video Specs: "
+msgstr "映像スペック: "
+
+msgid "Video: "
+msgstr "映像: "
+
+msgid "Audio Specs: "
+msgstr "音声スペック: "
+
+msgid "Audio: "
+msgstr "音声: "
+
+msgid " and {count} more..."
+msgstr " およびその他{count}件..."
+
+msgid "Subtitle Specs: "
+msgstr "字幕スペック: "
+
+msgid "Subtitles: "
+msgstr "字幕: "
+
+msgid "❌ Error reading directory {directory}: {error}"
+msgstr "❌ ディレクトリ{directory}の読み込み中にエラーが発生しました: {error}"
+
+msgid "✅ NFO Parse: Found default <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO解析: デフォルトの<uniqueid type='tmdb'>を見つけました -> {id}"
+
+msgid "✅ NFO Parse: Found <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO解析: <uniqueid type='tmdb'>を見つけました -> {id}"
+
+msgid "✅ NFO Parse: Found <tmdbid> -> {id}"
+msgstr "✅ NFO解析: <tmdbid>を見つけました -> {id}"
+
+msgid "⚠️ NFO file '{filename}' is not valid XML, falling back to regex matching."
+msgstr "⚠️ NFOファイル'{filename}'は有効なXMLではないため、正規表現によるマッチングにフォールバックします。"
+
+msgid "✅ NFO Parse (regex): Found from URL -> {id}"
+msgstr "✅ NFO解析 (正規表現): URLから見つけました -> {id}"
+
+msgid "✅ NFO Parse (regex): Found from tag -> {id}"
+msgstr "✅ NFO解析 (正規表現): タグから見つけました -> {id}"
+
+msgid "❌ Error parsing NFO file {path}: {error}"
+msgstr "❌ NFOファイル{path}の解析中にエラーが発生しました: {error}"
+
+msgid "❌ Failed to find TMDB ID in NFO file '{filename}'."
+msgstr "❌ NFOファイル'{filename}'からTMDB IDを見つけることができませんでした。"
+
+msgid "============================================================\n⚠️ CRITICAL WARNING: 'user_id' not found in config.yaml.\n This may cause some Emby API requests that require user context to fail.\n It is strongly recommended to configure a valid user ID to ensure all features work correctly.\n============================================================"
+msgstr "============================================================\n⚠️ 重大な警告: 'user_id'がconfig.yamlに見つかりません。\n これにより、ユーザーコンテキストを必要とする一部のEmby APIリクエストが失敗する可能性があります。\n すべての機能が正常に動作するように、有効なユーザーIDを設定することを強くお勧めします。\n============================================================"
+
+msgid "⚙️ Main Menu"
+msgstr "⚙️ メインメニュー"
+
+msgid "Manage the bot's various features and notifications!"
+msgstr "ボットの様々な機能や通知を管理します！"
+
+msgid "Content Settings"
+msgstr "コンテンツ設定"
+
+msgid "New Content Notification Settings"
+msgstr "新規コンテンツ通知設定"
+
+msgid "Show Update Progress/Missing"
+msgstr "更新進捗/未取得を表示"
+
+msgid "Show Poster"
+msgstr "ポスターを表示"
+
+msgid "Show Media Details"
+msgstr "メディア詳細を表示"
+
+msgid "Add TMDB Link to Details"
+msgstr "詳細にTMDBリンクを追加"
+
+msgid "Show Overview"
+msgstr "概要を表示"
+
+msgid "Show Media Type"
+msgstr "メディアタイプを表示"
+
+msgid "Show Video Specs"
+msgstr "映像スペックを表示"
+
+msgid "Show Audio Specs"
+msgstr "音声スペックを表示"
+
+msgid "Show Subtitle Specs"
+msgstr "字幕スペックを表示"
+
+msgid "Show Timestamp"
+msgstr "タイムスタンプを表示"
+
+msgid "Show \"View on Server\" Button"
+msgstr "「サーバーで表示」ボタンを表示"
+
+msgid "Playback Status Feedback Settings"
+msgstr "再生ステータスフィードバック設定"
+
+msgid "Show Player"
+msgstr "プレイヤーを表示"
+
+msgid "Show Device"
+msgstr "デバイスを表示"
+
+msgid "Show Location Info"
+msgstr "場所情報を表示"
+
+msgid "Show \"Terminate Session\" Button"
+msgstr "「セッションを終了」ボタンを表示"
+
+msgid "Show \"Send Message\" Button"
+msgstr "「メッセージを送信」ボタンを表示"
+
+msgid "Show \"Broadcast Message\" Button"
+msgstr "「一斉送信」ボタンを表示"
+
+msgid "Show \"Terminate All\" Button"
+msgstr "「すべて終了」ボタンを表示"
+
+msgid "Playback Action Notification Settings"
+msgstr "再生アクション通知設定"
+
+msgid "Show Username"
+msgstr "ユーザー名を表示"
+
+msgid "Show Playback Progress"
+msgstr "再生進捗を表示"
+
+msgid "Deleted Content Notification Settings"
+msgstr "削除済みコンテンツ通知設定"
+
+msgid "Show Deletion Time"
+msgstr "削除時刻を表示"
+
+msgid "Search Results Display Settings"
+msgstr "検索結果表示設定"
+
+msgid "Show Media Type in Search List"
+msgstr "検索リストにメディアタイプを表示"
+
+msgid "Movie Display Settings"
+msgstr "映画表示設定"
+
+msgid "Add TMDB Link to Movie Title"
+msgstr "映画タイトルにTMDBリンクを追加"
+
+msgid "Show Type"
+msgstr "タイプを表示"
+
+msgid "Show Category"
+msgstr "カテゴリを表示"
+
+msgid "Show Added Time"
+msgstr "追加時刻を表示"
+
+msgid "Series Display Settings"
+msgstr "シリーズ表示設定"
+
+msgid "Add TMDB Link to Series Title"
+msgstr "シリーズタイトルにTMDBリンクを追加"
+
+msgid "Season Specs"
+msgstr "シーズンスペック"
+
+msgid "Show Season Video Specs"
+msgstr "シーズンの映像スペックを表示"
+
+msgid "Show Season Audio Specs"
+msgstr "シーズンの音声スペックを表示"
+
+msgid "Show Season Subtitle Specs"
+msgstr "シーズンの字幕スペックを表示"
+
+msgid "Update Progress"
+msgstr "更新進捗"
+
+msgid "Show \"Updated to\""
+msgstr "「更新済み」を表示"
+
+msgid "Add TMDB Link to \"Updated to\""
+msgstr "「更新済み」にTMDBリンクを追加"
+
+msgid "Show Update Progress"
+msgstr "更新進捗を表示"
+
+msgid "Notification Management"
+msgstr "通知管理"
+
+msgid "New/Deleted Content Notifications"
+msgstr "新規/削除コンテンツ通知"
+
+msgid "New Content Notifications"
+msgstr "新規コンテンツ通知"
+
+msgid "Deleted Content Notifications"
+msgstr "削除済みコンテンツ通知"
+
+msgid "Playback Action Notifications"
+msgstr "再生アクション通知"
+
+msgid "Playback Start/Resume Notifications"
+msgstr "再生開始/再開通知"
+
+msgid "Playback Pause Notifications"
+msgstr "再生一時停止通知"
+
+msgid "Playback Stop Notifications"
+msgstr "再生停止通知"
+
+msgid "Send to Group"
+msgstr "グループに送信"
+
+msgid "Send to Channel"
+msgstr "チャンネルに送信"
+
+msgid "Send to Admin"
+msgstr "管理者に送信"
+
+msgid "Advanced Notification Management"
+msgstr "高度な通知管理"
+
+msgid "User Login Success"
+msgstr "ユーザーログイン成功"
+
+msgid "User Login Failure"
+msgstr "ユーザーログイン失敗"
+
+msgid "User Creation/Deletion"
+msgstr "ユーザー作成/削除"
+
+msgid "User Policy/Password Updates"
+msgstr "ユーザーポリシー/パスワード更新"
+
+msgid "Server Restart Required"
+msgstr "サーバー再起動が必要"
+
+msgid "Auto-Delete Message Settings"
+msgstr "メッセージ自動削除設定"
+
+msgid "Auto-delete messages sent to Group"
+msgstr "グループに送信されたメッセージを自動削除"
+
+msgid "Auto-delete messages sent to Channel"
+msgstr "チャンネルに送信されたメッセージを自動削除"
+
+msgid "Auto-delete messages sent to Admin"
+msgstr "管理者に送信されたメッセージを自動削除"
+
+msgid "Advanced Notifications"
+msgstr "高度な通知"
+
+msgid "User Login Success/Failure"
+msgstr "ユーザーログイン成功/失敗"
+
+msgid "User Create/Delete/Update"
+msgstr "ユーザー作成/削除/更新"
+
+msgid "Server Events"
+msgstr "サーバーイベント"
+
+msgid "System Settings"
+msgstr "システム設定"
+
+msgid "Language Settings"
+msgstr "言語設定"
+
+msgid "IP Geolocation API Settings"
+msgstr "IPジオロケーションAPI設定"
+
+msgid "Please Restart Emby Server: {server_name}"
+msgstr "Embyサーバーを再起動してください: {server_name}"
+
+msgid "🔍 Specs not found, trying fallback: finding another episode in S{num:02d} for reference..."
+msgstr "🔍 仕様が見つかりません。フォールバックを試行中: S{num:02d} の別のエピソードを参考に検索しています..."
+
+msgid "✅ Fallback successful: using specs from reference episode (ID: {id})."
+msgstr "✅ フォールバック成功: 参考エピソード (ID: {id}) の仕様を使用しています。"
+
+msgid "Page {current}/{total}"
+msgstr "ページ {current}/{total}"
+
+msgid "Previous Page"
+msgstr "前のページ"
+
+msgid "This message has expired."
+msgstr "このメッセージは有効期限が切れています。"
+
+msgid "Name: <b>{title}</b>"
+msgstr "名前: <b>{title}</b>"
+
+msgid "Name: <a href=\"{link}\">{title}</a>"
+msgstr "名前: <a href=\"{link}\">{title}</a>"
+
+msgid "Updated to: <a href=\"{link}\">{info}</a>"
+msgstr "更新: <a href=\"{link}\">{info}</a>"
+
+msgid "Location: <code>{ip}</code> {loc}"
+msgstr "場所: <code>{ip}</code> {loc}"
+
+msgid "Location: <code>{ip}</code> {location}"
+msgstr "場所: <code>{ip}</code> {location}"

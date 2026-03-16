@@ -1,0 +1,2310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EmbyBot v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-16 10:52+0000\n"
+"PO-Revision-Date: 2025-08-18 17:57+0800\n"
+"Last-Translator: admin@embybot.com\n"
+"Language-Team: Traditional Chinese\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+
+msgid ""
+"❌ Telegram button callback_data exceeds 64-byte limit: {data} ({length} "
+"bytes)"
+msgstr ""
+"❌ Telegram 按鈕 callback_data 超出 64 位元組限制：{data} ({length} 位元組)"
+
+msgid "⚠️ Exception occurred during local check of reply_markup: {error}"
+msgstr "⚠️ 在本地檢查 reply_markup 期間發生異常：{error}"
+
+msgid "Unknown API"
+msgstr "未知的 API"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "TMDB"
+msgstr "TMDB"
+
+msgid "IP Geolocation"
+msgstr "IP 地理位置"
+
+msgid "Emby"
+msgstr "Emby"
+
+msgid ""
+"🌐 Making {api_name} API request (Attempt {attempt}), URL: {url}, Timeout: "
+"{timeout}s"
+msgstr ""
+"🌐 正在向 {api_name} API 發出請求 (第 {attempt} 次)，URL: {url}，超時: "
+"{timeout}秒"
+
+msgid "✅ {api_name} API request successful, Status Code: {code}"
+msgstr "✅ {api_name} API 請求成功，狀態碼: {code}"
+
+msgid "ℹ️ Telegram returned an ignorable edit/delete type error, ignoring."
+msgstr "ℹ️ Telegram 返回了可忽略的編輯/刪除類型錯誤，已忽略。"
+
+msgid ""
+"⏳ Telegram rate limit (429), retrying after {seconds}s. Error: {error_text}"
+msgstr ""
+"⏳ 觸發 Telegram 速率限制 (429)，將在 {seconds} 秒後重試。錯誤: {error_text}"
+
+msgid "❌ {api_name} server error {code}, will retry. Error: {error_text}"
+msgstr "❌ {api_name} 伺服器錯誤 {code}，將重試。錯誤: {error_text}"
+
+msgid ""
+"❌ {api_name} API request failed (Attempt {attempt}), Status Code: {code}, "
+"Response: {response}"
+msgstr ""
+"❌ {api_name} API 請求失敗 (第 {attempt} 次)，狀態碼: {code}，回應: {response}"
+
+msgid ""
+"❌ Network error on {api_name} API request (Attempt {attempt}), URL: {url}, "
+"Error: {error}"
+msgstr ""
+"❌ 向 {api_name} API 發出請求時發生網路錯誤 (第 {attempt} 次)，URL: {url}，錯"
+"誤: {error}"
+
+msgid ""
+"❌ {api_name} API request failed, max retries reached ({max_retries}), URL: "
+"{url}"
+msgstr ""
+"❌ {api_name} API 請求失敗，已達最大重試次數 ({max_retries})，URL: {url}"
+
+msgid "🔑 Getting Emby Access Token using username/password..."
+msgstr "🔑 正在使用使用者名稱/密碼獲取 Emby 存取權杖..."
+
+msgid ""
+"❌ Missing Emby username or password configuration required to get a token."
+msgstr "❌ 缺少獲取權杖所需的 Emby 使用者名稱或密碼設定。"
+
+msgid "✅ Successfully obtained Access Token."
+msgstr "✅ 成功獲取存取權杖。"
+
+msgid "❌ Failed to get Access Token. Status Code: {code}, Response: {text}"
+msgstr "❌ 獲取存取權杖失敗。狀態碼: {code}，回應: {text}"
+
+msgid "❌ Network error while getting Access Token: {error}"
+msgstr "❌ 獲取存取權杖時發生網路錯誤: {error}"
+
+msgid "🔎 Requesting scan for Emby item ID: {id}, Name: {name}"
+msgstr "🔎 請求掃描 Emby 項目 ID: {id}，名稱: {name}"
+
+msgid "❌ Scan failed: Emby server configuration is incomplete."
+msgstr "❌ 掃描失敗：Emby 伺服器設定不完整。"
+
+msgid ""
+"✅ Scan request sent to Emby for: \"{item_name}\". The process will run in "
+"the background. Please check the results in Emby later."
+msgstr ""
+"✅ 已向 Emby 發送掃描請求： 「{item_name}」。該過程將在背景執行，請稍後在 "
+"Emby 中檢查結果。"
+
+msgid ""
+"❌ Failed to send scan request for \"{item_name}\" (ID: {item_id}). Status "
+"Code: {code}, Server Response: {text}"
+msgstr ""
+"❌ 發送掃描請求失敗： 「{item_name}」 (ID: {item_id})。狀態碼: {code}，伺服器"
+"回應: {text}"
+
+msgid "🔎 Requesting to scan all Emby libraries..."
+msgstr "🔎 請求掃描所有 Emby 媒體庫..."
+
+msgid ""
+"✅ Request to scan all libraries has been sent to Emby. The task will be "
+"executed in the background."
+msgstr "✅ 掃描所有媒體庫的請求已發送至 Emby。任務將在背景執行。"
+
+msgid ""
+"❌ Failed to send \"Scan All\" request. Status Code: {code}, Response: {text}"
+msgstr "❌ 發送「掃描全部」請求失敗。狀態碼: {code}，回應: {text}"
+
+msgid "🔄 Requesting refresh for Emby item ID: {id}, Name: {name}"
+msgstr "🔄 請求刷新 Emby 項目 ID: {id}，名稱: {name}"
+
+msgid "❌ Refresh failed: Emby server configuration is incomplete."
+msgstr "❌ 刷新失敗：Emby 伺服器設定不完整。"
+
+msgid ""
+"✅ Refresh request sent to Emby for: \"{item_name}\". The process will run in "
+"the background. Please check the results in Emby later."
+msgstr ""
+"✅ 已向 Emby 發送刷新請求： 「{item_name}」。該過程將在背景執行，請稍後在 "
+"Emby 中檢查結果。"
+
+msgid ""
+"❌ Failed to send refresh request for \"{item_name}\" (ID: {item_id}). Status "
+"Code: {code}, Server Response: {text}"
+msgstr ""
+"❌ 發送刷新請求失敗： 「{item_name}」 (ID: {item_id})。狀態碼: {code}，伺服器"
+"回應: {text}"
+
+msgid "🗑️ Requesting to delete item from Emby. ID: {id}, Name: {name}"
+msgstr "🗑️ 請求從 Emby 刪除項目。 ID: {id}，名稱: {name}"
+
+msgid ""
+"❌ Failed to delete \"{item_name}\": Could not obtain a valid user Access "
+"Token from the Emby server. Please check the username and password in "
+"config.yaml."
+msgstr ""
+"❌ 刪除「{item_name}」失敗：無法從 Emby 伺服器獲取有效的使用者存取權杖。請檢"
+"查 config.yaml 中的使用者名稱和密碼。"
+
+msgid ""
+"✅ The item \"{item_name}\" has been successfully deleted from the Emby "
+"library."
+msgstr "✅ 項目「{item_name}」已成功從 Emby 媒體庫中刪除。"
+
+msgid ""
+"❌ Failed to delete Emby item \"{item_name}\" (ID: {item_id}). Status Code: "
+"{code}, Server Response: {text}"
+msgstr ""
+"❌ 刪除 Emby 項目「{item_name}」 (ID: {item_id}) 失敗。狀態碼: {code}，伺服器"
+"回應: {text}"
+
+msgid "👤 Querying Emby user by username '{username}'..."
+msgstr "👤 正在按使用者名稱 '{username}' 查詢 Emby 使用者..."
+
+msgid "Emby server configuration is incomplete."
+msgstr "Emby 伺服器設定不完整。"
+
+msgid "✅ Found user '{username}', ID: {id}"
+msgstr "✅ 找到使用者 '{username}'，ID: {id}"
+
+msgid "Could not find a user with the username '{username}'."
+msgstr "找不到用戶名為 '{username}' 的使用者。"
+
+msgid "Could not parse the user list response from Emby."
+msgstr "無法解析來自 Emby 的使用者列表回應。"
+
+msgid "Failed to get user list from Emby API."
+msgstr "從 Emby API 獲取使用者列表失敗。"
+
+msgid "📜 Getting full info for User ID {id} to extract policy..."
+msgstr "📜 正在獲取使用者 ID {id} 的完整資訊以提取策略..."
+
+msgid ""
+"Failed to get user policy: Policy object not found in the returned user data."
+msgstr "獲取使用者策略失敗：在返回的使用者資料中找不到策略物件。"
+
+msgid ""
+"Failed to get user policy: Could not parse user information returned by the "
+"Emby server."
+msgstr "獲取使用者策略失敗：無法解析 Emby 伺服器返回的使用者資訊。"
+
+msgid ""
+"Failed to get user policy: Could not get user information from the Emby API "
+"(please check if template_user_id is correct)."
+msgstr ""
+"獲取使用者策略失敗：無法從 Emby API 獲取使用者資訊（請檢查 template_user_id 是"
+"否正確）。"
+
+msgid "🔑 Setting a new password for User ID {id}..."
+msgstr "🔑 正在為使用者 ID {id} 設定新密碼..."
+
+msgid "🗑️ Deleting User ID: {id}"
+msgstr "🗑️ 正在刪除使用者 ID: {id}"
+
+msgid "✏️ Renaming username for User ID {id} to '{new_username}'..."
+msgstr "✏️ 正在將使用者 ID {id} 的使用者名稱更改為 '{new_username}'..."
+
+msgid ""
+"❌ Rename failed: Username '{new_username}' is already taken by another user."
+msgstr "❌ 重命名失敗：使用者名稱 '{new_username}' 已被其他使用者佔用。"
+
+msgid "❌ Rename failed: Could not get the details of the current user."
+msgstr "❌ 重命名失敗：無法獲取目前使用者的詳細資訊。"
+
+msgid "❌ Rename failed: Could not parse the current user's information."
+msgstr "❌ 重命名失敗：無法解析目前使用者的資訊。"
+
+msgid "✅ Username has been successfully changed to '{new_username}'."
+msgstr "✅ 使用者名稱已成功更改為 '{new_username}'。"
+
+msgid "❌ Failed to rename username, the server did not respond successfully."
+msgstr "❌ 重命名使用者名稱失敗，伺服器未成功回應。"
+
+msgid ""
+"❌ Creation failed: `template_user_id` is not set in the configuration file."
+msgstr "❌ 建立失敗：設定檔中未設定 `template_user_id`。"
+
+msgid "❌ Creation failed: Username '{username}' already exists."
+msgstr "❌ 建立失敗：使用者名稱 '{username}' 已存在。"
+
+msgid ""
+"❌ Creation failed: Could not get the configuration of the template user (ID: "
+"{id}). Error: {error}"
+msgstr "❌ 建立失敗：無法獲取範本使用者的設定 (ID: {id})。錯誤: {error}"
+
+msgid "✅ Successfully got the policy for template user {id}."
+msgstr "✅ 成功獲取範本使用者 {id} 的策略。"
+
+msgid "➕ Creating new user: {username}..."
+msgstr "➕ 正在建立新使用者: {username}..."
+
+msgid "❌ Creation failed: Error when calling the Emby API to create a user."
+msgstr "❌ 建立失敗：呼叫 Emby API 建立使用者時發生錯誤。"
+
+msgid "✅ User '{username}' has been created, new ID: {id}."
+msgstr "✅ 使用者 '{username}' 已建立，新的 ID 為: {id}。"
+
+msgid ""
+"❌ Creation failed: Could not parse new user information from the Emby API "
+"response."
+msgstr "❌ 建立失敗：無法從 Emby API 回應中解析新使用者資訊。"
+
+msgid "📜 Applying template policy for new user {id}..."
+msgstr "📜 正在為新使用者 {id} 應用範本策略..."
+
+msgid ""
+"❌ Creation failed: Error applying policy for the new user, operation has "
+"been rolled back."
+msgstr "❌ 建立失敗：為新使用者應用策略時出錯，操作已復原。"
+
+msgid "✅ Policy applied successfully."
+msgstr "✅ 策略應用成功。"
+
+msgid "🔑 Setting password for new user {id}..."
+msgstr "🔑 正在為新使用者 {id} 設定密碼..."
+
+msgid ""
+"❌ Creation failed: Error setting password for the new user, operation has "
+"been rolled back."
+msgstr "❌ 建立失敗：為新使用者設定密碼時出錯，操作已復原。"
+
+msgid "✅ Password set successfully."
+msgstr "✅ 密碼設定成功。"
+
+msgid ""
+"✅ Successfully created user '{username}', configuration cloned from template "
+"user."
+msgstr "✅ 成功建立使用者 '{username}'，設定已從範本使用者複製。"
+
+msgid "ℹ️ Getting Emby user list from cache."
+msgstr "ℹ️ 從快取獲取 Emby 使用者列表。"
+
+msgid "🔑 Getting full user list from Emby API..."
+msgstr "🔑 正在從 Emby API 獲取完整使用者列表..."
+
+msgid "❌ Missing Emby server configuration required to get user list."
+msgstr "❌ 缺少獲取使用者列表所需的 Emby 伺服器設定。"
+
+msgid "✅ Successfully retrieved and cached {count} usernames."
+msgstr "✅ 成功獲取並快取了 {count} 個使用者名稱。"
+
+msgid "❌ Failed to get Emby user list: Could not parse server response."
+msgstr "❌ 獲取 Emby 使用者列表失敗：無法解析伺服器回應。"
+
+msgid "❌ Failed to get Emby user list."
+msgstr "❌ 獲取 Emby 使用者列表失敗。"
+
+msgid "ℹ️ Querying active Emby sessions."
+msgstr "ℹ️ 正在查詢有效的 Emby 工作階段。"
+
+msgid "❌ Missing Emby server configuration, cannot query sessions."
+msgstr "❌ 缺少 Emby 伺服器設定，無法查詢工作階段。"
+
+msgid "✅ Found {count} active sessions."
+msgstr "✅ 找到 {count} 個有效的工作階段。"
+
+msgid "❌ Failed to query active sessions: Could not parse server response."
+msgstr "❌ 查詢有效工作階段失敗：無法解析伺服器回應。"
+
+msgid "🛑 Attempting to stop playback session: {id}"
+msgstr "🛑 正在嘗試停止播放工作階段: {id}"
+
+msgid "❌ Failed to stop session: Emby server configuration is incomplete."
+msgstr "❌ 停止工作階段失敗：Emby 伺服器設定不完整。"
+
+msgid "✅ Playback session {id} has been stopped successfully."
+msgstr "✅ 播放工作階段 {id} 已成功停止。"
+
+msgid "❌ Failed to stop playback session {id}."
+msgstr "❌ 停止播放工作階段 {id} 失敗。"
+
+msgid "✉️ Sending message to session {id}."
+msgstr "✉️ 正在向工作階段 {id} 發送訊息。"
+
+msgid "❌ Failed to send message: Emby server configuration is incomplete."
+msgstr "❌ 發送訊息失敗：Emby 伺服器設定不完整。"
+
+msgid "Message from administrator"
+msgstr "來自管理員的訊息"
+
+msgid "✅ Message sent successfully to session {id}."
+msgstr "✅ 訊息已成功發送至工作階段 {id}。"
+
+msgid "❌ Failed to send message to session {id}."
+msgstr "❌ 向工作階段 {id} 發送訊息失敗。"
+
+msgid "ℹ️ Getting resolution for item {id}."
+msgstr "ℹ️ 正在獲取項目 {id} 的解析度。"
+
+msgid "❌ Failed to get media source info for item {id}."
+msgstr "❌ 獲取項目 {id} 的媒體來源資訊失敗。"
+
+msgid "Unknown resolution"
+msgstr "未知的解析度"
+
+msgid "❌ Media source for item {id} is empty."
+msgstr "❌ 項目 {id} 的媒體來源為空。"
+
+msgid "✅ Got resolution for item {id}: {w}x{h}"
+msgstr "✅ 已獲取項目 {id} 的解析度: {w}x{h}"
+
+msgid "⚠️ No video stream found in item {id}."
+msgstr "⚠️ 在項目 {id} 中未找到視訊串流。"
+
+msgid "❌ Error parsing media source info for item {id}."
+msgstr "❌ 解析項目 {id} 的媒體來源資訊時出錯。"
+
+msgid "🗂️ Getting Emby library list..."
+msgstr "🗂️ 正在獲取 Emby 媒體庫列表..."
+
+msgid "Could not find any media libraries."
+msgstr "找不到任何媒體庫。"
+
+msgid "✅ Successfully retrieved {count} media libraries."
+msgstr "✅ 成功獲取 {count} 個媒體庫。"
+
+msgid "Failed to parse media library list: {error}"
+msgstr "解析媒體庫列表失敗: {error}"
+
+msgid "Failed to get media library list from Emby API."
+msgstr "從 Emby API 獲取媒體庫列表失敗。"
+
+msgid "ℹ️ Getting latest episode information for series {id}."
+msgstr "ℹ️ 正在獲取劇集 {id} 的最新分集資訊。"
+
+msgid "✅ Got latest episode: S{s}E{e}"
+msgstr "✅ 已獲取最新分集: S{s}E{e}"
+
+msgid "ℹ️ Querying for exact item info of series {id} S{s:02d}E{e:02d}."
+msgstr "ℹ️ 正在查詢劇集 {id} S{s:02d}E{e:02d} 的精確項目資訊。"
+
+msgid "✅ Exact match successful, Item ID: {id}"
+msgstr "✅ 精確匹配成功，項目 ID: {id}"
+
+msgid "❌ Emby API could not find S{s:02d}E{e:02d}."
+msgstr "❌ Emby API 找不到 S{s:02d}E{e:02d}。"
+
+msgid "ℹ️ Looking for any episode in season {num} as a spec reference..."
+msgstr "ℹ️ 正在第 {num} 季中尋找任一分集作為規格參考..."
+
+msgid "✅ Found reference episode in season {num}, ID: {id}"
+msgstr "✅ 在第 {num} 季中找到參考分集，ID: {id}"
+
+msgid "❌ Could not find any episodes in season {num}."
+msgstr "❌ 在第 {num} 季中找不到任何分集。"
+
+msgid "ℹ️ Getting media stream info for item {id}."
+msgstr "ℹ️ 正在獲取項目 {id} 的媒體串流資訊。"
+
+msgid "✅ Got media stream info for item {id}."
+msgstr "✅ 已獲取項目 {id} 的媒體串流資訊。"
+
+msgid "ℹ️ Getting season specs for series {id}."
+msgstr "ℹ️ 正在獲取劇集 {id} 的季度規格。"
+
+msgid "Error: This feature requires an Emby User ID to be configured"
+msgstr "錯誤：此功能需要設定 Emby 使用者 ID"
+
+msgid "Failed to query season list"
+msgstr "查詢季度列表失敗"
+
+msgid "No seasons found"
+msgstr "未找到季度"
+
+msgid "ℹ️ Querying episodes for season {num} ({id})."
+msgstr "ℹ️ 正在查詢第 {num} 季 ({id}) 的分集。"
+
+msgid "Error parsing season information"
+msgstr "解析季度資訊時出錯"
+
+msgid "🟡 Emby season S{num:02d} not found"
+msgstr "🟡 未找到 Emby 季度 S{num:02d}"
+
+msgid "No seasons were deleted."
+msgstr "沒有季度被刪除。"
+
+msgid "❌ Failed to fetch episode list for Emby season S{num:02d}"
+msgstr "❌ 獲取 Emby 季度 S{num:02d} 的分集列表失敗"
+
+msgid "❌ Failed to parse episode list for Emby season S{num:02d}"
+msgstr "❌ 解析 Emby 季度 S{num:02d} 的分集列表失敗"
+
+msgid "🟡 Emby item S{s:02d}E{e:02d} not found"
+msgstr "🟡 未找到 Emby 項目 S{s:02d}E{e:02d}"
+
+msgid "No episodes were deleted."
+msgstr "沒有分集被刪除。"
+
+msgid "Unknown location"
+msgstr "未知位置"
+
+msgid "✅ Successfully got geolocation for IP ({ip}) from Baidu API: {location}"
+msgstr "✅ 成功從百度 API 獲取 IP ({ip}) 的地理位置: {location}"
+
+msgid "❌ Error parsing Baidu API response. IP: {ip}, Error: {error}"
+msgstr "❌ 解析百度 API 回應時出錯。 IP: {ip}，錯誤: {error}"
+
+msgid ""
+"❌ IP138 API Error: 'ip_api_token_ip138' is not configured in config.yaml."
+msgstr "❌ IP138 API 錯誤：'ip_api_token_ip138' 未在 config.yaml 中設定。"
+
+msgid "Unknown location (Token missing)"
+msgstr "未知位置 (缺少權杖)"
+
+msgid "China"
+msgstr "中國"
+
+msgid "❌ Error parsing IP138 API response. IP: {ip}, Error: {error}"
+msgstr "❌ 解析 IP138 API 回應時出錯。 IP: {ip}，錯誤: {error}"
+
+msgid "❌ Error parsing PCOnline API response. IP: {ip}, Error: {error}"
+msgstr "❌ 解析 PCOnline API 回應時出錯。 IP: {ip}，錯誤: {error}"
+
+msgid "❌ Error parsing Vore API response. IP: {ip}, Error: {error}"
+msgstr "❌ 解析 Vore API 回應時出錯。 IP: {ip}，錯誤: {error}"
+
+msgid "Telecom"
+msgstr "電信"
+
+msgid "Unicom"
+msgstr "聯通"
+
+msgid "Mobile"
+msgstr "移動"
+
+msgid "Broadcasting"
+msgstr "廣電"
+
+msgid "❌ Error parsing IP-API.com response. IP: {ip}, Error: {error}"
+msgstr "❌ 解析 IP-API.com 回應時出錯。 IP: {ip}，錯誤: {error}"
+
+msgid "LAN"
+msgstr "內網"
+
+msgid "🌍 Querying IP: {ip} using {provider} API"
+msgstr "🌍 正在使用 {provider} API 查詢 IP: {ip}"
+
+msgid "🔍 Querying details for TMDB ID: {id}"
+msgstr "🔍 正在查詢 TMDB ID 的詳細資訊: {id}"
+
+msgid "✅ Found a match in TMDB: {title} (Type: {type})"
+msgstr "✅ 在 TMDB 中找到匹配項: {title} (類型: {type})"
+
+msgid "❌ Nothing found in TMDB with ID {id}."
+msgstr "❌ 在 TMDB 中找不到 ID 為 {id} 的項目。"
+
+msgid "Any year"
+msgstr "任何年份"
+
+msgid "🔍 Performing multi-search on TMDB: {title} ({year})"
+msgstr "🔍 正在 TMDB 上執行多重搜尋: {title} ({year})"
+
+msgid "✅ TMDB multi-search found {count} unique results."
+msgstr "✅ TMDB 多重搜尋找到 {count} 個獨立結果。"
+
+msgid "🔍 Searching TMDB: {title} ({year})"
+msgstr "🔍 正在搜尋 TMDB: {title} ({year})"
+
+msgid "❌ TMDB found no matching results."
+msgstr "❌ TMDB 未找到匹配結果。"
+
+msgid "✅ Found exact match: {title}, ID: {id}"
+msgstr "✅ 找到精確匹配: {title}，ID: {id}"
+
+msgid ""
+"⚠️ No exact match found, returning the most popular result: {title}, ID: {id}"
+msgstr "⚠️ 未找到精確匹配，返回最熱門的結果: {title}，ID: {id}"
+
+msgid "❌ TMDB search failed"
+msgstr "❌ TMDB 搜尋失敗"
+
+msgid "⚠️ TMDB_API_TOKEN is not configured, skipping fetching media details."
+msgstr "⚠️ 未設定 TMDB_API_TOKEN，跳過獲取媒體詳細資訊。"
+
+msgid "ℹ️ Getting media details for item {name} ({id}). Type: {type}"
+msgstr "ℹ️ 正在獲取項目 {name} ({id}) 的媒體詳細資訊。類型: {type}"
+
+msgid ""
+"⚠️ Cannot get TMDB ID from Episode, trying to get it from SeriesId ({id})."
+msgstr "⚠️ 無法從分集獲取 TMDB ID，正在嘗試從 SeriesId ({id}) 獲取。"
+
+msgid "⚠️ Still no TMDB ID, trying to search TMDB by title."
+msgstr "⚠️ 仍然沒有 TMDB ID，正在嘗試按標題搜尋 TMDB。"
+
+msgid "✅ Got poster link for TMDB ID {id} from cache."
+msgstr "✅ 從快取中獲取了 TMDB ID {id} 的海報連結。"
+
+msgid "✅ Successfully fetched and cached the poster from TMDB."
+msgstr "✅ 成功從 TMDB 獲取並快取了海報。"
+
+msgid "ℹ️ Querying season list for TMDB series {id}."
+msgstr "ℹ️ 正在查詢 TMDB 劇集 {id} 的季度列表。"
+
+msgid "✅ TMDB Season List: {nums}"
+msgstr "✅ TMDB 季度列表: {nums}"
+
+msgid "ℹ️ Querying details for season {num} of TMDB series {id}."
+msgstr "ℹ️ 正在查詢 TMDB 劇集 {id} 第 {num} 季的詳細資訊。"
+
+msgid "❌ TMDB could not find the episode list for season {num}."
+msgstr "❌ TMDB 找不到第 {num} 季的分集列表。"
+
+msgid ""
+"✅ TMDB Season {num}: {count} total entries, max episode number E{max_ep:02d}."
+msgstr "✅ TMDB 第 {num} 季: 共 {count} 個項目，最大分集號 E{max_ep:02d}。"
+
+msgid "ℹ️ Getting all aliases and years for ID {id} from TMDB..."
+msgstr "ℹ️ 正在從 TMDB 獲取 ID {id} 的所有別名和年份..."
+
+msgid "✅ Found {count} unique name/year combinations for ID {id}."
+msgstr "✅ 找到 {count} 個 ID {id} 的獨立名稱/年份組合。"
+
+msgid "🖼️ Attempting to load poster cache: {path}"
+msgstr "🖼️ 正在嘗試載入海報快取: {path}"
+
+msgid "✅ Poster cache loaded successfully."
+msgstr "✅ 海報快取載入成功。"
+
+msgid "❌ Failed to load poster cache: {error}, will use an empty cache."
+msgstr "❌ 載入海報快取失敗: {error}，將使用空快取。"
+
+msgid "💾 Attempting to save poster cache: {path}"
+msgstr "💾 正在嘗試儲存海報快取: {path}"
+
+msgid "✅ Poster cache saved successfully."
+msgstr "✅ 海報快取儲存成功。"
+
+msgid "❌ Failed to save poster cache: {error}"
+msgstr "❌ 儲存海報快取失敗: {error}"
+
+msgid "🗺️ Attempting to load ID map cache: {path}"
+msgstr "🗺️ 正在嘗試載入 ID 對應快取: {path}"
+
+msgid "✅ ID map cache loaded successfully."
+msgstr "✅ ID 對應快取載入成功。"
+
+msgid "❌ Failed to load ID map cache: {error}, will use an empty cache."
+msgstr "❌ 載入 ID 對應快取失敗: {error}，將使用空快取。"
+
+msgid "✨ Updating ID map cache: TMDB {tmdb_id} -> Emby {emby_id}"
+msgstr "✨ 正在更新 ID 對應快取: TMDB {tmdb_id} -> Emby {emby_id}"
+
+msgid "💾 Attempting to save ID map cache: {path}"
+msgstr "💾 正在嘗試儲存 ID 對應快取: {path}"
+
+msgid "✅ ID map cache saved successfully."
+msgstr "✅ ID 對應快取儲存成功。"
+
+msgid "❌ Failed to save ID map cache: {error}"
+msgstr "❌ 儲存 ID 對應快取失敗: {error}"
+
+msgid "English"
+msgstr "英文"
+
+msgid "Japanese"
+msgstr "日文"
+
+msgid "Chinese"
+msgstr "中文"
+
+msgid "Korean"
+msgstr "韓文"
+
+msgid "Undetermined"
+msgstr "未定"
+
+msgid "Multiple languages"
+msgstr "多語言"
+
+msgid "🌍 Attempting to load language configuration file: {path}"
+msgstr "🌍 正在嘗試載入語言設定檔: {path}"
+
+msgid "⚠️ Language configuration file {path} not found..."
+msgstr "⚠️ 找不到語言設定檔 {path}..."
+
+msgid "✅ Language configuration file loaded successfully."
+msgstr "✅ 語言設定檔載入成功。"
+
+msgid "❌ Failed to load language configuration file: {error}..."
+msgstr "❌ 載入語言設定檔失敗: {error}..."
+
+msgid "⚙️ Settings menu key map built."
+msgstr "⚙️ 設定選單鍵位對應已建立。"
+
+msgid "⚠️ WARNING: Key not found in user config or defaults: {path_str}"
+msgstr "⚠️ 警告：在使用者設定或預設值中找不到鍵: {path_str}"
+
+msgid "📝 Attempting to load configuration file: {config_path}"
+msgstr "📝 正在嘗試載入設定檔: {config_path}"
+
+msgid "✅ Configuration loaded successfully."
+msgstr "✅ 設定檔載入成功。"
+
+msgid ""
+"⚠️ WARNING: Configuration file {config_path} not found. Using built-in "
+"defaults."
+msgstr "⚠️ 警告：找不到設定檔 {config_path}。正在使用內建預設值。"
+
+msgid "❌ ERROR: Failed to read or parse configuration file: {error}"
+msgstr "❌ 錯誤：讀取或解析設定檔失敗: {error}"
+
+msgid "💾 Attempting to save configuration file: {config_path}"
+msgstr "💾 正在嘗試儲存設定檔: {config_path}"
+
+msgid "✅ Configuration saved successfully."
+msgstr "✅ 設定檔儲存成功。"
+
+msgid "❌ Failed to save configuration: {error}"
+msgstr "❌ 儲存設定失敗: {error}"
+
+msgid ""
+"⚠️ WARNING: Could not parse timezone '{tz_str}', falling back to UTC. Error: "
+"{error}"
+msgstr "⚠️ 警告：無法解析時區 '{tz_str}'，將退回使用 UTC。錯誤: {error}"
+
+msgid ""
+"❌ ERROR: TELEGRAM_TOKEN or ADMIN_USER_ID is not set correctly in config.yaml"
+msgstr "❌ 錯誤：config.yaml 中的 TELEGRAM_TOKEN 或 ADMIN_USER_ID 設定不正確"
+
+msgid ""
+"⚠️ WARNING: 'template_user_id' is not configured in config.yaml, user creation "
+"will be unavailable."
+msgstr ""
+"⚠️ 警告：config.yaml 中未設定 'template_user_id'，建立使用者功能將不可用。"
+
+msgid "🚀 Configuration initialization complete."
+msgstr "🚀 設定初始化完成。"
+
+msgid "🗃️ User {id} initiated a search, query: {query}"
+msgstr "🗃️ 使用者 {id} 發起了搜尋，查詢: {query}"
+
+msgid ""
+"Error: The bot administrator has not set the Emby `user_id` in the "
+"configuration file."
+msgstr "錯誤：機器人管理員尚未在設定檔中設定 Emby `user_id`。"
+
+msgid "✅ Cache hit! TMDB ID {tmdb_id} corresponds to Emby ID {emby_id}."
+msgstr "✅ 快取命中！TMDB ID {tmdb_id} 對應 Emby ID {emby_id}。"
+
+msgid "ℹ️ Cache miss or invalid, performing TMDB API polling search..."
+msgstr "ℹ️ 快取未命中或無效，正在執行 TMDB API 輪詢搜尋..."
+
+msgid "Could not find a program with ID `{id}` in TMDB."
+msgstr "在 TMDB 中找不到 ID 為 `{id}` 的節目。"
+
+msgid "ℹ️ Searching in Emby using combination: (Name: {name}, Year: {year})"
+msgstr "ℹ️ 正在使用組合在 Emby 中搜尋: (名稱: {name}, 年份: {year})"
+
+msgid "Invalid keyword!"
+msgstr "無效的關鍵字！"
+
+msgid "Could not find anything related to “{query}” in Emby."
+msgstr "在 Emby 中找不到與「{query}」相關的任何內容。"
+
+msgid "✅ Search successful, found {count} results, cache ID: {id}"
+msgstr "✅ 搜尋成功，找到 {count} 個結果，快取 ID: {id}"
+
+msgid "ℹ️ No playback sessions currently active."
+msgstr "ℹ️ 目前沒有正在播放的工作階段。"
+
+msgid "✅ No one is currently watching Emby."
+msgstr "✅ 目前沒有人在觀看 Emby。"
+
+msgid "ℹ️ Found {count} sessions."
+msgstr "ℹ️ 找到 {count} 個工作階段。"
+
+msgid ""
+"⚠️ Warning: Skipping session because it lacks a NowPlayingItem or ID. Session "
+"data: {data}"
+msgstr ""
+"⚠️ 警告：跳過此工作階段，因其缺少 NowPlayingItem 或 ID。工作階段資料: {data}"
+
+msgid "ℹ️ Processing session: {id}, User: {user}"
+msgstr "ℹ️ 正在處理工作階段: {id}，使用者: {user}"
+
+msgid "Unknown User"
+msgstr "未知使用者"
+
+msgid "Unknown Player"
+msgstr "未知播放器"
+
+msgid "Unknown Device"
+msgstr "未知裝置"
+
+msgid "Unknown Title"
+msgstr "未知標題"
+
+msgid "User"
+msgstr "使用者"
+
+msgid "Player: {player}"
+msgstr "播放器: {player}"
+
+msgid "Device: {device}"
+msgstr "裝置: {device}"
+
+msgid "Location: "
+msgstr "位置: "
+
+msgid "Location: `{ip}` {loc}"
+msgstr "位置: `{ip}` {loc}"
+
+msgid "Program: "
+msgstr "節目: "
+
+msgid "Progress: {progress}"
+msgstr "進度: {progress}"
+
+msgid "Media Type: {type}"
+msgstr "媒體類型: {type}"
+
+msgid "Overview: {overview}"
+msgstr "劇情簡介: {overview}"
+
+msgid "Time: {time}"
+msgstr "時間: {time}"
+
+msgid "➡️ View on Server"
+msgstr "➡️ 在伺服器上查看"
+
+msgid "⏹️ Stop Playback"
+msgstr "⏹️ 停止播放"
+
+msgid "✉️ Send Message"
+msgstr "✉️ 發送訊息"
+
+msgid "❌ Error processing session {id}: {error}"
+msgstr "❌ 處理工作階段 {id} 時發生錯誤: {error}"
+
+msgid "ℹ️ Finally returned {count} data entries."
+msgstr "ℹ️ 最終返回 {count} 筆資料。"
+
+msgid "⚙️ Sending settings menu to user {id}, menu key: {key}"
+msgstr "⚙️ 正在向使用者 {id} 發送設定選單，選單鍵: {key}"
+
+msgid "Please select the robot's interface language."
+msgstr "請選擇機器人的介面語言。"
+
+msgid "Please select an IP Geolocation API service."
+msgstr "請選擇一個 IP 地理位置 API 服務。"
+
+msgid "☑️ Done"
+msgstr "☑️ 完成"
+
+msgid "📄 Sending results page {page}, cache ID: {id}"
+msgstr "📄 正在發送結果頁面 {page}，快取 ID: {id}"
+
+msgid "Sorry, this search result has expired. Please start a new search."
+msgstr "抱歉，此搜尋結果已過期。請重新開始搜尋。"
+
+msgid "Please select the program you want to manage:"
+msgstr "請選擇您想管理的節目："
+
+msgid "Found the following programs, click on a name to see details:"
+msgstr "找到以下節目，點擊名稱可查看詳情："
+
+#, fuzzy
+msgid "◀️ Previous Page"
+msgstr ""
+"#-#-#-#-#  catalog.po (EmbyBot v1.0)  #-#-#-#-#\n"
+"◀️ 上一頁\n"
+"#-#-#-#-#  catalog.po (EmbyBot v1.0)  #-#-#-#-#\n"
+"上一頁"
+
+msgid "Next Page ▶️"
+msgstr "下一頁 ▶️"
+
+msgid "ℹ️ Sending search result details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 正在發送搜尋結果詳情，快取 ID: {id}，索引: {index}"
+
+msgid "Sorry, this search result has expired or is invalid."
+msgstr "抱歉，此搜尋結果已過期或無效。"
+
+msgid "Error: The bot administrator has not set the Emby `user_id`."
+msgstr "錯誤：機器人管理員尚未設定 Emby `user_id`。"
+
+msgid "Failed to get detailed information."
+msgstr "獲取詳細資訊失敗。"
+
+msgid "No overview available."
+msgstr "無劇情簡介可用。"
+
+msgid "Name: [{title}]({link})"
+msgstr "名稱: [{title}]({link})"
+
+msgid "Name: *{title}*"
+msgstr "名稱: *{title}*"
+
+msgid "Type: {type}"
+msgstr "類型: {type}"
+
+msgid "Movie"
+msgstr "電影"
+
+msgid "Series"
+msgstr "劇集"
+
+msgid "Category: {category}"
+msgstr "分類: {category}"
+
+msgid "Date Added: {time}"
+msgstr "加入時間: {time}"
+
+msgid "Specs unknown"
+msgstr "規格未知"
+
+msgid "Season Specs:"
+msgstr "各季規格:"
+
+msgid "Season {s} Episode {e}"
+msgstr "第 {s} 季 第 {e} 集"
+
+msgid "Incomplete information"
+msgstr "資訊不完整"
+
+msgid "Updated to: [{info}]({link})"
+msgstr "已更新至: [{info}]({link})"
+
+msgid "Updated to: {info}"
+msgstr "已更新至: {info}"
+
+msgid "ℹ️ Sending manage details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ 正在發送管理詳情，快取 ID: {id}，索引: {index}"
+
+msgid "🔄 Manage this program"
+msgstr "🔄 管理此節目"
+
+msgid "↩️ Exit Management"
+msgstr "↩️ 退出管理"
+
+msgid "➡️ Received command from user {user_id} in Chat ID {chat_id}: {text}"
+msgstr "➡️ 收到來自聊天 {chat_id} 使用者 {user_id} 的指令: {text}"
+
+msgid "🚫 Ignoring message from unauthorized user."
+msgstr "🚫 正在忽略未授權使用者的訊息。"
+
+msgid "ℹ️ User {id} entered a new command, canceling previous awaiting state."
+msgstr "ℹ️ 使用者 {id} 輸入了新指令，已取消先前的等待狀態。"
+
+msgid "🔍 User {id} initiated a search: {text}"
+msgstr "🔍 使用者 {id} 發起了搜尋: {text}"
+
+msgid ""
+"❌ Format error. Usernames cannot contain spaces, and only one space should "
+"separate the username and password."
+msgstr ""
+"❌ 格式錯誤。使用者名稱不能包含空格，且使用者名稱和密碼之間只能用一個空格分"
+"隔。"
+
+msgid "❌ Username cannot be empty."
+msgstr "❌ 使用者名稱不能為空。"
+
+msgid ""
+"❌ Format error. Please enter the old and new usernames, separated by a "
+"single space. Neither may contain spaces."
+msgstr ""
+"❌ 格式錯誤。請輸入舊使用者名稱和新使用者名稱，用一個空格分隔。兩者均不能包含"
+"空格。"
+
+msgid "Operation failed"
+msgstr "操作失敗"
+
+msgid ""
+"❌ Format error. Usernames cannot contain spaces, and only one space should "
+"separate the username and new password."
+msgstr ""
+"❌ 格式錯誤。使用者名稱不能包含空格，且使用者名稱和新密碼之間只能用一個空格分"
+"隔。"
+
+msgid "✅ The password for user '{username}' has been successfully changed."
+msgstr "✅ 使用者 '{username}' 的密碼已成功更改。"
+
+msgid "❌ Failed to change the password for user '{username}'."
+msgstr "❌ 更改使用者 '{username}' 的密碼失敗。"
+
+msgid "❌ Cannot delete the administrator account the bot is currently using."
+msgstr "❌ 無法刪除機器人目前正在使用的管理員帳號。"
+
+msgid ""
+"❓ Are you sure you want to delete the user {name} (ID: {id})?\n"
+"\n"
+"This action cannot be undone!"
+msgstr ""
+"❓ 您確定要刪除使用者 {name} (ID: {id}) 嗎？\n"
+"\n"
+"此操作無法復原！"
+
+msgid "⚠️ Yes, delete"
+msgstr "⚠️ 是，刪除"
+
+msgid "◀️ Back to previous menu"
+msgstr "◀️ 返回上層選單"
+
+msgid ""
+"✉️ User {id} replied with a message to send to session {session_id}: {text}"
+msgstr "✉️ 使用者 {id} 回覆了要發送到工作階段 {session_id} 的訊息: {text}"
+
+msgid "No one is currently watching, no broadcast needed."
+msgstr "目前無人觀看，無需廣播。"
+
+msgid "✅ Broadcast message sent to {count} sessions."
+msgstr "✅ 廣播訊息已發送至 {count} 個工作階段。"
+
+msgid "❌ Invalid input. Please enter as per the example: S01 S03 S05"
+msgstr "❌ 輸入無效。請依照範例輸入: S01 S03 S05"
+
+msgid ""
+"⚠️ Seasons to be deleted: {preview}\n"
+"Please select a deletion method:"
+msgstr ""
+"⚠️ 將要刪除的季度: {preview}\n"
+"請選擇刪除方式："
+
+msgid "⏏️ Delete from Emby"
+msgstr "⏏️ 從 Emby 刪除"
+
+msgid "🗑️ Delete local files"
+msgstr "🗑️ 刪除本地檔案"
+
+msgid "☁️ Delete cloud files"
+msgstr "☁️ 刪除雲端檔案"
+
+msgid "💥 Delete local + cloud"
+msgstr "💥 刪除本地和雲端檔案"
+
+msgid "❌ Exception while processing season input: {error}"
+msgstr "❌ 處理季度輸入時發生異常: {error}"
+
+msgid ""
+"❌ Could not parse any valid season/episode numbers. Example: `S01E03 E11 "
+"S02E03-E06 E10`"
+msgstr "❌ 無法解析任何有效的季/集編號。範例: `S01E03 E11 S02E03-E06 E10`"
+
+msgid ""
+"⚠️ Episodes to be deleted: {preview}\n"
+"Please select a deletion method:"
+msgstr ""
+"⚠️ 將要刪除的分集: {preview}\n"
+"請選擇刪除方式："
+
+msgid "❌ Exception while processing episode input: {error}"
+msgstr "❌ 處理分集輸入時發生異常: {error}"
+
+msgid "🗃️ User {id} replied with a management query: {text}"
+msgstr "🗃️ 使用者 {id} 回覆了管理查詢: {text}"
+
+msgid ""
+"❌ Incorrect input format. Please ensure it includes a name, a four-digit "
+"year, and a type, separated by spaces."
+msgstr "❌ 輸入格式不正確。請確保輸入包含名稱、四位數年份和類型，並用空格分隔。"
+
+msgid ""
+"Searching for \"{name} ({year})\" in the \"{folder}\" directory of the cloud "
+"drive. Results will be shown shortly."
+msgstr ""
+"正在雲端硬碟的「{folder}」目錄中搜尋「{name} ({year})」。結果將很快顯示。"
+
+msgid ""
+"❌ Configuration Error: `media_cloud_path` or `media_base_path` is not set."
+msgstr "❌ 設定錯誤：未設定 `media_cloud_path` 或 `media_base_path`。"
+
+msgid "❌ Cloud category directory not found: `{folder}`"
+msgstr "❌ 找不到雲端分類目錄: `{folder}`"
+
+msgid ""
+"❌ No matching program directory found for “{name} ({year})” under the "
+"`{folder}` category."
+msgstr "❌ 在「{folder}」分類下找不到與「{name} ({year})」匹配的節目目錄。"
+
+msgid "❌ No .nfo file found in the directory `/{path}`."
+msgstr "❌ 在目錄 `/{path}` 中找不到 .nfo 檔案。"
+
+msgid "❌ Could not parse a valid TMDB ID from the file `{filename}`."
+msgstr "❌ 無法從檔案 `{filename}` 中解析出有效的 TMDB ID。"
+
+msgid "❌ Failed to query information using TMDB ID `{id}`."
+msgstr "❌ 使用 TMDB ID `{id}` 查詢資訊失敗。"
+
+msgid ""
+"Please confirm if you want to sync the following program from the cloud drive:"
+msgstr "請確認您是否要從雲端硬碟同步以下節目："
+
+msgid ""
+"\n"
+"Name: [{title}]({link})"
+msgstr ""
+"\n"
+"名稱: [{title}]({link})"
+
+msgid "Category: {folder}"
+msgstr "分類: {folder}"
+
+msgid "⬇️ Confirm and Start Sync"
+msgstr "⬇️ 確認並開始同步"
+
+msgid ""
+"👋 Welcome to {bot_name}!\n"
+"\n"
+msgstr ""
+"👋 歡迎使用 {bot_name}！\n"
+"\n"
+
+msgid ""
+"This bot helps you interact with your Emby server.\n"
+"\n"
+msgstr ""
+"這個機器人可以幫助您與您的 Emby 伺服器進行互動。\n"
+"\n"
+
+msgid ""
+"Here are the commands you can use:\n"
+"\n"
+msgstr ""
+"您可以使用以下指令：\n"
+"\n"
+
+msgid ""
+" - Search for movies or series in your Emby library. Example: \n"
+" Kung Fu Panda\n"
+" The Big Bang Theory 2007\n"
+" 299534 (search a TMDB ID)\n"
+"\n"
+msgstr ""
+" - 在您的 Emby 媒體庫中搜尋電影或劇集。範例: \n"
+" 功夫熊貓\n"
+" 生活大爆炸 2007\n"
+" 299534 (透過 TMDB ID 搜尋)\n"
+"\n"
+
+msgid ""
+" - Check the current playback status on the Emby server (server "
+"administrators only).\n"
+"\n"
+msgstr ""
+" - 檢查 Emby 伺服器目前的播放狀態（僅限伺服器管理員）。\n"
+"\n"
+
+msgid ""
+" - Access an interactive menu to configure bot notifications and features "
+"(server administrators only).\n"
+"\n"
+msgstr ""
+" - 進入互動式選單以設定機器人通知和功能（僅限伺服器管理員）。\n"
+"\n"
+
+msgid ""
+" - Manage Emby programs, media files, and users (server administrators "
+"only).\n"
+"\n"
+msgstr ""
+" - 管理 Emby 節目、媒體檔案和使用者（僅限伺服器管理員）。\n"
+"\n"
+
+msgid "You can start by typing a command."
+msgstr "您可以輸入指令開始使用。"
+
+msgid "Insufficient permissions: This command is for super administrators only."
+msgstr "權限不足：此指令僅供超級管理員使用。"
+
+msgid "🚫 Denied user {id} from executing admin command {command}"
+msgstr "🚫 拒絕使用者 {id} 執行管理員指令 {command}"
+
+msgid "🎬 Current Emby Playback Sessions: {count}"
+msgstr "🎬 目前 Emby 播放工作階段數: {count}"
+
+msgid "✉️ Broadcast Message"
+msgstr "✉️ 廣播訊息"
+
+msgid "⏹️ Stop All"
+msgstr "⏹️ 全部停止"
+
+msgid ""
+"Please provide the program name (year optional) or TMDB ID you want to search "
+"for.\n"
+"For example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr ""
+"請提供您想搜尋的節目名稱（年份可選）或 TMDB ID。\n"
+"例如：功夫熊貓 或 生活大爆炸 2007 或 299534"
+
+msgid ""
+"Please reply to this message with the program name (year optional) or TMDB ID "
+"you want to search for.\n"
+"For example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr ""
+"請回覆此訊息以提供您想搜尋的節目名稱（年份可選）或 TMDB ID。\n"
+"例如：功夫熊貓 或 生活大爆炸 2007 或 299534"
+
+msgid "Please select a management category:"
+msgstr "請選擇一個管理類別："
+
+msgid "🎦 Emby Program Management"
+msgstr "🎦 Emby 節目管理"
+
+msgid "👤 Emby User Management"
+msgstr "👤 Emby 使用者管理"
+
+msgid ""
+"✅ Update successful!\n"
+"See the new message below for detailed logs."
+msgstr ""
+"✅ 更新成功！\n"
+"詳細日誌請見下方的新訊息。"
+
+msgid ""
+"⚠️ Exception occurred when posting update results, falling back to a separate "
+"text message: {error}"
+msgstr "⚠️ 發布更新結果時發生異常，將改為發送獨立的文字訊息: {error}"
+
+msgid "📞 Received callback query. ID: {id}, Data: {data}"
+msgstr "📞 收到回呼查詢。 ID: {id}，資料: {data}"
+
+msgid "Sorry, this action is only available to super administrators."
+msgstr "抱歉，此操作僅供超級管理員使用。"
+
+msgid "This interaction was initiated by another user, you cannot operate it!"
+msgstr "此互動由其他使用者發起，您無法操作！"
+
+msgid "Baidu API"
+msgstr "百度 API"
+
+msgid "IP138 API (Token required)"
+msgstr "IP138 API (需要 Token)"
+
+msgid "PCOnline API"
+msgstr "太平洋電腦網 API"
+
+msgid "Vore API"
+msgstr "Vore API"
+
+msgid "IP-API.com"
+msgstr "IP-API.com"
+
+msgid "API has been switched to: {name}"
+msgstr "API 已切換至: {name}"
+
+msgid "Callback parameter error."
+msgstr "回呼參數錯誤。"
+
+msgid "Language switched to: {lang}!"
+msgstr "語言已切換至: {lang}！"
+
+msgid "Invalid setting item."
+msgstr "無效的設定項目。"
+
+msgid "Setting updated: {status}"
+msgstr "設定已更新: {status}"
+
+msgid "✅ Settings menu closed."
+msgstr "✅ 設定選單已關閉。"
+
+msgid "Invalid action."
+msgstr "無效的操作。"
+
+msgid "This action has expired, please select again."
+msgstr "此操作已過期，請重新選擇。"
+
+msgid "Executing deletion..."
+msgstr "正在執行刪除..."
+
+msgid "❌ Unknown task type."
+msgstr "❌ 未知的任務類型。"
+
+msgid "❌ Failed to get program path, cannot delete files."
+msgstr "❌ 獲取節目路徑失敗，無法刪除檔案。"
+
+msgid "Invalid deletion method."
+msgstr "無效的刪除方式。"
+
+msgid "✅ Operation complete."
+msgstr "✅ 操作完成。"
+
+msgid "Getting detailed information..."
+msgstr "正在獲取詳細資訊..."
+
+msgid "Please select a program and file management operation:"
+msgstr "請選擇要對此節目執行的檔案操作："
+
+msgid "🔀 Manage a single program"
+msgstr "🔀 管理單一節目"
+
+msgid "🔎 Scan media library"
+msgstr "🔎 掃描媒體庫"
+
+msgid "⬇️ Sync new program from cloud drive"
+msgstr "⬇️ 從雲端硬碟同步新節目"
+
+msgid "Please select a user management operation:"
+msgstr "請選擇一個使用者管理操作："
+
+msgid "➕ Create User"
+msgstr "➕ 建立使用者"
+
+msgid "✏️ Rename User"
+msgstr "✏️ 重新命名使用者"
+
+msgid "🔑 Change Password"
+msgstr "🔑 變更密碼"
+
+msgid "🗑️ Delete User"
+msgstr "🗑️ 刪除使用者"
+
+msgid "✅ Management exited."
+msgstr "✅ 已退出管理。"
+
+msgid ""
+"✍️ Please enter the user's **old username** and **new username**, separated by "
+"a space.\n"
+"\n"
+"*Note: Neither the old nor the new username may contain spaces.*"
+msgstr ""
+"✍️ 請輸入使用者的**舊使用者名稱**和**新使用者名稱**，以空格分隔。\n"
+"\n"
+"*註：新舊使用者名稱均不可包含空格。*"
+
+msgid ""
+"❌ Operation failed: `template_user_id` is not configured in config.yaml."
+msgstr "❌ 操作失敗：config.yaml 中未設定 `template_user_id`。"
+
+msgid ""
+"✍️ Please enter a **username** and an optional **initial password**, separated "
+"by a space.\n"
+"\n"
+"*Note:*\n"
+"*1. Neither the username nor the password may contain spaces.\n"
+"*2. If only a username is entered, the password will be set to empty.*"
+msgstr ""
+"✍️ 請輸入**使用者名稱**和可選的**初始密碼**，以空格分隔。\n"
+"\n"
+"*註：*\n"
+"*1. 使用者名稱和密碼均不可包含空格。\n"
+"*2. 如果只輸入使用者名稱，密碼將設定為空。*"
+
+msgid ""
+"✍️ Please enter the **username** for the password change and the optional "
+"**new password**, separated by a space.\n"
+"\n"
+"*Note:*\n"
+"*1. Neither the username nor the password may contain spaces.\n"
+"*2. If only a username is entered, the password will be set to empty.*"
+msgstr ""
+"✍️ 請輸入要變更密碼的**使用者名稱**和可選的**新密碼**，以空格分隔。\n"
+"\n"
+"*註：*\n"
+"*1. 使用者名稱和密碼均不可包含空格。\n"
+"*2. 如果只輸入使用者名稱，密碼將設定為空。*"
+
+msgid ""
+"✍️ Please enter the **exact username** of the Emby user you wish to delete."
+msgstr "✍️ 請輸入您希望刪除的 Emby 使用者的**完整使用者名稱**。"
+
+msgid ""
+"✍️ Please enter the name of the program to manage (year optional) or a TMDB ID."
+msgstr "✍️ 請輸入要管理的節目名稱（年份可選）或 TMDB ID。"
+
+msgid ""
+"✍️ Please enter the program name, year, and media type (e.g., `Kung Fu Panda "
+"9502 Movies`):"
+msgstr "✍️ 請輸入節目名稱、年份和媒體類型（例如: `功夫熊貓 2008 電影`）："
+
+msgid ""
+"❓ Are you sure you want to scan the folder containing *{item_name}*?\n"
+"\n"
+"This action will look for new or changed files (e.g., new episodes)."
+msgstr ""
+"❓ 您確定要掃描包含 *{item_name}* 的資料夾嗎？\n"
+"\n"
+"此操作會尋找新的或變更的檔案（例如新分集）。"
+
+msgid "⚠️ Yes, scan"
+msgstr "⚠️ 是，掃描"
+
+msgid "◀️ Back"
+msgstr "◀️ 返回"
+
+msgid ""
+"❓ Are you sure you want to refresh the metadata for *{item_name}*?\n"
+"\n"
+"This action will rescan all related files and fetch information from the "
+"internet."
+msgstr ""
+"❓ 您確定要刷新 *{item_name}* 的元數據嗎？\n"
+"\n"
+"此操作將重新掃描所有相關檔案並從網路獲取資訊。"
+
+msgid "⚠️ Yes, refresh"
+msgstr "⚠️ 是，刷新"
+
+msgid "Getting program type..."
+msgstr "正在獲取節目類型..."
+
+msgid "❌ Failed to get program type, please try again."
+msgstr "❌ 獲取節目類型失敗，請重試。"
+
+msgid "⏏️ Delete program from Emby"
+msgstr "⏏️ 從 Emby 中刪除節目"
+
+msgid "💥 Delete local and cloud files"
+msgstr "💥 刪除本地和雲端檔案"
+
+msgid "◀️ Back to previous step"
+msgstr "◀️ 返回上一步"
+
+msgid "Detected this program is a **Movie**. Please select a deletion method:"
+msgstr "檢測到此節目為**電影**。請選擇刪除方式："
+
+msgid "❌ Delete entire series"
+msgstr "❌ 刪除整個劇集"
+
+msgid "❌ Delete seasons"
+msgstr "❌ 刪除季度"
+
+msgid "❌ Delete episodes"
+msgstr "❌ 刪除分集"
+
+msgid ""
+"Detected this program is a **Series**. Please select what you want to delete:"
+msgstr "檢測到此節目為**劇集**。請選擇您想刪除的內容："
+
+msgid "❌ Unsupported program type: {type}, cannot perform deletion."
+msgstr "❌ 不支援的節目類型: {type}，無法執行刪除。"
+
+msgid ""
+"✍️ Please enter the season numbers to delete, separated by spaces (S prefix or "
+"pure numbers are supported):\n"
+"For example: `S01 S03 S05` or `1 3 5`"
+msgstr ""
+"✍️ 請輸入要刪除的季號，以空格分隔（支援 S 字首或純數字）：\n"
+"例如: `S01 S03 S05` 或 `1 3 5`"
+
+msgid ""
+"✍️ Please enter the season and episode numbers to delete. Ranges and season-"
+"less notations are supported; separate multiple entries with spaces/commas:\n"
+"For example: `S01E03 E11 S02E03-E06 E10`"
+msgstr ""
+"✍️ 請輸入要刪除的季號和集號，支援範圍和無季標記；多個項目請用空格/逗號分隔：\n"
+"例如: `S01E03 E11 S02E03-E06 E10`"
+
+msgid "🗂️ Scan folder"
+msgstr "🗂️ 掃描資料夾"
+
+msgid "🔄 Refresh metadata"
+msgstr "🔄 刷新元數據"
+
+msgid "❌ Delete this program"
+msgstr "❌ 刪除此節目"
+
+msgid "🔄 Update this program from cloud"
+msgstr "🔄 從雲端更新此節目"
+
+msgid "Please select a file operation to perform on this program:"
+msgstr "請選擇要對此節目執行的檔案操作："
+
+msgid "Syncing files from cloud... Details will be listed shortly."
+msgstr "正在從雲端同步檔案... 詳情將很快列出。"
+
+msgid "❌ Action expired or invalid. Please try again."
+msgstr "❌ 操作已過期或無效。請重試。"
+
+msgid "✅ User (ID: {user_id}) has been successfully deleted."
+msgstr "✅ 使用者 (ID: {user_id}) 已成功刪除。"
+
+msgid "❌ Failed to delete user (ID: {user_id})."
+msgstr "❌ 刪除使用者 (ID: {user_id}) 失敗。"
+
+msgid "Sending scan request..."
+msgstr "正在發送掃描請求..."
+
+msgid "Sending refresh request..."
+msgstr "正在發送刷新請求..."
+
+msgid "Sending global scan request..."
+msgstr "正在發送全域掃描請求..."
+
+msgid "Executing Emby deletion..."
+msgstr "正在執行 Emby 刪除..."
+
+msgid "Deleting files..."
+msgstr "正在刪除檔案..."
+
+msgid "❌ Failed to get item path, cannot delete files."
+msgstr "❌ 獲取項目路徑失敗，無法刪除檔案。"
+
+msgid "Updating files from cloud... Details will be listed shortly."
+msgstr "正在從雲端更新檔案... 詳情將很快列出。"
+
+msgid "❌ Failed to get item path, cannot update."
+msgstr "❌ 獲取項目路徑失敗，無法更新。"
+
+msgid ""
+"❌ Operation failed: Cloud drive path (media_cloud_path) is not set in the "
+"configuration."
+msgstr "❌ 操作失敗：設定中未指定雲端硬碟路徑 (media_cloud_path)。"
+
+msgid "Failed to get item information!"
+msgstr "獲取項目資訊失敗！"
+
+msgid "Unknown program"
+msgstr "未知節目"
+
+msgid "*__{name}__* in Emby media library"
+msgstr "*__{name}__* 在 Emby 媒體庫中"
+
+msgid "local files"
+msgstr "本地檔案"
+
+msgid "cloud files"
+msgstr "雲端檔案"
+
+msgid "local and cloud files"
+msgstr "本地和雲端檔案"
+
+msgid ""
+"❓ Are you sure you want to delete `{target}`?\n"
+"\n"
+"This action cannot be undone!"
+msgstr ""
+"❓ 您確定要刪除 `{target}` 嗎？\n"
+"\n"
+"此操作無法復原！"
+
+msgid "ℹ️ Getting library list..."
+msgstr "ℹ️ 正在獲取媒體庫列表..."
+
+msgid "❌ Failed to get media libraries: {error}"
+msgstr "❌ 獲取媒體庫失敗: {error}"
+
+msgid "💥 Scan all libraries"
+msgstr "💥 掃描所有媒體庫"
+
+msgid "Please select a library to scan:"
+msgstr "請選擇要掃描的媒體庫："
+
+msgid ""
+"❓ Are you sure you want to scan **all** media libraries?\n"
+"\n"
+"This operation can be resource-intensive and may take some time."
+msgstr ""
+"❓ 您確定要掃描**所有**媒體庫嗎？\n"
+"\n"
+"此操作可能消耗較多資源且需要一些時間。"
+
+msgid "⚠️ Yes, scan all"
+msgstr "⚠️ 是，全部掃描"
+
+msgid ""
+"❓ Are you sure you want to scan the library *{library_name}*?\n"
+"\n"
+"This may take some time."
+msgstr ""
+"❓ 您確定要掃描媒體庫 *{library_name}* 嗎？\n"
+"\n"
+"這可能需要一些時間。"
+
+msgid "⚠️ Yes, stop all"
+msgstr "⚠️ 是，全部停止"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid ""
+"❓ Are you sure you want to stop *all* playback sessions? This action cannot "
+"be undone."
+msgstr "❓ 您確定要停止*所有*播放工作階段嗎？此操作無法復原。"
+
+msgid "Stopping all sessions..."
+msgstr "正在停止所有工作階段..."
+
+msgid "✅ No active sessions to stop."
+msgstr "✅ 沒有需要停止的有效工作階段。"
+
+msgid "✅ Operation complete, {count} playback sessions were stopped."
+msgstr "✅ 操作完成，已停止 {count} 個播放工作階段。"
+
+msgid "✍️ Please enter the message you want to *broadcast* to all users:"
+msgstr "✍️ 請輸入您想*廣播*給所有使用者的訊息："
+
+msgid ""
+"✍️ *Please reply to this message* with the content you want to *broadcast* to "
+"all users:"
+msgstr "✍️ *請回覆此訊息*，內容為您想*廣播*給所有使用者的訊息："
+
+msgid "Operation cancelled"
+msgstr "操作已取消"
+
+msgid "✅ Playback stopped successfully."
+msgstr "✅ 播放已成功停止。"
+
+msgid "❌ Failed to stop playback."
+msgstr "❌ 停止播放失敗。"
+
+msgid "✍️ Please enter the message you want to send to this user:"
+msgstr "✍️ 請輸入您想發送給該使用者的訊息："
+
+msgid ""
+"✍️ *Please reply to this message* with the content you want to send to this "
+"user:"
+msgstr "✍️ *請回覆此訊息*，內容為您想發送給該使用者的訊息："
+
+msgid "🔔 Webhook request received."
+msgstr "🔔 收到 Webhook 請求。"
+
+msgid "❌ Unsupported Content-Type: {type}"
+msgstr "❌ 不支援的內容類型: {type}"
+
+msgid "❌ No data in webhook request."
+msgstr "❌ Webhook 請求中無資料。"
+
+msgid ""
+"\n"
+"--- Emby Webhook Payload Start ---\n"
+msgstr ""
+"\n"
+"--- Emby Webhook 內容開始 ---\n"
+
+msgid ""
+"\n"
+"--- Emby Webhook Payload End ---\n"
+msgstr ""
+"\n"
+"--- Emby Webhook 內容結束 ---\n"
+
+msgid "ℹ️ Emby event detected: {event}"
+msgstr "ℹ️ 檢測到 Emby 事件: {event}"
+
+msgid "ℹ️ Unhandled event type: {event}"
+msgstr "ℹ️ 未處理的事件類型: {event}"
+
+msgid "❌ Error processing webhook: {error}"
+msgstr "❌ 處理 Webhook 時發生錯誤: {error}"
+
+msgid "⚠️ New item notifications are disabled, skipping."
+msgstr "⚠️ 新項目通知已停用，跳過。"
+
+msgid "ℹ️ Supplementing metadata for item {id} using Emby API."
+msgstr "ℹ️ 正在使用 Emby API 為項目 {id} 補充元數據。"
+
+msgid "✅ Specs found successfully (Strategy 1): Using specs from {ep}."
+msgstr "✅ 成功找到規格 (策略 1)：使用來自 {ep} 的規格。"
+
+msgid ""
+"ℹ️ New item is a movie/episode, waiting 30s for Emby to analyze media source..."
+msgstr "ℹ️ 新項目為電影/分集，等待 30 秒讓 Emby 分析媒體來源..."
+
+msgid ""
+"❌ All spec-finding strategies failed, sending notification without specs."
+msgstr "❌ 所有規格尋找策略均失敗，將發送不含規格的通知。"
+
+msgid "✅ New"
+msgstr "✅ 新增"
+
+msgid " (Total {count} episodes)"
+msgstr " (共 {count} 集)"
+
+msgid "Newly added: {summary}{count}"
+msgstr "新加入: {summary}{count}"
+
+msgid "✉️ Sending new item notification to group {id}."
+msgstr "✉️ 正在向群組 {id} 發送新項目通知。"
+
+msgid "✉️ Sending new item notification to channel {id}."
+msgstr "✉️ 正在向頻道 {id} 發送新項目通知。"
+
+msgid "✉️ Sending new item notification to admin {id}."
+msgstr "✉️ 正在向管理員 {id} 發送新項目通知。"
+
+msgid "⚠️ Deleted item notifications are disabled, skipping."
+msgstr "⚠️ 已刪除項目通知已停用，跳過。"
+
+msgid "⚠️ Ignoring unsupported delete event type: {type}"
+msgstr "⚠️ 正在忽略不支援的刪除事件類型: {type}"
+
+msgid " Season {s}"
+msgstr " 第 {s} 季"
+
+msgid "🗑️ Deleted"
+msgstr "🗑️ 已刪除"
+
+msgid "Deleted: {summary}"
+msgstr "已刪除: {summary}"
+
+msgid "Deletion Time: {time}"
+msgstr "刪除時間: {time}"
+
+msgid "⚠️ Deletion notification skipped: ADMIN_USER_ID not configured."
+msgstr "⚠️ 刪除通知已跳過：未設定 ADMIN_USER_ID。"
+
+msgid "⚠️ Notifications for {event} are disabled, skipping."
+msgstr "⚠️ 事件 {event} 的通知已停用，跳過。"
+
+msgid "⚠️ ADMIN_USER_ID not configured, skipping playback notification."
+msgstr "⚠️ 未設定 ADMIN_USER_ID，跳過播放通知。"
+
+msgid "⏳ Ignoring {event} event due to debounce time ({seconds}s)."
+msgstr "⏳ 因防抖時間（{seconds}秒）而忽略事件 {event}。"
+
+msgid "▶️ Playback Started"
+msgstr "▶️ 已開始播放"
+
+msgid "▶️ Playback Resumed"
+msgstr "▶️ 已恢復播放"
+
+msgid "⏸️ Playback Paused"
+msgstr "⏸️ 已暫停播放"
+
+msgid "⏹️ Playback Stopped"
+msgstr "⏹️ 已停止播放"
+
+msgid "User: {user}"
+msgstr "使用者: {user}"
+
+msgid "Location: {location}"
+msgstr "位置: {location}"
+
+msgid "Progress: Watched {percent:.1f}%"
+msgstr "進度: 已觀看 {percent:.1f}%"
+
+msgid "Progress: {percent:.1f}% ({played} / {total})"
+msgstr "進度: {percent:.1f}% ({played} / {total})"
+
+msgid "✉️ Sending playback notification to admin {id}."
+msgstr "✉️ 正在向管理員 {id} 發送播放通知。"
+
+msgid "⚠️ Notifications for {event} event are disabled, skipping."
+msgstr "⚠️ 事件 {event} 的通知已停用，跳過。"
+
+msgid ""
+"⚠️ ADMIN_USER_ID not configured, cannot send user/system event notifications."
+msgstr "⚠️ 未設定 ADMIN_USER_ID，無法發送使用者/系統事件通知。"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "User {username} successfully logged in"
+msgstr "使用者 {username} 成功登入"
+
+msgid "Client: {client}"
+msgstr "用戶端: {client}"
+
+msgid "User {username} login failed"
+msgstr "使用者 {username} 登入失敗"
+
+msgid "Unknown IP"
+msgstr "未知 IP"
+
+msgid "Reason for failure: Incorrect password"
+msgstr "失敗原因：密碼不正確"
+
+msgid "Reason for failure: User does not exist"
+msgstr "失敗原因：使用者不存在"
+
+msgid "User {username} successfully created"
+msgstr "使用者 {username} 成功建立"
+
+msgid "User {username} has been deleted"
+msgstr "使用者 {username} 已被刪除"
+
+msgid "Policy for user {username} has been updated"
+msgstr "使用者 {username} 的策略已更新"
+
+msgid "Password for user {username} has been changed"
+msgstr "使用者 {username} 的密碼已變更"
+
+msgid "Server restart required"
+msgstr "需要重新啟動伺服器"
+
+msgid "✅ i18n initialized successfully, current language: {lang}"
+msgstr "✅ i18n 初始化成功，目前語言: {lang}"
+
+msgid ""
+"❌ i18n initialization failed, will use default language (English). Error: {e}"
+msgstr "❌ i18n 初始化失敗，將使用預設語言（英文）。錯誤: {e}"
+
+msgid ""
+"🗑️ Requesting file deletion, Emby path: {path}, ℹ️ Local: {local}, ℹ️ Cloud: "
+"{cloud}"
+msgstr "🗑️ 請求刪除檔案，Emby 路徑: {path}，ℹ️ 本地: {local}，ℹ️ 雲端: {cloud}"
+
+msgid ""
+"Error: Item path '{item_path}' does not match or is invalid with base path "
+"'{base_path}'."
+msgstr "錯誤：項目路徑 '{item_path}' 與基礎路徑 '{base_path}' 不符或無效。"
+
+msgid "✅ Successfully deleted local directory: {path}"
+msgstr "✅ 成功刪除本地目錄: {path}"
+
+msgid "❌ Failed to delete local directory: {error}"
+msgstr "❌ 刪除本地目錄失敗: {error}"
+
+msgid "❌ Error deleting local directory '{path}': {error}"
+msgstr "❌ 刪除本地目錄 '{path}' 時出錯: {error}"
+
+msgid "🟡 Local directory not found: {path}"
+msgstr "🟡 找不到本地目錄: {path}"
+
+msgid "✅ Successfully deleted cloud directory: {path}"
+msgstr "✅ 成功刪除雲端目錄: {path}"
+
+msgid "❌ Failed to delete cloud directory: {error}"
+msgstr "❌ 刪除雲端目錄失敗: {error}"
+
+msgid "⚠️ Warning: Failed to delete cloud path '{path}': {error}"
+msgstr "⚠️ 警告：刪除雲端路徑 '{path}' 失敗: {error}"
+
+msgid "🟡 Cloud directory not found: {path}"
+msgstr "🟡 找不到雲端目錄: {path}"
+
+msgid "🤷 No deletion operations were performed."
+msgstr "🤷 未執行任何刪除操作。"
+
+msgid "✅ Deletion operation complete:"
+msgstr "✅ 刪除操作完成："
+
+msgid "🔄 Requesting media update, Emby path: {path}"
+msgstr "🔄 請求更新媒體，Emby 路徑: {path}"
+
+msgid ""
+"Error: `media_base_path` or `media_cloud_path` is not set in the "
+"configuration."
+msgstr "錯誤：設定中未指定 `media_base_path` 或 `media_cloud_path`。"
+
+msgid "Error: Item path '{item_path}' does not match base path '{base_path}'."
+msgstr "錯誤：項目路徑 '{item_path}' 與基礎路徑 '{base_path}' 不符。"
+
+msgid "Error: Source directory '{path}' not found in the cloud drive."
+msgstr "錯誤：在雲端硬碟中找不到來源目錄 '{path}'。"
+
+msgid "• Copied metadata: {filename}"
+msgstr "• 已複製元數據: {filename}"
+
+msgid "Created"
+msgstr "已建立"
+
+msgid "Updated"
+msgstr "已更新"
+
+msgid "⚠️ Warning: Failed to set file timestamp: {error}"
+msgstr "⚠️ 警告：設定檔案時間戳失敗: {error}"
+
+msgid "• {action} link: {filename}"
+msgstr "• {action} 連結: {filename}"
+
+msgid "✅ `/{path}` requires no update, files are already up to date."
+msgstr "✅ `/{path}` 無需更新，檔案已是最新版本。"
+
+msgid "✅ `/{path}` update complete."
+msgstr "✅ `/{path}` 更新完成。"
+
+msgid ""
+"✅ `/{path}` has been updated successfully!\n"
+"\n"
+"Change details:\n"
+"{details}"
+msgstr ""
+"✅ `/{path}` 已成功更新！\n"
+"\n"
+"變更詳情:\n"
+"{details}"
+
+msgid "No deletion target specified."
+msgstr "未指定刪除目標。"
+
+msgid "🟡 {label} root directory is unknown or not configured."
+msgstr "🟡 {label} 根目錄未知或未設定。"
+
+msgid "✅ Deleted {label} directory: {path}"
+msgstr "✅ 已刪除 {label} 目錄: {path}"
+
+msgid "❌ Failed to delete {label} directory: {path} | {error}"
+msgstr "❌ 刪除 {label} 目錄失敗: {path} | {error}"
+
+msgid "🟡 {label} season directory not found: S{num:02d}"
+msgstr "🟡 找不到 {label} 季度目錄: S{num:02d}"
+
+msgid "Local"
+msgstr "本地"
+
+msgid "Cloud"
+msgstr "雲端"
+
+msgid "🟡 {label} files not found: S{s:02d}E{e:02d}"
+msgstr "🟡 找不到 {label} 檔案: S{s:02d}E{e:02d}"
+
+msgid "✅ Deleted {label} file: {path}"
+msgstr "✅ 已刪除 {label} 檔案: {path}"
+
+msgid "❌ Failed to delete {label} file: {path} | {error}"
+msgstr "❌ 刪除 {label} 檔案失敗: {path} | {error}"
+
+msgid "ℹ️ Compiling local season/episode numbers for series {id}."
+msgstr "ℹ️ 正在編譯劇集 {id} 的本地季/集編號。"
+
+msgid "✅ Local season/episode count complete ({count} seasons total)."
+msgstr "✅ 本地季/集數量統計完成 (共 {count} 季)。"
+
+msgid "Finished"
+msgstr "已完結"
+
+msgid "Finished (may be inaccurate)"
+msgstr "已完結 (可能不準確)"
+
+msgid "{count} episodes remaining"
+msgstr "剩餘 {count} 集"
+
+msgid "Update Progress: {status}"
+msgstr "更新進度: {status}"
+
+msgid "…({count} episodes total)"
+msgstr "…(共 {count} 集)"
+
+msgid "Missing: S{s:02d} {head}{suffix}"
+msgstr "缺失: S{s:02d} {head}{suffix}"
+
+msgid ""
+"⚠️ Exception generating progress/missing info for new library notification: "
+"{error}"
+msgstr "⚠️ 產生新媒體庫通知的進度/缺失資訊時發生異常: {error}"
+
+msgid "❌ Error: chat_id not specified."
+msgstr "❌ 錯誤：未指定 chat_id。"
+
+msgid "💬 Sending Telegram notification to Chat ID {id}..."
+msgstr "💬 正在向聊天 ID {id} 發送 Telegram 通知..."
+
+msgid ""
+"💬 Sending deletable notification to Chat ID {id}, deleting after {seconds} "
+"seconds."
+msgstr "💬 正在向聊天 ID {id} 發送可刪除的通知，將在 {seconds} 秒後刪除。"
+
+msgid "⏳ Deleting message ID: {id}."
+msgstr "⏳ 正在刪除訊息 ID: {id}。"
+
+msgid ""
+"ℹ️ Delete message {id}: It may no longer exist or permissions are "
+"insufficient. Ignored."
+msgstr "ℹ️ 刪除訊息 {id}：該訊息可能已不存在或權限不足。已忽略。"
+
+msgid "📞 Answering callback query: {id}"
+msgstr "📞 正在回應回呼查詢: {id}"
+
+msgid "✏️ Editing message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "✏️ 正在編輯聊天 {chat_id} 中的訊息 {msg_id}。"
+
+msgid "❌ Exception in edit_telegram_message call: {error}"
+msgstr "❌ 呼叫 edit_telegram_message 時發生異常: {error}"
+
+msgid "🗑️ Deleting message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "🗑️ 正在刪除聊天 {chat_id} 中的訊息 {msg_id}。"
+
+msgid ""
+"⚠️ ADMIN_USER_ID not configured, all users will be unable to perform admin "
+"actions."
+msgstr "⚠️ 未設定 ADMIN_USER_ID，所有使用者將無法執行管理員操作。"
+
+msgid "👥 Authorization status for user {id} retrieved from cache: {is_member}"
+msgstr "👥 從快取中獲取使用者 {id} 的授權狀態: {is_member}"
+
+msgid "👥 Querying membership status for user {user_id} in group {group_id}."
+msgstr "👥 正在查詢使用者 {user_id} 在群組 {group_id} 中的成員資格。"
+
+msgid "✅ User {id} verified successfully."
+msgstr "✅ 使用者 {id} 驗證成功。"
+
+msgid "❌ User {id} verification failed, status: {status}."
+msgstr "❌ 使用者 {id} 驗證失敗，狀態: {status}。"
+
+msgid "❌ Authorization failed: Error parsing group membership for user {id}."
+msgstr "❌ 授權失敗：解析使用者 {id} 的群組成員資格時出錯。"
+
+msgid ""
+"❌ Authorization failed: Query for group membership of user {id} failed, "
+"access denied."
+msgstr "❌ 授權失敗：查詢使用者 {id} 的群組成員資格失敗，存取被拒。"
+
+msgid "🚀 Server started on http://0.0.0.0:{port}..."
+msgstr "🚀 伺服器已在 http://0.0.0.0:{port} 啟動..."
+
+msgid ""
+"❌ Failed to start HTTP server, port {port} may already be in use. Error: "
+"{error}"
+msgstr "❌ 啟動 HTTP 伺服器失敗，連接埠 {port} 可能已被佔用。錯誤: {error}"
+
+msgid "❌ An unknown error occurred while starting the HTTP server: {error}"
+msgstr "❌ 啟動 HTTP 伺服器時發生未知錯誤: {error}"
+
+msgid ""
+"❌ Could not parse Bot ID from TELEGRAM_TOKEN. Auto-deleting reply messages "
+"may not work correctly."
+msgstr ""
+"❌ 無法從 TELEGRAM_TOKEN 解析機器人 ID。自動刪除回覆訊息的功能可能無法正常運"
+"作。"
+
+msgid "🤖 Telegram command polling service started..."
+msgstr "🤖 Telegram 指令輪詢服務已啟動..."
+
+msgid "❌ API error while polling for Telegram updates: {error}"
+msgstr "❌ 輪詢 Telegram 更新時發生 API 錯誤: {error}"
+
+msgid "⚠️ Received a message with missing core fields, skipping: {msg}"
+msgstr "⚠️ 收到缺少核心欄位的訊息，已跳過: {msg}"
+
+msgid ""
+"❌ Error processing a single Telegram update (Update ID: {uid}). This update "
+"will be skipped. Error: {err}"
+msgstr ""
+"❌ 處理單一 Telegram 更新時出錯 (更新 ID: {uid})。此更新將被跳過。錯誤: {err}"
+
+msgid "❌ Failed to poll for Telegram updates: {code} - {text}"
+msgstr "❌ 輪詢 Telegram 更新失敗: {code} - {text}"
+
+msgid "❌ Network error while polling Telegram: {error}"
+msgstr "❌ 輪詢 Telegram 時發生網路錯誤: {error}"
+
+msgid "❌ A critical error occurred while polling Telegram: {error}"
+msgstr "❌ 輪詢 Telegram 時發生嚴重錯誤: {error}"
+
+msgid "Video Specs: "
+msgstr "視訊規格: "
+
+msgid "Video: "
+msgstr "視訊: "
+
+msgid "Audio Specs: "
+msgstr "音訊規格: "
+
+msgid "Audio: "
+msgstr "音訊: "
+
+msgid " and {count} more..."
+msgstr " 及其他 {count} 個..."
+
+msgid "Subtitle Specs: "
+msgstr "字幕規格: "
+
+msgid "Subtitles: "
+msgstr "字幕: "
+
+msgid "❌ Error reading directory {directory}: {error}"
+msgstr "❌ 讀取目錄 {directory} 時出錯: {error}"
+
+msgid "✅ NFO Parse: Found default <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO 解析：找到預設的 <uniqueid type='tmdb'> -> {id}"
+
+msgid "✅ NFO Parse: Found <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ NFO 解析：找到 <uniqueid type='tmdb'> -> {id}"
+
+msgid "✅ NFO Parse: Found <tmdbid> -> {id}"
+msgstr "✅ NFO 解析：找到 <tmdbid> -> {id}"
+
+msgid ""
+"⚠️ NFO file '{filename}' is not valid XML, falling back to regex matching."
+msgstr "⚠️ NFO 檔案 '{filename}' 不是有效的 XML，將退回使用正規表示式匹配。"
+
+msgid "✅ NFO Parse (regex): Found from URL -> {id}"
+msgstr "✅ NFO 解析 (正規表示式)：從 URL 中找到 -> {id}"
+
+msgid "✅ NFO Parse (regex): Found from tag -> {id}"
+msgstr "✅ NFO 解析 (正規表示式)：從標籤中找到 -> {id}"
+
+msgid "❌ Error parsing NFO file {path}: {error}"
+msgstr "❌ 解析 NFO 檔案 {path} 時出錯: {error}"
+
+msgid "❌ Failed to find TMDB ID in NFO file '{filename}'."
+msgstr "❌ 在 NFO 檔案 '{filename}' 中找不到 TMDB ID。"
+
+msgid ""
+"============================================================\n"
+"⚠️ CRITICAL WARNING: 'user_id' not found in config.yaml.\n"
+" This may cause some Emby API requests that require user context to fail.\n"
+" It is strongly recommended to configure a valid user ID to ensure all "
+"features work correctly.\n"
+"============================================================"
+msgstr ""
+"============================================================\n"
+"⚠️ 嚴重警告：在 config.yaml 中找不到 'user_id'。\n"
+" 這可能導致某些需要使用者上下文的 Emby API 請求失敗。\n"
+" 強烈建議設定一個有效的使用者 ID 以確保所有功能正常運作。\n"
+"============================================================"
+
+msgid "⚙️ Main Menu"
+msgstr "⚙️ 主選單"
+
+msgid "Manage the bot's various features and notifications!"
+msgstr "管理機器人的各項功能與通知！"
+
+msgid "Content Settings"
+msgstr "內容設定"
+
+msgid "New Content Notification Settings"
+msgstr "新內容通知設定"
+
+msgid "Show Update Progress/Missing"
+msgstr "顯示更新進度/缺失"
+
+msgid "Show Poster"
+msgstr "顯示海報"
+
+msgid "Show Media Details"
+msgstr "顯示媒體詳情"
+
+msgid "Add TMDB Link to Details"
+msgstr "在詳情中加入 TMDB 連結"
+
+msgid "Show Overview"
+msgstr "顯示劇情簡介"
+
+msgid "Show Media Type"
+msgstr "顯示媒體類型"
+
+msgid "Show Video Specs"
+msgstr "顯示視訊規格"
+
+msgid "Show Audio Specs"
+msgstr "顯示音訊規格"
+
+msgid "Show Subtitle Specs"
+msgstr "顯示字幕規格"
+
+msgid "Show Timestamp"
+msgstr "顯示時間戳"
+
+msgid "Show \"View on Server\" Button"
+msgstr "顯示「在伺服器上查看」按鈕"
+
+msgid "Playback Status Feedback Settings"
+msgstr "播放狀態回饋設定"
+
+msgid "Show Player"
+msgstr "顯示播放器"
+
+msgid "Show Device"
+msgstr "顯示裝置"
+
+msgid "Show Location Info"
+msgstr "顯示位置資訊"
+
+msgid "Show \"Terminate Session\" Button"
+msgstr "顯示「終止工作階段」按鈕"
+
+msgid "Show \"Send Message\" Button"
+msgstr "顯示「發送訊息」按鈕"
+
+msgid "Show \"Broadcast Message\" Button"
+msgstr "顯示「廣播訊息」按鈕"
+
+msgid "Show \"Terminate All\" Button"
+msgstr "顯示「全部終止」按鈕"
+
+msgid "Playback Action Notification Settings"
+msgstr "播放活動通知設定"
+
+msgid "Show Username"
+msgstr "顯示使用者名稱"
+
+msgid "Show Playback Progress"
+msgstr "顯示播放進度"
+
+msgid "Deleted Content Notification Settings"
+msgstr "已刪除內容通知設定"
+
+msgid "Show Deletion Time"
+msgstr "顯示刪除時間"
+
+msgid "Search Results Display Settings"
+msgstr "搜尋結果顯示設定"
+
+msgid "Show Media Type in Search List"
+msgstr "在搜尋列表中顯示媒體類型"
+
+msgid "Movie Display Settings"
+msgstr "電影顯示設定"
+
+msgid "Add TMDB Link to Movie Title"
+msgstr "在電影標題中加入 TMDB 連結"
+
+msgid "Show Type"
+msgstr "顯示類型"
+
+msgid "Show Category"
+msgstr "顯示分類"
+
+msgid "Show Added Time"
+msgstr "顯示加入時間"
+
+msgid "Series Display Settings"
+msgstr "劇集顯示設定"
+
+msgid "Add TMDB Link to Series Title"
+msgstr "在劇集標題中加入 TMDB 連結"
+
+msgid "Season Specs"
+msgstr "各季規格"
+
+msgid "Show Season Video Specs"
+msgstr "顯示季度視訊規格"
+
+msgid "Show Season Audio Specs"
+msgstr "顯示季度音訊規格"
+
+msgid "Show Season Subtitle Specs"
+msgstr "顯示季度字幕規格"
+
+msgid "Update Progress"
+msgstr "更新進度"
+
+msgid "Show \"Updated to\""
+msgstr "顯示「已更新至」"
+
+msgid "Add TMDB Link to \"Updated to\""
+msgstr "在「已更新至」中加入 TMDB 連結"
+
+msgid "Show Update Progress"
+msgstr "顯示更新進度"
+
+msgid "Notification Management"
+msgstr "通知管理"
+
+msgid "New/Deleted Content Notifications"
+msgstr "新內容/已刪除內容通知"
+
+msgid "New Content Notifications"
+msgstr "新內容通知"
+
+msgid "Deleted Content Notifications"
+msgstr "已刪除內容通知"
+
+msgid "Playback Action Notifications"
+msgstr "播放活動通知"
+
+msgid "Playback Start/Resume Notifications"
+msgstr "播放開始/恢復通知"
+
+msgid "Playback Pause Notifications"
+msgstr "播放暫停通知"
+
+msgid "Playback Stop Notifications"
+msgstr "播放停止通知"
+
+msgid "Send to Group"
+msgstr "發送至群組"
+
+msgid "Send to Channel"
+msgstr "發送至頻道"
+
+msgid "Send to Admin"
+msgstr "發送給管理員"
+
+msgid "Advanced Notification Management"
+msgstr "進階通知管理"
+
+msgid "User Login Success"
+msgstr "使用者成功登入"
+
+msgid "User Login Failure"
+msgstr "使用者登入失敗"
+
+msgid "User Creation/Deletion"
+msgstr "使用者建立/刪除"
+
+msgid "User Policy/Password Updates"
+msgstr "使用者策略/密碼更新"
+
+msgid "Server Restart Required"
+msgstr "需要重新啟動伺服器"
+
+msgid "Auto-Delete Message Settings"
+msgstr "自動刪除訊息設定"
+
+msgid "Auto-delete messages sent to Group"
+msgstr "自動刪除發送到群組的訊息"
+
+msgid "Auto-delete messages sent to Channel"
+msgstr "自動刪除發送到頻道的訊息"
+
+msgid "Auto-delete messages sent to Admin"
+msgstr "自動刪除發送給管理員的訊息"
+
+msgid "Advanced Notifications"
+msgstr "進階通知"
+
+msgid "User Login Success/Failure"
+msgstr "使用者登入成功/失敗"
+
+msgid "User Create/Delete/Update"
+msgstr "使用者建立/刪除/更新"
+
+msgid "Server Events"
+msgstr "伺服器事件"
+
+msgid "System Settings"
+msgstr "系統設定"
+
+msgid "Language Settings"
+msgstr "語言設定"
+
+msgid "IP Geolocation API Settings"
+msgstr "IP 地理位置 API 設定"
+
+msgid "Please Restart Emby Server: {server_name}"
+msgstr "請重新啟動 Emby 伺服器: {server_name}"
+
+msgid "🇨🇳 Simplified Chinese"
+msgstr "🇨🇳 簡體中文"
+
+msgid "🇺🇸 English"
+msgstr "🇺🇸 英文"
+
+msgid "🇯🇵 Japanese"
+msgstr "🇯🇵 日文"
+
+msgid "🇰🇷 Korean"
+msgstr "🇰🇷 韓文"
+
+msgid ""
+"Language switched to: {lang}. Please restart the bot for the change to take "
+"full effect!"
+msgstr "語言已切換至 {lang}。請重新啟動機器人以使變更完全生效！"
+
+msgid "Please restart the bot for the change to take full effect!"
+msgstr "請重新啟動機器人以使變更完全生效！"
+
+msgid ""
+"🔍 Specs not found, trying fallback: finding another episode in S{num:02d} "
+"for reference..."
+msgstr "🔍 找不到規格，嘗試備用方案：在 S{num:02d} 中尋找另一集作為參考..."
+
+msgid "✅ Fallback successful: using specs from reference episode (ID: {id})."
+msgstr "✅ 備用方案成功：使用參考分集 (ID: {id}) 的規格。"
+
+msgid "Page {current}/{total}"
+msgstr "第 {current}/{total} 頁"
+
+msgid "Previous Page"
+msgstr "上一頁"
+
+msgid "This message has expired."
+msgstr "此訊息已過期。"
+
+msgid "Name: <b>{title}</b>"
+msgstr "名稱: <b>{title}</b>"
+
+msgid "Name: <a href=\"{link}\">{title}</a>"
+msgstr "名稱: <a href=\"{link}\">{title}</a>"
+
+msgid "Updated to: <a href=\"{link}\">{info}</a>"
+msgstr "已更新至: <a href=\"{link}\">{info}</a>"
+
+msgid "Location: <code>{ip}</code> {loc}"
+msgstr "位置: <code>{ip}</code> {loc}"
+
+msgid "Location: <code>{ip}</code> {location}"
+msgstr "位置：<code>{ip}</code> {location}"

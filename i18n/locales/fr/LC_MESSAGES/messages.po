@@ -1,0 +1,1987 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EmbyBot v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-16 10:52+0000\n"
+"PO-Revision-Date: 2025-08-17 10:41+0000\\n"
+"Last-Translator: admin@embybot.com\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "❌ Telegram button callback_data exceeds 64-byte limit: {data} ({length} bytes)"
+msgstr "❌ Le callback_data du bouton Telegram dépasse la limite de 64 octets : {data} ({length} octets)"
+
+msgid "⚠️ Exception occurred during local check of reply_markup: {error}"
+msgstr "⚠️ Une exception est survenue lors de la vérification locale de reply_markup : {error}"
+
+msgid "Unknown API"
+msgstr "API inconnue"
+
+msgid "Telegram"
+msgstr "Telegram"
+
+msgid "TMDB"
+msgstr "TMDB"
+
+msgid "IP Geolocation"
+msgstr "Géolocalisation IP"
+
+msgid "Emby"
+msgstr "Emby"
+
+msgid "🌐 Making {api_name} API request (Attempt {attempt}), URL: {url}, Timeout: {timeout}s"
+msgstr "🌐 Requête API {api_name} en cours (Tentative {attempt}), URL : {url}, Délai d'attente : {timeout}s"
+
+msgid "✅ {api_name} API request successful, Status Code: {code}"
+msgstr "✅ Requête API {api_name} réussie, Code de statut : {code}"
+
+msgid "ℹ️ Telegram returned an ignorable edit/delete type error, ignoring."
+msgstr "ℹ️ Telegram a renvoyé une erreur d'édition/suppression ignorable, ignorée."
+
+msgid "⏳ Telegram rate limit (429), retrying after {seconds}s. Error: {error_text}"
+msgstr "⏳ Limite de requêtes Telegram (429), nouvelle tentative dans {seconds}s. Erreur : {error_text}"
+
+msgid "❌ {api_name} server error {code}, will retry. Error: {error_text}"
+msgstr "❌ Erreur serveur {api_name} {code}, nouvelle tentative. Erreur : {error_text}"
+
+msgid "❌ {api_name} API request failed (Attempt {attempt}), Status Code: {code}, Response: {response}"
+msgstr "❌ Échec de la requête API {api_name} (Tentative {attempt}), Code de statut : {code}, Réponse : {response}"
+
+msgid "❌ Network error on {api_name} API request (Attempt {attempt}), URL: {url}, Error: {error}"
+msgstr "❌ Erreur réseau lors de la requête API {api_name} (Tentative {attempt}), URL : {url}, Erreur : {error}"
+
+msgid "❌ {api_name} API request failed, max retries reached ({max_retries}), URL: {url}"
+msgstr "❌ Échec de la requête API {api_name}, nombre maximum de tentatives atteint ({max_retries}), URL : {url}"
+
+msgid "🔑 Getting Emby Access Token using username/password..."
+msgstr "🔑 Obtention du jeton d'accès Emby avec nom d'utilisateur/mot de passe..."
+
+msgid "❌ Missing Emby username or password configuration required to get a token."
+msgstr "❌ Nom d'utilisateur ou mot de passe Emby manquant dans la configuration pour obtenir un jeton."
+
+msgid "✅ Successfully obtained Access Token."
+msgstr "✅ Jeton d'accès obtenu avec succès."
+
+msgid "❌ Failed to get Access Token. Status Code: {code}, Response: {text}"
+msgstr "❌ Échec de l'obtention du jeton d'accès. Code de statut : {code}, Réponse : {text}"
+
+msgid "❌ Network error while getting Access Token: {error}"
+msgstr "❌ Erreur réseau lors de l'obtention du jeton d'accès : {error}"
+
+msgid "🔎 Requesting scan for Emby item ID: {id}, Name: {name}"
+msgstr "🔎 Demande d'analyse pour l'élément Emby ID : {id}, Nom : {name}"
+
+msgid "❌ Scan failed: Emby server configuration is incomplete."
+msgstr "❌ Échec de l'analyse : la configuration du serveur Emby est incomplète."
+
+msgid "✅ Scan request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ Demande d'analyse envoyée à Emby pour : « {item_name} ». Le processus s'exécutera en arrière-plan. Veuillez vérifier les résultats dans Emby plus tard."
+
+msgid "❌ Failed to send scan request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ Échec de l'envoi de la demande d'analyse pour « {item_name} » (ID : {item_id}). Code de statut : {code}, Réponse du serveur : {text}"
+
+msgid "🔎 Requesting to scan all Emby libraries..."
+msgstr "🔎 Demande d'analyse de toutes les bibliothèques Emby..."
+
+msgid "✅ Request to scan all libraries has been sent to Emby. The task will be executed in the background."
+msgstr "✅ La demande d'analyse de toutes les bibliothèques a été envoyée à Emby. La tâche sera exécutée en arrière-plan."
+
+msgid "❌ Failed to send \"Scan All\" request. Status Code: {code}, Response: {text}"
+msgstr "❌ Échec de l'envoi de la demande « Tout analyser ». Code de statut : {code}, Réponse : {text}"
+
+msgid "🔄 Requesting refresh for Emby item ID: {id}, Name: {name}"
+msgstr "🔄 Demande de rafraîchissement pour l'élément Emby ID : {id}, Nom : {name}"
+
+msgid "❌ Refresh failed: Emby server configuration is incomplete."
+msgstr "❌ Échec du rafraîchissement : la configuration du serveur Emby est incomplète."
+
+msgid "✅ Refresh request sent to Emby for: \"{item_name}\". The process will run in the background. Please check the results in Emby later."
+msgstr "✅ Demande de rafraîchissement envoyée à Emby pour : « {item_name} ». Le processus s'exécutera en arrière-plan. Veuillez vérifier les résultats dans Emby plus tard."
+
+msgid "❌ Failed to send refresh request for \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ Échec de l'envoi de la demande de rafraîchissement pour « {item_name} » (ID : {item_id}). Code de statut : {code}, Réponse du serveur : {text}"
+
+msgid "🗑️ Requesting to delete item from Emby. ID: {id}, Name: {name}"
+msgstr "🗑️ Demande de suppression de l'élément d'Emby. ID : {id}, Nom : {name}"
+
+msgid "❌ Failed to delete \"{item_name}\": Could not obtain a valid user Access Token from the Emby server. Please check the username and password in config.yaml."
+msgstr "❌ Échec de la suppression de « {item_name} » : impossible d'obtenir un jeton d'accès utilisateur valide du serveur Emby. Veuillez vérifier le nom d'utilisateur et le mot de passe dans config.yaml."
+
+msgid "✅ The item \"{item_name}\" has been successfully deleted from the Emby library."
+msgstr "✅ L'élément « {item_name} » a été supprimé avec succès de la bibliothèque Emby."
+
+msgid "❌ Failed to delete Emby item \"{item_name}\" (ID: {item_id}). Status Code: {code}, Server Response: {text}"
+msgstr "❌ Échec de la suppression de l'élément Emby « {item_name} » (ID : {item_id}). Code de statut : {code}, Réponse du serveur : {text}"
+
+msgid "👤 Querying Emby user by username '{username}'..."
+msgstr "👤 Recherche de l'utilisateur Emby par nom d'utilisateur '{username}'..."
+
+msgid "Emby server configuration is incomplete."
+msgstr "La configuration du serveur Emby est incomplète."
+
+msgid "✅ Found user '{username}', ID: {id}"
+msgstr "✅ Utilisateur '{username}' trouvé, ID : {id}"
+
+msgid "Could not find a user with the username '{username}'."
+msgstr "Impossible de trouver un utilisateur avec le nom d'utilisateur '{username}'."
+
+msgid "Could not parse the user list response from Emby."
+msgstr "Impossible d'analyser la réponse de la liste des utilisateurs d'Emby."
+
+msgid "Failed to get user list from Emby API."
+msgstr "Échec de la récupération de la liste des utilisateurs depuis l'API Emby."
+
+msgid "📜 Getting full info for User ID {id} to extract policy..."
+msgstr "📜 Obtention des informations complètes pour l'ID utilisateur {id} afin d'extraire la politique..."
+
+msgid "Failed to get user policy: Policy object not found in the returned user data."
+msgstr "Échec de l'obtention de la politique utilisateur : objet Politique non trouvé dans les données utilisateur retournées."
+
+msgid "Failed to get user policy: Could not parse user information returned by the Emby server."
+msgstr "Échec de l'obtention de la politique utilisateur : impossible d'analyser les informations utilisateur retournées par le serveur Emby."
+
+msgid "Failed to get user policy: Could not get user information from the Emby API (please check if template_user_id is correct)."
+msgstr "Échec de l'obtention de la politique utilisateur : impossible d'obtenir les informations utilisateur depuis l'API Emby (veuillez vérifier si template_user_id est correct)."
+
+msgid "🔑 Setting a new password for User ID {id}..."
+msgstr "🔑 Définition d'un nouveau mot de passe pour l'ID utilisateur {id}..."
+
+msgid "🗑️ Deleting User ID: {id}"
+msgstr "🗑️ Suppression de l'ID utilisateur : {id}"
+
+msgid "✏️ Renaming username for User ID {id} to '{new_username}'..."
+msgstr "✏️ Renommage du nom d'utilisateur pour l'ID utilisateur {id} en '{new_username}'..."
+
+msgid "❌ Rename failed: Username '{new_username}' is already taken by another user."
+msgstr "❌ Échec du renommage : le nom d'utilisateur '{new_username}' est déjà utilisé par un autre utilisateur."
+
+msgid "❌ Rename failed: Could not get the details of the current user."
+msgstr "❌ Échec du renommage : impossible d'obtenir les détails de l'utilisateur actuel."
+
+msgid "❌ Rename failed: Could not parse the current user's information."
+msgstr "❌ Échec du renommage : impossible d'analyser les informations de l'utilisateur actuel."
+
+msgid "✅ Username has been successfully changed to '{new_username}'."
+msgstr "✅ Le nom d'utilisateur a été changé avec succès en '{new_username}'."
+
+msgid "❌ Failed to rename username, the server did not respond successfully."
+msgstr "❌ Échec du renommage du nom d'utilisateur, le serveur n'a pas répondu correctement."
+
+msgid "❌ Creation failed: `template_user_id` is not set in the configuration file."
+msgstr "❌ Échec de la création : `template_user_id` n'est pas défini dans le fichier de configuration."
+
+msgid "❌ Creation failed: Username '{username}' already exists."
+msgstr "❌ Échec de la création : le nom d'utilisateur '{username}' existe déjà."
+
+msgid "❌ Creation failed: Could not get the configuration of the template user (ID: {id}). Error: {error}"
+msgstr "❌ Échec de la création : impossible d'obtenir la configuration de l'utilisateur modèle (ID : {id}). Erreur : {error}"
+
+msgid "✅ Successfully got the policy for template user {id}."
+msgstr "✅ Politique obtenue avec succès pour l'utilisateur modèle {id}."
+
+msgid "➕ Creating new user: {username}..."
+msgstr "➕ Création d'un nouvel utilisateur : {username}..."
+
+msgid "❌ Creation failed: Error when calling the Emby API to create a user."
+msgstr "❌ Échec de la création : erreur lors de l'appel à l'API Emby pour créer un utilisateur."
+
+msgid "✅ User '{username}' has been created, new ID: {id}."
+msgstr "✅ L'utilisateur '{username}' a été créé, nouvel ID : {id}."
+
+msgid "❌ Creation failed: Could not parse new user information from the Emby API response."
+msgstr "❌ Échec de la création : impossible d'analyser les informations du nouvel utilisateur depuis la réponse de l'API Emby."
+
+msgid "📜 Applying template policy for new user {id}..."
+msgstr "📜 Application de la politique modèle pour le nouvel utilisateur {id}..."
+
+msgid "❌ Creation failed: Error applying policy for the new user, operation has been rolled back."
+msgstr "❌ Échec de la création : erreur lors de l'application de la politique pour le nouvel utilisateur, l'opération a été annulée."
+
+msgid "✅ Policy applied successfully."
+msgstr "✅ Politique appliquée avec succès."
+
+msgid "🔑 Setting password for new user {id}..."
+msgstr "🔑 Définition du mot de passe pour le nouvel utilisateur {id}..."
+
+msgid "❌ Creation failed: Error setting password for the new user, operation has been rolled back."
+msgstr "❌ Échec de la création : erreur lors de la définition du mot de passe pour le nouvel utilisateur, l'opération a été annulée."
+
+msgid "✅ Password set successfully."
+msgstr "✅ Mot de passe défini avec succès."
+
+msgid "✅ Successfully created user '{username}', configuration cloned from template user."
+msgstr "✅ Utilisateur '{username}' créé avec succès, configuration clonée depuis l'utilisateur modèle."
+
+msgid "ℹ️ Getting Emby user list from cache."
+msgstr "ℹ️ Obtention de la liste des utilisateurs Emby depuis le cache."
+
+msgid "🔑 Getting full user list from Emby API..."
+msgstr "🔑 Obtention de la liste complète des utilisateurs depuis l'API Emby..."
+
+msgid "❌ Missing Emby server configuration required to get user list."
+msgstr "❌ Configuration du serveur Emby manquante pour obtenir la liste des utilisateurs."
+
+msgid "✅ Successfully retrieved and cached {count} usernames."
+msgstr "✅ {count} noms d'utilisateur récupérés et mis en cache avec succès."
+
+msgid "❌ Failed to get Emby user list: Could not parse server response."
+msgstr "❌ Échec de la récupération de la liste des utilisateurs Emby : impossible d'analyser la réponse du serveur."
+
+msgid "❌ Failed to get Emby user list."
+msgstr "❌ Échec de la récupération de la liste des utilisateurs Emby."
+
+msgid "ℹ️ Querying active Emby sessions."
+msgstr "ℹ️ Interrogation des sessions Emby actives."
+
+msgid "❌ Missing Emby server configuration, cannot query sessions."
+msgstr "❌ Configuration du serveur Emby manquante, impossible d'interroger les sessions."
+
+msgid "✅ Found {count} active sessions."
+msgstr "✅ {count} sessions actives trouvées."
+
+msgid "❌ Failed to query active sessions: Could not parse server response."
+msgstr "❌ Échec de l'interrogation des sessions actives : impossible d'analyser la réponse du serveur."
+
+msgid "🛑 Attempting to stop playback session: {id}"
+msgstr "🛑 Tentative d'arrêt de la session de lecture : {id}"
+
+msgid "❌ Failed to stop session: Emby server configuration is incomplete."
+msgstr "❌ Échec de l'arrêt de la session : la configuration du serveur Emby est incomplète."
+
+msgid "✅ Playback session {id} has been stopped successfully."
+msgstr "✅ La session de lecture {id} a été arrêtée avec succès."
+
+msgid "❌ Failed to stop playback session {id}."
+msgstr "❌ Échec de l'arrêt de la session de lecture {id}."
+
+msgid "✉️ Sending message to session {id}."
+msgstr "✉️ Envoi d'un message à la session {id}."
+
+msgid "❌ Failed to send message: Emby server configuration is incomplete."
+msgstr "❌ Échec de l'envoi du message : la configuration du serveur Emby est incomplète."
+
+msgid "Message from administrator"
+msgstr "Message de l'administrateur"
+
+msgid "✅ Message sent successfully to session {id}."
+msgstr "✅ Message envoyé avec succès à la session {id}."
+
+msgid "❌ Failed to send message to session {id}."
+msgstr "❌ Échec de l'envoi du message à la session {id}."
+
+msgid "ℹ️ Getting resolution for item {id}."
+msgstr "ℹ️ Obtention de la résolution pour l'élément {id}."
+
+msgid "❌ Failed to get media source info for item {id}."
+msgstr "❌ Échec de l'obtention des informations de la source média pour l'élément {id}."
+
+msgid "Unknown resolution"
+msgstr "Résolution inconnue"
+
+msgid "❌ Media source for item {id} is empty."
+msgstr "❌ La source média pour l'élément {id} est vide."
+
+msgid "✅ Got resolution for item {id}: {w}x{h}"
+msgstr "✅ Résolution obtenue pour l'élément {id} : {w}x{h}"
+
+msgid "⚠️ No video stream found in item {id}."
+msgstr "⚠️ Aucun flux vidéo trouvé dans l'élément {id}."
+
+msgid "❌ Error parsing media source info for item {id}."
+msgstr "❌ Erreur lors de l'analyse des informations de la source média pour l'élément {id}."
+
+msgid "🗂️ Getting Emby library list..."
+msgstr "🗂️ Obtention de la liste des bibliothèques Emby..."
+
+msgid "Could not find any media libraries."
+msgstr "Aucune bibliothèque de médias trouvée."
+
+msgid "✅ Successfully retrieved {count} media libraries."
+msgstr "✅ {count} bibliothèques de médias récupérées avec succès."
+
+msgid "Failed to parse media library list: {error}"
+msgstr "Échec de l'analyse de la liste des bibliothèques de médias : {error}"
+
+msgid "Failed to get media library list from Emby API."
+msgstr "Échec de la récupération de la liste des bibliothèques de médias depuis l'API Emby."
+
+msgid "ℹ️ Getting latest episode information for series {id}."
+msgstr "ℹ️ Obtention des informations sur le dernier épisode de la série {id}."
+
+msgid "✅ Got latest episode: S{s}E{e}"
+msgstr "✅ Dernier épisode obtenu : S{s}E{e}"
+
+msgid "ℹ️ Querying for exact item info of series {id} S{s:02d}E{e:02d}."
+msgstr "ℹ️ Recherche d'informations exactes sur l'élément de la série {id} S{s:02d}E{e:02d}."
+
+msgid "✅ Exact match successful, Item ID: {id}"
+msgstr "✅ Correspondance exacte réussie, ID de l'élément : {id}"
+
+msgid "❌ Emby API could not find S{s:02d}E{e:02d}."
+msgstr "❌ L'API Emby n'a pas pu trouver S{s:02d}E{e:02d}."
+
+msgid "ℹ️ Looking for any episode in season {num} as a spec reference..."
+msgstr "ℹ️ Recherche d'un épisode quelconque dans la saison {num} comme référence de spécifications..."
+
+msgid "✅ Found reference episode in season {num}, ID: {id}"
+msgstr "✅ Épisode de référence trouvé dans la saison {num}, ID : {id}"
+
+msgid "❌ Could not find any episodes in season {num}."
+msgstr "❌ Aucun épisode trouvé dans la saison {num}."
+
+msgid "ℹ️ Getting media stream info for item {id}."
+msgstr "ℹ️ Obtention des informations du flux média pour l'élément {id}."
+
+msgid "✅ Got media stream info for item {id}."
+msgstr "✅ Informations du flux média obtenues pour l'élément {id}."
+
+msgid "ℹ️ Getting season specs for series {id}."
+msgstr "ℹ️ Obtention des spécifications de saison pour la série {id}."
+
+msgid "Error: This feature requires an Emby User ID to be configured"
+msgstr "Erreur : Cette fonctionnalité nécessite la configuration d'un ID utilisateur Emby"
+
+msgid "Failed to query season list"
+msgstr "Échec de la recherche de la liste des saisons"
+
+msgid "No seasons found"
+msgstr "Aucune saison trouvée"
+
+msgid "ℹ️ Querying episodes for season {num} ({id})."
+msgstr "ℹ️ Recherche des épisodes pour la saison {num} ({id})."
+
+msgid "Error parsing season information"
+msgstr "Erreur lors de l'analyse des informations de la saison"
+
+msgid "🟡 Emby season S{num:02d} not found"
+msgstr "🟡 Saison Emby S{num:02d} non trouvée"
+
+msgid "No seasons were deleted."
+msgstr "Aucune saison n'a été supprimée."
+
+msgid "❌ Failed to fetch episode list for Emby season S{num:02d}"
+msgstr "❌ Échec de la récupération de la liste des épisodes pour la saison Emby S{num:02d}"
+
+msgid "❌ Failed to parse episode list for Emby season S{num:02d}"
+msgstr "❌ Échec de l'analyse de la liste des épisodes pour la saison Emby S{num:02d}"
+
+msgid "🟡 Emby item S{s:02d}E{e:02d} not found"
+msgstr "🟡 Élément Emby S{s:02d}E{e:02d} non trouvé"
+
+msgid "No episodes were deleted."
+msgstr "Aucun épisode n'a été supprimé."
+
+msgid "Unknown location"
+msgstr "Emplacement inconnu"
+
+msgid "✅ Successfully got geolocation for IP ({ip}) from Baidu API: {location}"
+msgstr "✅ Géolocalisation pour l'IP ({ip}) obtenue avec succès depuis l'API Baidu : {location}"
+
+msgid "❌ Error parsing Baidu API response. IP: {ip}, Error: {error}"
+msgstr "❌ Erreur lors de l'analyse de la réponse de l'API Baidu. IP : {ip}, Erreur : {error}"
+
+msgid "❌ IP138 API Error: 'ip_api_token_ip138' is not configured in config.yaml."
+msgstr "❌ Erreur API IP138 : 'ip_api_token_ip138' n'est pas configuré dans config.yaml."
+
+msgid "Unknown location (Token missing)"
+msgstr "Emplacement inconnu (Jeton manquant)"
+
+msgid "China"
+msgstr "Chine"
+
+msgid "❌ Error parsing IP138 API response. IP: {ip}, Error: {error}"
+msgstr "❌ Erreur lors de l'analyse de la réponse de l'API IP138. IP : {ip}, Erreur : {error}"
+
+msgid "❌ Error parsing PCOnline API response. IP: {ip}, Error: {error}"
+msgstr "❌ Erreur lors de l'analyse de la réponse de l'API PCOnline. IP : {ip}, Erreur : {error}"
+
+msgid "❌ Error parsing Vore API response. IP: {ip}, Error: {error}"
+msgstr "❌ Erreur lors de l'analyse de la réponse de l'API Vore. IP : {ip}, Erreur : {error}"
+
+msgid "Telecom"
+msgstr "Telecom"
+
+msgid "Unicom"
+msgstr "Unicom"
+
+msgid "Mobile"
+msgstr "Mobile"
+
+msgid "Broadcasting"
+msgstr "Radiodiffusion"
+
+msgid "❌ Error parsing IP-API.com response. IP: {ip}, Error: {error}"
+msgstr "❌ Erreur lors de l'analyse de la réponse de IP-API.com. IP : {ip}, Erreur : {error}"
+
+msgid "LAN"
+msgstr "LAN"
+
+msgid "🌍 Querying IP: {ip} using {provider} API"
+msgstr "🌍 Interrogation de l'IP : {ip} via l'API {provider}"
+
+msgid "🔍 Querying details for TMDB ID: {id}"
+msgstr "🔍 Recherche de détails pour l'ID TMDB : {id}"
+
+msgid "✅ Found a match in TMDB: {title} (Type: {type})"
+msgstr "✅ Correspondance trouvée dans TMDB : {title} (Type : {type})"
+
+msgid "❌ Nothing found in TMDB with ID {id}."
+msgstr "❌ Rien n'a été trouvé dans TMDB avec l'ID {id}."
+
+msgid "Any year"
+msgstr "Toutes les années"
+
+msgid "🔍 Performing multi-search on TMDB: {title} ({year})"
+msgstr "🔍 Recherche multiple sur TMDB : {title} ({year})"
+
+msgid "✅ TMDB multi-search found {count} unique results."
+msgstr "✅ La recherche multiple TMDB a trouvé {count} résultats uniques."
+
+msgid "🔍 Searching TMDB: {title} ({year})"
+msgstr "🔍 Recherche sur TMDB : {title} ({year})"
+
+msgid "❌ TMDB found no matching results."
+msgstr "❌ TMDB n'a trouvé aucun résultat correspondant."
+
+msgid "✅ Found exact match: {title}, ID: {id}"
+msgstr "✅ Correspondance exacte trouvée : {title}, ID : {id}"
+
+msgid "⚠️ No exact match found, returning the most popular result: {title}, ID: {id}"
+msgstr "⚠️ Aucune correspondance exacte trouvée, retour du résultat le plus populaire : {title}, ID : {id}"
+
+msgid "❌ TMDB search failed"
+msgstr "❌ La recherche TMDB a échoué"
+
+msgid "⚠️ TMDB_API_TOKEN is not configured, skipping fetching media details."
+msgstr "⚠️ TMDB_API_TOKEN n'est pas configuré, la récupération des détails du média est ignorée."
+
+msgid "ℹ️ Getting media details for item {name} ({id}). Type: {type}"
+msgstr "ℹ️ Obtention des détails du média pour l'élément {name} ({id}). Type : {type}"
+
+msgid "⚠️ Cannot get TMDB ID from Episode, trying to get it from SeriesId ({id})."
+msgstr "⚠️ Impossible d'obtenir l'ID TMDB de l'épisode, tentative de l'obtenir depuis l'ID de la série ({id})."
+
+msgid "⚠️ Still no TMDB ID, trying to search TMDB by title."
+msgstr "⚠️ Toujours pas d'ID TMDB, tentative de recherche sur TMDB par titre."
+
+msgid "✅ Got poster link for TMDB ID {id} from cache."
+msgstr "✅ Lien de l'affiche obtenu pour l'ID TMDB {id} depuis le cache."
+
+msgid "✅ Successfully fetched and cached the poster from TMDB."
+msgstr "✅ Affiche récupérée et mise en cache avec succès depuis TMDB."
+
+msgid "ℹ️ Querying season list for TMDB series {id}."
+msgstr "ℹ️ Interrogation de la liste des saisons pour la série TMDB {id}."
+
+msgid "✅ TMDB Season List: {nums}"
+msgstr "✅ Liste des saisons TMDB : {nums}"
+
+msgid "ℹ️ Querying details for season {num} of TMDB series {id}."
+msgstr "ℹ️ Interrogation des détails pour la saison {num} de la série TMDB {id}."
+
+msgid "❌ TMDB could not find the episode list for season {num}."
+msgstr "❌ TMDB n'a pas pu trouver la liste des épisodes pour la saison {num}."
+
+msgid "✅ TMDB Season {num}: {count} total entries, max episode number E{max_ep:02d}."
+msgstr "✅ Saison TMDB {num} : {count} entrées au total, numéro d'épisode maximum E{max_ep:02d}."
+
+msgid "ℹ️ Getting all aliases and years for ID {id} from TMDB..."
+msgstr "ℹ️ Obtention de tous les alias et années pour l'ID {id} depuis TMDB..."
+
+msgid "✅ Found {count} unique name/year combinations for ID {id}."
+msgstr "✅ {count} combinaisons nom/année uniques trouvées pour l'ID {id}."
+
+msgid "🖼️ Attempting to load poster cache: {path}"
+msgstr "🖼️ Tentative de chargement du cache des affiches : {path}"
+
+msgid "✅ Poster cache loaded successfully."
+msgstr "✅ Cache des affiches chargé avec succès."
+
+msgid "❌ Failed to load poster cache: {error}, will use an empty cache."
+msgstr "❌ Échec du chargement du cache des affiches : {error}, un cache vide sera utilisé."
+
+msgid "💾 Attempting to save poster cache: {path}"
+msgstr "💾 Tentative de sauvegarde du cache des affiches : {path}"
+
+msgid "✅ Poster cache saved successfully."
+msgstr "✅ Cache des affiches sauvegardé avec succès."
+
+msgid "❌ Failed to save poster cache: {error}"
+msgstr "❌ Échec de la sauvegarde du cache des affiches : {error}"
+
+msgid "🗺️ Attempting to load ID map cache: {path}"
+msgstr "🗺️ Tentative de chargement du cache de la carte des ID : {path}"
+
+msgid "✅ ID map cache loaded successfully."
+msgstr "✅ Cache de la carte des ID chargé avec succès."
+
+msgid "❌ Failed to load ID map cache: {error}, will use an empty cache."
+msgstr "❌ Échec du chargement du cache de la carte des ID : {error}, un cache vide sera utilisé."
+
+msgid "✨ Updating ID map cache: TMDB {tmdb_id} -> Emby {emby_id}"
+msgstr "✨ Mise à jour du cache de la carte des ID : TMDB {tmdb_id} -> Emby {emby_id}"
+
+msgid "💾 Attempting to save ID map cache: {path}"
+msgstr "💾 Tentative de sauvegarde du cache de la carte des ID : {path}"
+
+msgid "✅ ID map cache saved successfully."
+msgstr "✅ Cache de la carte des ID sauvegardé avec succès."
+
+msgid "❌ Failed to save ID map cache: {error}"
+msgstr "❌ Échec de la sauvegarde du cache de la carte des ID : {error}"
+
+msgid "English"
+msgstr "Anglais"
+
+msgid "Japanese"
+msgstr "Japonais"
+
+msgid "Chinese"
+msgstr "Chinois"
+
+msgid "Korean"
+msgstr "Coréen"
+
+msgid "Undetermined"
+msgstr "Indéterminé"
+
+msgid "Multiple languages"
+msgstr "Plusieurs langues"
+
+msgid "🌍 Attempting to load language configuration file: {path}"
+msgstr "🌍 Tentative de chargement du fichier de configuration de langue : {path}"
+
+msgid "⚠️ Language configuration file {path} not found..."
+msgstr "⚠️ Fichier de configuration de langue {path} non trouvé..."
+
+msgid "✅ Language configuration file loaded successfully."
+msgstr "✅ Fichier de configuration de langue chargé avec succès."
+
+msgid "❌ Failed to load language configuration file: {error}..."
+msgstr "❌ Échec du chargement du fichier de configuration de langue : {error}..."
+
+msgid "⚙️ Settings menu key map built."
+msgstr "⚙️ Carte des touches du menu des paramètres construite."
+
+msgid "⚠️ WARNING: Key not found in user config or defaults: {path_str}"
+msgstr "⚠️ ATTENTION : Clé non trouvée dans la configuration utilisateur ou les valeurs par défaut : {path_str}"
+
+msgid "📝 Attempting to load configuration file: {config_path}"
+msgstr "📝 Tentative de chargement du fichier de configuration : {config_path}"
+
+msgid "✅ Configuration loaded successfully."
+msgstr "✅ Configuration chargée avec succès."
+
+msgid "⚠️ WARNING: Configuration file {config_path} not found. Using built-in defaults."
+msgstr "⚠️ ATTENTION : Fichier de configuration {config_path} non trouvé. Utilisation des valeurs par défaut intégrées."
+
+msgid "❌ ERROR: Failed to read or parse configuration file: {error}"
+msgstr "❌ ERREUR : Échec de la lecture ou de l'analyse du fichier de configuration : {error}"
+
+msgid "💾 Attempting to save configuration file: {config_path}"
+msgstr "💾 Tentative de sauvegarde du fichier de configuration : {config_path}"
+
+msgid "✅ Configuration saved successfully."
+msgstr "✅ Configuration sauvegardée avec succès."
+
+msgid "❌ Failed to save configuration: {error}"
+msgstr "❌ Échec de la sauvegarde de la configuration : {error}"
+
+msgid "⚠️ WARNING: Could not parse timezone '{tz_str}', falling back to UTC. Error: {error}"
+msgstr "⚠️ ATTENTION : Impossible d'analyser le fuseau horaire '{tz_str}', retour à UTC. Erreur : {error}"
+
+msgid "❌ ERROR: TELEGRAM_TOKEN or ADMIN_USER_ID is not set correctly in config.yaml"
+msgstr "❌ ERREUR : TELEGRAM_TOKEN ou ADMIN_USER_ID n'est pas correctement configuré dans config.yaml"
+
+msgid "⚠️ WARNING: 'template_user_id' is not configured in config.yaml, user creation will be unavailable."
+msgstr "⚠️ ATTENTION : 'template_user_id' n'est pas configuré dans config.yaml, la création d'utilisateur sera indisponible."
+
+msgid "🚀 Configuration initialization complete."
+msgstr "🚀 Initialisation de la configuration terminée."
+
+msgid "🗃️ User {id} initiated a search, query: {query}"
+msgstr "🗃️ L'utilisateur {id} a lancé une recherche, requête : {query}"
+
+msgid "Error: The bot administrator has not set the Emby `user_id` in the configuration file."
+msgstr "Erreur : L'administrateur du bot n'a pas défini l'`user_id` d'Emby dans le fichier de configuration."
+
+msgid "✅ Cache hit! TMDB ID {tmdb_id} corresponds to Emby ID {emby_id}."
+msgstr "✅ Cache trouvé ! L'ID TMDB {tmdb_id} correspond à l'ID Emby {emby_id}."
+
+msgid "ℹ️ Cache miss or invalid, performing TMDB API polling search..."
+msgstr "ℹ️ Cache manquant ou invalide, exécution d'une recherche par interrogation de l'API TMDB..."
+
+msgid "Could not find a program with ID `{id}` in TMDB."
+msgstr "Impossible de trouver un programme avec l'ID `{id}` dans TMDB."
+
+msgid "ℹ️ Searching in Emby using combination: (Name: {name}, Year: {year})"
+msgstr "ℹ️ Recherche dans Emby avec la combinaison : (Nom : {name}, Année : {year})"
+
+msgid "Invalid keyword!"
+msgstr "Mot-clé invalide !"
+
+msgid "Could not find anything related to “{query}” in Emby."
+msgstr "Impossible de trouver quoi que ce soit lié à « {query} » dans Emby."
+
+msgid "✅ Search successful, found {count} results, cache ID: {id}"
+msgstr "✅ Recherche réussie, {count} résultats trouvés, ID de cache : {id}"
+
+msgid "ℹ️ No playback sessions currently active."
+msgstr "ℹ️ Aucune session de lecture n'est actuellement active."
+
+msgid "✅ No one is currently watching Emby."
+msgstr "✅ Personne ne regarde Emby en ce moment."
+
+msgid "ℹ️ Found {count} sessions."
+msgstr "ℹ️ {count} sessions trouvées."
+
+msgid "⚠️ Warning: Skipping session because it lacks a NowPlayingItem or ID. Session data: {data}"
+msgstr "⚠️ Attention : Session ignorée car il lui manque un NowPlayingItem ou un ID. Données de session : {data}"
+
+msgid "ℹ️ Processing session: {id}, User: {user}"
+msgstr "ℹ️ Traitement de la session : {id}, Utilisateur : {user}"
+
+msgid "Unknown User"
+msgstr "Utilisateur inconnu"
+
+msgid "Unknown Player"
+msgstr "Lecteur inconnu"
+
+msgid "Unknown Device"
+msgstr "Appareil inconnu"
+
+msgid "Unknown Title"
+msgstr "Titre inconnu"
+
+msgid "User"
+msgstr "Utilisateur"
+
+msgid "Player: {player}"
+msgstr "Lecteur : {player}"
+
+msgid "Device: {device}"
+msgstr "Appareil : {device}"
+
+msgid "Location: "
+msgstr "Emplacement : "
+
+msgid "Location: `{ip}` {loc}"
+msgstr "Emplacement : `{ip}` {loc}"
+
+msgid "Program: "
+msgstr "Programme : "
+
+msgid "Progress: {progress}"
+msgstr "Progression : {progress}"
+
+msgid "Media Type: {type}"
+msgstr "Type de média : {type}"
+
+msgid "Overview: {overview}"
+msgstr "Synopsis : {overview}"
+
+msgid "Time: {time}"
+msgstr "Heure : {time}"
+
+msgid "➡️ View on Server"
+msgstr "➡️ Voir sur le serveur"
+
+msgid "⏹️ Stop Playback"
+msgstr "⏹️ Arrêter la lecture"
+
+msgid "✉️ Send Message"
+msgstr "✉️ Envoyer un message"
+
+msgid "❌ Error processing session {id}: {error}"
+msgstr "❌ Erreur lors du traitement de la session {id} : {error}"
+
+msgid "ℹ️ Finally returned {count} data entries."
+msgstr "ℹ️ Finalement, {count} entrées de données ont été retournées."
+
+msgid "⚙️ Sending settings menu to user {id}, menu key: {key}"
+msgstr "⚙️ Envoi du menu des paramètres à l'utilisateur {id}, clé de menu : {key}"
+
+msgid "Please select the robot's interface language."
+msgstr "Veuillez sélectionner la langue de l'interface du robot."
+
+msgid "Please select an IP Geolocation API service."
+msgstr "Veuillez sélectionner un service d'API de géolocalisation IP."
+
+msgid "☑️ Done"
+msgstr "☑️ Terminé"
+
+msgid "📄 Sending results page {page}, cache ID: {id}"
+msgstr "📄 Envoi de la page de résultats {page}, ID de cache : {id}"
+
+msgid "Sorry, this search result has expired. Please start a new search."
+msgstr "Désolé, ce résultat de recherche a expiré. Veuillez lancer une nouvelle recherche."
+
+msgid "Please select the program you want to manage:"
+msgstr "Veuillez sélectionner le programme que vous souhaitez gérer :"
+
+msgid "Found the following programs, click on a name to see details:"
+msgstr "Les programmes suivants ont été trouvés, cliquez sur un nom pour voir les détails :"
+
+msgid "◀️ Previous Page"
+msgstr "◀️ Page précédente"
+
+msgid "Next Page ▶️"
+msgstr "Page suivante ▶️"
+
+msgid "ℹ️ Sending search result details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ Envoi des détails du résultat de recherche, ID de cache : {id}, index : {index}"
+
+msgid "Sorry, this search result has expired or is invalid."
+msgstr "Désolé, ce résultat de recherche a expiré ou est invalide."
+
+msgid "Error: The bot administrator has not set the Emby `user_id`."
+msgstr "Erreur : L'administrateur du bot n'a pas défini l'`user_id` d'Emby."
+
+msgid "Failed to get detailed information."
+msgstr "Échec de l'obtention des informations détaillées."
+
+msgid "No overview available."
+msgstr "Aucune synopsis disponible."
+
+msgid "Name: [{title}]({link})"
+msgstr "Nom : [{title}]({link})"
+
+msgid "Name: *{title}*"
+msgstr "Nom : *{title}*"
+
+msgid "Type: {type}"
+msgstr "Type : {type}"
+
+msgid "Movie"
+msgstr "Film"
+
+msgid "Series"
+msgstr "Série"
+
+msgid "Category: {category}"
+msgstr "Catégorie : {category}"
+
+msgid "Date Added: {time}"
+msgstr "Date d'ajout : {time}"
+
+msgid "Specs unknown"
+msgstr "Spécifications inconnues"
+
+msgid "Season Specs:"
+msgstr "Spécifications de la saison :"
+
+msgid "Season {s} Episode {e}"
+msgstr "Saison {s} Épisode {e}"
+
+msgid "Incomplete information"
+msgstr "Informations incomplètes"
+
+msgid "Updated to: [{info}]({link})"
+msgstr "Mis à jour vers : [{info}]({link})"
+
+msgid "Updated to: {info}"
+msgstr "Mis à jour vers : {info}"
+
+msgid "ℹ️ Sending manage details, cache ID: {id}, index: {index}"
+msgstr "ℹ️ Envoi des détails de gestion, ID de cache : {id}, index : {index}"
+
+msgid "🔄 Manage this program"
+msgstr "🔄 Gérer ce programme"
+
+msgid "↩️ Exit Management"
+msgstr "↩️ Quitter la gestion"
+
+msgid "➡️ Received command from user {user_id} in Chat ID {chat_id}: {text}"
+msgstr "➡️ Commande reçue de l'utilisateur {user_id} dans le Chat ID {chat_id} : {text}"
+
+msgid "🚫 Ignoring message from unauthorized user."
+msgstr "🚫 Message d'un utilisateur non autorisé ignoré."
+
+msgid "ℹ️ User {id} entered a new command, canceling previous awaiting state."
+msgstr "ℹ️ L'utilisateur {id} a entré une nouvelle commande, annulant l'état d'attente précédent."
+
+msgid "🔍 User {id} initiated a search: {text}"
+msgstr "🔍 L'utilisateur {id} a lancé une recherche : {text}"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and password."
+msgstr "❌ Erreur de format. Les noms d'utilisateur ne peuvent pas contenir d'espaces, et un seul espace doit séparer le nom d'utilisateur et le mot de passe."
+
+msgid "❌ Username cannot be empty."
+msgstr "❌ Le nom d'utilisateur ne peut pas être vide."
+
+msgid "❌ Format error. Please enter the old and new usernames, separated by a single space. Neither may contain spaces."
+msgstr "❌ Erreur de format. Veuillez entrer l'ancien et le nouveau nom d'utilisateur, séparés par un seul espace. Aucun des deux ne doit contenir d'espaces."
+
+msgid "Operation failed"
+msgstr "L'opération a échoué"
+
+msgid "❌ Format error. Usernames cannot contain spaces, and only one space should separate the username and new password."
+msgstr "❌ Erreur de format. Les noms d'utilisateur ne peuvent pas contenir d'espaces, et un seul espace doit séparer le nom d'utilisateur et le nouveau mot de passe."
+
+msgid "✅ The password for user '{username}' has been successfully changed."
+msgstr "✅ Le mot de passe de l'utilisateur '{username}' a été changé avec succès."
+
+msgid "❌ Failed to change the password for user '{username}'."
+msgstr "❌ Échec du changement de mot de passe pour l'utilisateur '{username}'."
+
+msgid "❌ Cannot delete the administrator account the bot is currently using."
+msgstr "❌ Impossible de supprimer le compte administrateur que le bot utilise actuellement."
+
+msgid "❓ Are you sure you want to delete the user "
+msgstr "❓ Êtes-vous sûr de vouloir supprimer l'utilisateur "
+
+msgid " (ID: "
+msgstr " (ID : "
+
+msgid ")?\n\n"
+msgstr ") ?\n\n"
+
+msgid "This action cannot be undone!"
+msgstr "Cette action est irréversible !"
+
+msgid "⚠️ Yes, delete"
+msgstr "⚠️ Oui, supprimer"
+
+msgid "◀️ Back to previous menu"
+msgstr "◀️ Retour au menu précédent"
+
+msgid "✉️ User {id} replied with a message to send to session {session_id}: {text}"
+msgstr "✉️ L'utilisateur {id} a répondu avec un message à envoyer à la session {session_id} : {text}"
+
+msgid "No one is currently watching, no broadcast needed."
+msgstr "Personne ne regarde en ce moment, aucune diffusion n'est nécessaire."
+
+msgid "✅ Broadcast message sent to {count} sessions."
+msgstr "✅ Message de diffusion envoyé à {count} sessions."
+
+msgid "❌ Invalid input. Please enter as per the example: S01 S03 S05"
+msgstr "❌ Entrée invalide. Veuillez entrer comme dans l'exemple : S01 S03 S05"
+
+msgid "⚠️ Seasons to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ Saisons à supprimer : {preview}\nVeuillez sélectionner une méthode de suppression :"
+
+msgid "⏏️ Delete from Emby"
+msgstr "⏏️ Supprimer d'Emby"
+
+msgid "🗑️ Delete local files"
+msgstr "🗑️ Supprimer les fichiers locaux"
+
+msgid "☁️ Delete cloud files"
+msgstr "☁️ Supprimer les fichiers cloud"
+
+msgid "💥 Delete local + cloud"
+msgstr "💥 Supprimer les fichiers locaux + cloud"
+
+msgid "❌ Exception while processing season input: {error}"
+msgstr "❌ Exception lors du traitement de l'entrée de la saison : {error}"
+
+msgid "❌ Could not parse any valid season/episode numbers. Example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "❌ Impossible d'analyser des numéros de saison/épisode valides. Exemple : `S01E03 E11 S02E03-E06 E10`"
+
+msgid "⚠️ Episodes to be deleted: {preview}\nPlease select a deletion method:"
+msgstr "⚠️ Épisodes à supprimer : {preview}\nVeuillez sélectionner une méthode de suppression :"
+
+msgid "❌ Exception while processing episode input: {error}"
+msgstr "❌ Exception lors du traitement de l'entrée de l'épisode : {error}"
+
+msgid "🗃️ User {id} replied with a management query: {text}"
+msgstr "🗃️ L'utilisateur {id} a répondu avec une requête de gestion : {text}"
+
+msgid "❌ Incorrect input format. Please ensure it includes a name, a four-digit year, and a type, separated by spaces."
+msgstr "❌ Format d'entrée incorrect. Assurez-vous d'inclure un nom, une année à quatre chiffres et un type, séparés par des espaces."
+
+msgid "Searching for \"{name} ({year})\" in the \"{folder}\" directory of the cloud drive. Results will be shown shortly."
+msgstr "Recherche de « {name} ({year}) » dans le répertoire « {folder} » du lecteur cloud. Les résultats s'afficheront sous peu."
+
+msgid "❌ Configuration Error: `media_cloud_path` or `media_base_path` is not set."
+msgstr "❌ Erreur de configuration : `media_cloud_path` ou `media_base_path` n'est pas défini."
+
+msgid "❌ Cloud category directory not found: `{folder}`"
+msgstr "❌ Répertoire de catégorie cloud non trouvé : `{folder}`"
+
+msgid "❌ No matching program directory found for “{name} ({year})” under the `{folder}` category."
+msgstr "❌ Aucun répertoire de programme correspondant trouvé pour « {name} ({year}) » dans la catégorie `{folder}`."
+
+msgid "❌ No .nfo file found in the directory `/{path}`."
+msgstr "❌ Aucun fichier .nfo trouvé dans le répertoire `/{path}`."
+
+msgid "❌ Could not parse a valid TMDB ID from the file `{filename}`."
+msgstr "❌ Impossible d'analyser un ID TMDB valide à partir du fichier `{filename}`."
+
+msgid "❌ Failed to query information using TMDB ID `{id}`."
+msgstr "❌ Échec de la requête d'informations avec l'ID TMDB `{id}`."
+
+msgid "Please confirm if you want to sync the following program from the cloud drive:"
+msgstr "Veuillez confirmer si vous souhaitez synchroniser le programme suivant depuis le lecteur cloud :"
+
+msgid "\nName: [{title}]({link})"
+msgstr "\nNom : [{title}]({link})"
+
+msgid "Category: {folder}"
+msgstr "Catégorie : {folder}"
+
+msgid "⬇️ Confirm and Start Sync"
+msgstr "⬇️ Confirmer et démarrer la synchronisation"
+
+msgid "👋 Welcome to {bot_name}!\n\n"
+msgstr "👋 Bienvenue sur {bot_name} !\n\n"
+
+msgid "This bot helps you interact with your Emby server.\n\n"
+msgstr "Ce bot vous aide à interagir avec votre serveur Emby.\n\n"
+
+msgid "Here are the commands you can use:\n\n"
+msgstr "Voici les commandes que vous pouvez utiliser :\n\n"
+
+msgid " - Search for movies or series in your Emby library. Example: \n"
+msgstr " - Rechercher des films ou des séries dans votre bibliothèque Emby. Exemple : \n"
+
+msgid "Kung Fu Panda"
+msgstr "Kung Fu Panda"
+
+msgid "The Big Bang Theory 2007"
+msgstr "The Big Bang Theory 2007"
+
+msgid " (search a TMDB ID)\n\n"
+msgstr " (rechercher un ID TMDB)\n\n"
+
+msgid " - Check the current playback status on the Emby server (server administrators only).\n\n"
+msgstr " - Vérifier l'état de lecture actuel sur le serveur Emby (administrateurs du serveur uniquement).\n\n"
+
+msgid " - Access an interactive menu to configure bot notifications and features (server administrators only).\n\n"
+msgstr " - Accéder à un menu interactif pour configurer les notifications et les fonctionnalités du bot (administrateurs du serveur uniquement).\n\n"
+
+msgid " - Manage Emby programs, media files, and users (server administrators only).\n\n"
+msgstr " - Gérer les programmes, les fichiers multimédias et les utilisateurs Emby (administrateurs du serveur uniquement).\n\n"
+
+msgid "You can start by typing a command."
+msgstr "Vous pouvez commencer en tapant une commande."
+
+msgid "Insufficient permissions: This command is for super administrators only."
+msgstr "Permissions insuffisantes : cette commande est réservée aux super-administrateurs."
+
+msgid "🚫 Denied user {id} from executing admin command {command}"
+msgstr "🚫 L'utilisateur {id} n'a pas été autorisé à exécuter la commande d'administration {command}"
+
+msgid "🎬 Current Emby Playback Sessions: {count}"
+msgstr "🎬 Sessions de lecture Emby actuelles : {count}"
+
+msgid "✉️ Broadcast Message"
+msgstr "✉️ Message de diffusion"
+
+msgid "⏹️ Stop All"
+msgstr "⏹️ Tout arrêter"
+
+msgid "Please provide the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "Veuillez fournir le nom du programme (année facultative) ou l'ID TMDB que vous souhaitez rechercher.\nPar exemple : Kung Fu Panda ou The Big Bang Theory 2007 ou 299534"
+
+msgid "Please reply to this message with the program name (year optional) or TMDB ID you want to search for.\nFor example: Kung Fu Panda or The Big Bang Theory 2007 or 299534"
+msgstr "Veuillez répondre à ce message avec le nom du programme (année facultative) ou l'ID TMDB que vous souhaitez rechercher.\nPar exemple : Kung Fu Panda ou The Big Bang Theory 2007 ou 299534"
+
+msgid "Please select a management category:"
+msgstr "Veuillez sélectionner une catégorie de gestion :"
+
+msgid "🎦 Emby Program Management"
+msgstr "🎦 Gestion des programmes Emby"
+
+msgid "👤 Emby User Management"
+msgstr "👤 Gestion des utilisateurs Emby"
+
+msgid "✅ Update successful!\nSee the new message below for detailed logs."
+msgstr "✅ Mise à jour réussie !\nVoir le nouveau message ci-dessous pour les journaux détaillés."
+
+msgid "⚠️ Exception occurred when posting update results, falling back to a separate text message: {error}"
+msgstr "⚠️ Une exception s'est produite lors de la publication des résultats de la mise à jour, recours à un message texte séparé : {error}"
+
+msgid "📞 Received callback query. ID: {id}, Data: {data}"
+msgstr "📞 Requête de rappel reçue. ID : {id}, Données : {data}"
+
+msgid "Sorry, this action is only available to super administrators."
+msgstr "Désolé, cette action n'est disponible que pour les super-administrateurs."
+
+msgid "This interaction was initiated by another user, you cannot operate it!"
+msgstr "Cette interaction a été initiée par un autre utilisateur, vous ne pouvez pas l'opérer !"
+
+msgid "Baidu API"
+msgstr "API Baidu"
+
+msgid "IP138 API (Token required)"
+msgstr "API IP138 (Jeton requis)"
+
+msgid "PCOnline API"
+msgstr "API PCOnline"
+
+msgid "Vore API"
+msgstr "API Vore"
+
+msgid "IP-API.com"
+msgstr "IP-API.com"
+
+msgid "API has been switched to: {name}"
+msgstr "L'API a été changée pour : {name}"
+
+msgid "Callback parameter error."
+msgstr "Erreur de paramètre de rappel."
+
+msgid "Language switched to: {lang}!"
+msgstr "Langue changée en : {lang} !"
+
+msgid "Invalid setting item."
+msgstr "Élément de paramètre invalide."
+
+msgid "Setting updated: {status}"
+msgstr "Paramètre mis à jour : {status}"
+
+msgid "✅ Settings menu closed."
+msgstr "✅ Menu des paramètres fermé."
+
+msgid "Invalid action."
+msgstr "Action invalide."
+
+msgid "This action has expired, please select again."
+msgstr "Cette action a expiré, veuillez sélectionner à nouveau."
+
+msgid "Executing deletion..."
+msgstr "Exécution de la suppression..."
+
+msgid "❌ Unknown task type."
+msgstr "❌ Type de tâche inconnu."
+
+msgid "❌ Failed to get program path, cannot delete files."
+msgstr "❌ Échec de l'obtention du chemin du programme, impossible de supprimer les fichiers."
+
+msgid "Invalid deletion method."
+msgstr "Méthode de suppression invalide."
+
+msgid "✅ Operation complete."
+msgstr "✅ Opération terminée."
+
+msgid "Getting detailed information..."
+msgstr "Obtention des informations détaillées..."
+
+msgid "Please select a program and file management operation:"
+msgstr "Veuillez sélectionner une opération de gestion de programme et de fichiers :"
+
+msgid "🔀 Manage a single program"
+msgstr "🔀 Gérer un seul programme"
+
+msgid "🔎 Scan media library"
+msgstr "🔎 Analyser la bibliothèque multimédia"
+
+msgid "⬇️ Sync new program from cloud drive"
+msgstr "⬇️ Synchroniser un nouveau programme depuis le lecteur cloud"
+
+msgid "Please select a user management operation:"
+msgstr "Veuillez sélectionner une opération de gestion des utilisateurs :"
+
+msgid "➕ Create User"
+msgstr "➕ Créer un utilisateur"
+
+msgid "✏️ Rename User"
+msgstr "✏️ Renommer un utilisateur"
+
+msgid "🔑 Change Password"
+msgstr "🔑 Changer le mot de passe"
+
+msgid "🗑️ Delete User"
+msgstr "🗑️ Supprimer un utilisateur"
+
+msgid "✅ Management exited."
+msgstr "✅ Sortie de la gestion."
+
+msgid "✍️ Please enter the user's **old username** and **new username**, separated by a space.\n\n*Note: Neither the old nor the new username may contain spaces.*"
+msgstr "✍️ Veuillez entrer l'**ancien nom d'utilisateur** et le **nouveau nom d'utilisateur** de l'utilisateur, séparés par un espace.\n\n*Note : Ni l'ancien ni le nouveau nom d'utilisateur ne peuvent contenir d'espaces.*"
+
+msgid "❌ Operation failed: `template_user_id` is not configured in config.yaml."
+msgstr "❌ Échec de l'opération : `template_user_id` n'est pas configuré dans config.yaml."
+
+msgid "✍️ Please enter a **username** and an optional **initial password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ Veuillez entrer un **nom d'utilisateur** et un **mot de passe initial** facultatif, séparés par un espace.\n\n*Note :*\n*1. Ni le nom d'utilisateur ni le mot de passe ne peuvent contenir d'espaces.\n2. Si seul un nom d'utilisateur est entré, le mot de passe sera vide.*"
+
+msgid "✍️ Please enter the **username** for the password change and the optional **new password**, separated by a space.\n\n*Note:*\n*1. Neither the username nor the password may contain spaces.\n2. If only a username is entered, the password will be set to empty.*"
+msgstr "✍️ Veuillez entrer le **nom d'utilisateur** pour le changement de mot de passe et le **nouveau mot de passe** facultatif, séparés par un espace.\n\n*Note :*\n*1. Ni le nom d'utilisateur ni le mot de passe ne peuvent contenir d'espaces.\n2. Si seul un nom d'utilisateur est entré, le mot de passe sera vide.*"
+
+msgid "✍️ Please enter the **exact username** of the Emby user you wish to delete."
+msgstr "✍️ Veuillez entrer le **nom d'utilisateur exact** de l'utilisateur Emby que vous souhaitez supprimer."
+
+msgid "✍️ Please enter the name of the program to manage (year optional) or a TMDB ID."
+msgstr "✍️ Veuillez entrer le nom du programme à gérer (année facultative) ou un ID TMDB."
+
+msgid "✍️ Please enter the program name, year, and media type (e.g., `Kung Fu Panda 9502 Movies`):"
+msgstr "✍️ Veuillez entrer le nom du programme, l'année et le type de média (ex : `Kung Fu Panda 2008 Films`) :"
+
+msgid "❓ Are you sure you want to scan the folder containing *{item_name}*?\n\nThis action will look for new or changed files (e.g., new episodes)."
+msgstr "❓ Êtes-vous sûr de vouloir analyser le dossier contenant *{item_name}* ?\n\nCette action recherchera les fichiers nouveaux ou modifiés (ex : nouveaux épisodes)."
+
+msgid "⚠️ Yes, scan"
+msgstr "⚠️ Oui, analyser"
+
+msgid "◀️ Back"
+msgstr "◀️ Retour"
+
+msgid "❓ Are you sure you want to refresh the metadata for *{item_name}*?\n\nThis action will rescan all related files and fetch information from the internet."
+msgstr "❓ Êtes-vous sûr de vouloir rafraîchir les métadonnées de *{item_name}* ?\n\nCette action réanalysera tous les fichiers associés et récupérera les informations sur Internet."
+
+msgid "⚠️ Yes, refresh"
+msgstr "⚠️ Oui, rafraîchir"
+
+msgid "Getting program type..."
+msgstr "Obtention du type de programme..."
+
+msgid "❌ Failed to get program type, please try again."
+msgstr "❌ Échec de l'obtention du type de programme, veuillez réessayer."
+
+msgid "⏏️ Delete program from Emby"
+msgstr "⏏️ Supprimer le programme d'Emby"
+
+msgid "💥 Delete local and cloud files"
+msgstr "💥 Supprimer les fichiers locaux et cloud"
+
+msgid "◀️ Back to previous step"
+msgstr "◀️ Retour à l'étape précédente"
+
+msgid "Detected this program is a **Movie**. Please select a deletion method:"
+msgstr "Détecté que ce programme est un **Film**. Veuillez sélectionner une méthode de suppression :"
+
+msgid "❌ Delete entire series"
+msgstr "❌ Supprimer la série entière"
+
+msgid "❌ Delete seasons"
+msgstr "❌ Supprimer les saisons"
+
+msgid "❌ Delete episodes"
+msgstr "❌ Supprimer les épisodes"
+
+msgid "Detected this program is a **Series**. Please select what you want to delete:"
+msgstr "Détecté que ce programme est une **Série**. Veuillez sélectionner ce que vous voulez supprimer :"
+
+msgid "❌ Unsupported program type: {type}, cannot perform deletion."
+msgstr "❌ Type de programme non pris en charge : {type}, impossible d'effectuer la suppression."
+
+msgid "✍️ Please enter the season numbers to delete, separated by spaces (S prefix or pure numbers are supported):\n"
+msgstr "✍️ Veuillez entrer les numéros de saison à supprimer, séparés par des espaces (le préfixe S ou les chiffres purs sont pris en charge) :\n"
+
+msgid "For example: `S01 S03 S05` or `1 3 5`"
+msgstr "Par exemple : `S01 S03 S05` ou `1 3 5`"
+
+msgid "✍️ Please enter the season and episode numbers to delete. Ranges and season-less notations are supported; separate multiple entries with spaces/commas:\n"
+msgstr "✍️ Veuillez entrer les numéros de saison et d'épisode à supprimer. Les plages et les notations sans saison sont prises en charge ; séparez les entrées multiples par des espaces/virgules :\n"
+
+msgid "For example: `S01E03 E11 S02E03-E06 E10`"
+msgstr "Par exemple : `S01E03 E11 S02E03-E06 E10`"
+
+msgid "🗂️ Scan folder"
+msgstr "🗂️ Analyser le dossier"
+
+msgid "🔄 Refresh metadata"
+msgstr "🔄 Rafraîchir les métadonnées"
+
+msgid "❌ Delete this program"
+msgstr "❌ Supprimer ce programme"
+
+msgid "🔄 Update this program from cloud"
+msgstr "🔄 Mettre à jour ce programme depuis le cloud"
+
+msgid "Please select a file operation to perform on this program:"
+msgstr "Veuillez sélectionner une opération de fichier à effectuer sur ce programme :"
+
+msgid "Syncing files from cloud... Details will be listed shortly."
+msgstr "Synchronisation des fichiers depuis le cloud... Les détails seront bientôt affichés."
+
+msgid "❌ Action expired or invalid. Please try again."
+msgstr "❌ Action expirée ou invalide. Veuillez réessayer."
+
+msgid "✅ User (ID: {user_id}) has been successfully deleted."
+msgstr "✅ L'utilisateur (ID : {user_id}) a été supprimé avec succès."
+
+msgid "❌ Failed to delete user (ID: {user_id})."
+msgstr "❌ Échec de la suppression de l'utilisateur (ID : {user_id})."
+
+msgid "Sending scan request..."
+msgstr "Envoi de la demande d'analyse..."
+
+msgid "Sending refresh request..."
+msgstr "Envoi de la demande de rafraîchissement..."
+
+msgid "Sending global scan request..."
+msgstr "Envoi de la demande d'analyse globale..."
+
+msgid "Executing Emby deletion..."
+msgstr "Exécution de la suppression Emby..."
+
+msgid "Deleting files..."
+msgstr "Suppression des fichiers..."
+
+msgid "❌ Failed to get item path, cannot delete files."
+msgstr "❌ Échec de l'obtention du chemin de l'élément, impossible de supprimer les fichiers."
+
+msgid "Updating files from cloud... Details will be listed shortly."
+msgstr "Mise à jour des fichiers depuis le cloud... Les détails seront bientôt affichés."
+
+msgid "❌ Failed to get item path, cannot update."
+msgstr "❌ Échec de l'obtention du chemin de l'élément, impossible de mettre à jour."
+
+msgid "❌ Operation failed: Cloud drive path (media_cloud_path) is not set in the configuration."
+msgstr "❌ Échec de l'opération : le chemin du lecteur cloud (media_cloud_path) n'est pas défini dans la configuration."
+
+msgid "Failed to get item information!"
+msgstr "Échec de l'obtention des informations sur l'élément !"
+
+msgid "Unknown program"
+msgstr "Programme inconnu"
+
+msgid "*__{name}__* in Emby media library"
+msgstr "*__{name}__* dans la bibliothèque multimédia Emby"
+
+msgid "local files"
+msgstr "fichiers locaux"
+
+msgid "cloud files"
+msgstr "fichiers cloud"
+
+msgid "local and cloud files"
+msgstr "fichiers locaux et cloud"
+
+msgid "❓ Are you sure you want to delete `{target}`?\n\nThis action cannot be undone!"
+msgstr "❓ Êtes-vous sûr de vouloir supprimer `{target}` ?\n\nCette action est irréversible !"
+
+msgid "ℹ️ Getting library list..."
+msgstr "ℹ️ Obtention de la liste des bibliothèques..."
+
+msgid "❌ Failed to get media libraries: {error}"
+msgstr "❌ Échec de l'obtention des bibliothèques multimédias : {error}"
+
+msgid "💥 Scan all libraries"
+msgstr "💥 Analyser toutes les bibliothèques"
+
+msgid "Please select a library to scan:"
+msgstr "Veuillez sélectionner une bibliothèque à analyser :"
+
+msgid "❓ Are you sure you want to scan **all** media libraries?\n\nThis operation can be resource-intensive and may take some time."
+msgstr "❓ Êtes-vous sûr de vouloir analyser **toutes** les bibliothèques multimédias ?\n\nCette opération peut être gourmande en ressources et prendre un certain temps."
+
+msgid "⚠️ Yes, scan all"
+msgstr "⚠️ Oui, tout analyser"
+
+msgid "❓ Are you sure you want to scan the library *{library_name}*?\n\nThis may take some time."
+msgstr "❓ Êtes-vous sûr de vouloir analyser la bibliothèque *{library_name}* ?\n\nCela peut prendre un certain temps."
+
+msgid "⚠️ Yes, stop all"
+msgstr "⚠️ Oui, tout arrêter"
+
+msgid "Cancel"
+msgstr "Annuler"
+
+msgid "❓ Are you sure you want to stop *all* playback sessions? This action cannot be undone."
+msgstr "❓ Êtes-vous sûr de vouloir arrêter *toutes* les sessions de lecture ? Cette action est irréversible."
+
+msgid "Stopping all sessions..."
+msgstr "Arrêt de toutes les sessions..."
+
+msgid "✅ No active sessions to stop."
+msgstr "✅ Aucune session active à arrêter."
+
+msgid "✅ Operation complete, {count} playback sessions were stopped."
+msgstr "✅ Opération terminée, {count} sessions de lecture ont été arrêtées."
+
+msgid "✍️ Please enter the message you want to *broadcast* to all users:"
+msgstr "✍️ Veuillez entrer le message que vous souhaitez *diffuser* à tous les utilisateurs :"
+
+msgid "✍️ *Please reply to this message* with the content you want to *broadcast* to all users:"
+msgstr "✍️ *Veuillez répondre à ce message* avec le contenu que vous souhaitez *diffuser* à tous les utilisateurs :"
+
+msgid "Operation cancelled"
+msgstr "Opération annulée"
+
+msgid "✅ Playback stopped successfully."
+msgstr "✅ Lecture arrêtée avec succès."
+
+msgid "❌ Failed to stop playback."
+msgstr "❌ Échec de l'arrêt de la lecture."
+
+msgid "✍️ Please enter the message you want to send to this user:"
+msgstr "✍️ Veuillez entrer le message que vous souhaitez envoyer à cet utilisateur :"
+
+msgid "✍️ *Please reply to this message* with the content you want to send to this user:"
+msgstr "✍️ *Veuillez répondre à ce message* avec le contenu que vous souhaitez envoyer à cet utilisateur :"
+
+msgid "🔔 Webhook request received."
+msgstr "🔔 Requête Webhook reçue."
+
+msgid "❌ Unsupported Content-Type: {type}"
+msgstr "❌ Content-Type non pris en charge : {type}"
+
+msgid "❌ No data in webhook request."
+msgstr "❌ Aucune donnée dans la requête Webhook."
+
+msgid "\n--- Emby Webhook Payload Start ---\n"
+msgstr "\n--- Début de la charge utile du Webhook Emby ---\n"
+
+msgid "\n--- Emby Webhook Payload End ---\n"
+msgstr "\n--- Fin de la charge utile du Webhook Emby ---\n"
+
+msgid "ℹ️ Emby event detected: {event}"
+msgstr "ℹ️ Événement Emby détecté : {event}"
+
+msgid "ℹ️ Unhandled event type: {event}"
+msgstr "ℹ️ Type d'événement non géré : {event}"
+
+msgid "❌ Error processing webhook: {error}"
+msgstr "❌ Erreur lors du traitement du webhook : {error}"
+
+msgid "⚠️ New item notifications are disabled, skipping."
+msgstr "⚠️ Les notifications de nouveaux éléments sont désactivées, ignorées."
+
+msgid "ℹ️ Supplementing metadata for item {id} using Emby API."
+msgstr "ℹ️ Complément des métadonnées pour l'élément {id} via l'API Emby."
+
+msgid "✅ Specs found successfully (Strategy 1): Using specs from {ep}."
+msgstr "✅ Spécifications trouvées avec succès (Stratégie 1) : utilisation des spécifications de {ep}."
+
+msgid "ℹ️ New item is a movie/episode, waiting 30s for Emby to analyze media source..."
+msgstr "ℹ️ Le nouvel élément est un film/épisode, attente de 30s pour qu'Emby analyse la source média..."
+
+msgid "❌ All spec-finding strategies failed, sending notification without specs."
+msgstr "❌ Toutes les stratégies de recherche de spécifications ont échoué, envoi de la notification sans spécifications."
+
+msgid "✅ New"
+msgstr "✅ Nouveau"
+
+msgid " (Total {count} episodes)"
+msgstr " (Total {count} épisodes)"
+
+msgid "Newly added: {summary}{count}"
+msgstr "Nouvellement ajouté : {summary}{count}"
+
+msgid "✉️ Sending new item notification to group {id}."
+msgstr "✉️ Envoi de la notification de nouvel élément au groupe {id}."
+
+msgid "✉️ Sending new item notification to channel {id}."
+msgstr "✉️ Envoi de la notification de nouvel élément au canal {id}."
+
+msgid "✉️ Sending new item notification to admin {id}."
+msgstr "✉️ Envoi de la notification de nouvel élément à l'administrateur {id}."
+
+msgid "⚠️ Deleted item notifications are disabled, skipping."
+msgstr "⚠️ Les notifications d'éléments supprimés sont désactivées, ignorées."
+
+msgid "⚠️ Ignoring unsupported delete event type: {type}"
+msgstr "⚠️ Type d'événement de suppression non pris en charge ignoré : {type}"
+
+msgid " Season {s}"
+msgstr " Saison {s}"
+
+msgid "🗑️ Deleted"
+msgstr "🗑️ Supprimé"
+
+msgid "Deleted: {summary}"
+msgstr "Supprimé : {summary}"
+
+msgid "Deletion Time: {time}"
+msgstr "Heure de suppression : {time}"
+
+msgid "⚠️ Deletion notification skipped: ADMIN_USER_ID not configured."
+msgstr "⚠️ Notification de suppression ignorée : ADMIN_USER_ID non configuré."
+
+msgid "⚠️ Notifications for {event} are disabled, skipping."
+msgstr "⚠️ Les notifications pour {event} sont désactivées, ignorées."
+
+msgid "⚠️ ADMIN_USER_ID not configured, skipping playback notification."
+msgstr "⚠️ ADMIN_USER_ID non configuré, notification de lecture ignorée."
+
+msgid "⏳ Ignoring {event} event due to debounce time ({seconds}s)."
+msgstr "⏳ Événement {event} ignoré en raison du temps de déparasitage ({seconds}s)."
+
+msgid "▶️ Playback Started"
+msgstr "▶️ Lecture démarrée"
+
+msgid "▶️ Playback Resumed"
+msgstr "▶️ Lecture reprise"
+
+msgid "⏸️ Playback Paused"
+msgstr "⏸️ Lecture en pause"
+
+msgid "⏹️ Playback Stopped"
+msgstr "⏹️ Lecture arrêtée"
+
+msgid "User: {user}"
+msgstr "Utilisateur : {user}"
+
+msgid "Location: {location}"
+msgstr "Emplacement : {location}"
+
+msgid "Location: `{ip}` {location}"
+msgstr "Emplacement : `{ip}` {location}"
+
+msgid "Progress: Watched {percent:.1f}%"
+msgstr "Progression : Vu {percent:.1f}%"
+
+msgid "Progress: {percent:.1f}% ({played} / {total})"
+msgstr "Progression : {percent:.1f}% ({played} / {total})"
+
+msgid "✉️ Sending playback notification to admin {id}."
+msgstr "✉️ Envoi de la notification de lecture à l'administrateur {id}."
+
+msgid "⚠️ Notifications for {event} event are disabled, skipping."
+msgstr "⚠️ Les notifications pour l'événement {event} sont désactivées, ignorées."
+
+msgid "⚠️ ADMIN_USER_ID not configured, cannot send user/system event notifications."
+msgstr "⚠️ ADMIN_USER_ID non configuré, impossible d'envoyer des notifications d'événements utilisateur/système."
+
+msgid "Unknown"
+msgstr "Inconnu"
+
+msgid "User {username} successfully logged in"
+msgstr "L'utilisateur {username} s'est connecté avec succès"
+
+msgid "Client: {client}"
+msgstr "Client : {client}"
+
+msgid "User {username} login failed"
+msgstr "Échec de la connexion de l'utilisateur {username}"
+
+msgid "Unknown IP"
+msgstr "IP inconnue"
+
+msgid "Reason for failure: Incorrect password"
+msgstr "Raison de l'échec : Mot de passe incorrect"
+
+msgid "Reason for failure: User does not exist"
+msgstr "Raison de l'échec : L'utilisateur n'existe pas"
+
+msgid "User {username} successfully created"
+msgstr "Utilisateur {username} créé avec succès"
+
+msgid "User {username} has been deleted"
+msgstr "L'utilisateur {username} a été supprimé"
+
+msgid "Policy for user {username} has been updated"
+msgstr "La politique de l'utilisateur {username} a été mise à jour"
+
+msgid "Password for user {username} has been changed"
+msgstr "Le mot de passe de l'utilisateur {username} a été changé"
+
+msgid "Server restart required"
+msgstr "Redémarrage du serveur requis"
+
+msgid "✅ i18n initialized successfully, current language: {lang}"
+msgstr "✅ i18n initialisé avec succès, langue actuelle : {lang}"
+
+msgid "❌ i18n initialization failed, will use default language (English). Error: {e}"
+msgstr "❌ Échec de l'initialisation de i18n, la langue par défaut (anglais) sera utilisée. Erreur : {e}"
+
+msgid "🗑️ Requesting file deletion, Emby path: {path}, ℹ️ Local: {local}, ℹ️ Cloud: {cloud}"
+msgstr "🗑️ Demande de suppression de fichier, chemin Emby : {path}, ℹ️ Local : {local}, ℹ️ Cloud : {cloud}"
+
+msgid "Error: Item path '{item_path}' does not match or is invalid with base path '{base_path}'."
+msgstr "Erreur : Le chemin de l'élément '{item_path}' ne correspond pas ou est invalide avec le chemin de base '{base_path}'."
+
+msgid "✅ Successfully deleted local directory: {path}"
+msgstr "✅ Répertoire local supprimé avec succès : {path}"
+
+msgid "❌ Failed to delete local directory: {error}"
+msgstr "❌ Échec de la suppression du répertoire local : {error}"
+
+msgid "❌ Error deleting local directory '{path}': {error}"
+msgstr "❌ Erreur lors de la suppression du répertoire local '{path}' : {error}"
+
+msgid "🟡 Local directory not found: {path}"
+msgstr "🟡 Répertoire local non trouvé : {path}"
+
+msgid "✅ Successfully deleted cloud directory: {path}"
+msgstr "✅ Répertoire cloud supprimé avec succès : {path}"
+
+msgid "❌ Failed to delete cloud directory: {error}"
+msgstr "❌ Échec de la suppression du répertoire cloud : {error}"
+
+msgid "⚠️ Warning: Failed to delete cloud path '{path}': {error}"
+msgstr "⚠️ Attention : Échec de la suppression du chemin cloud '{path}' : {error}"
+
+msgid "🟡 Cloud directory not found: {path}"
+msgstr "🟡 Répertoire cloud non trouvé : {path}"
+
+msgid "🤷 No deletion operations were performed."
+msgstr "🤷 Aucune opération de suppression n'a été effectuée."
+
+msgid "✅ Deletion operation complete:"
+msgstr "✅ Opération de suppression terminée :"
+
+msgid "🔄 Requesting media update, Emby path: {path}"
+msgstr "🔄 Demande de mise à jour du média, chemin Emby : {path}"
+
+msgid "Error: `media_base_path` or `media_cloud_path` is not set in the configuration."
+msgstr "Erreur : `media_base_path` ou `media_cloud_path` n'est pas défini dans la configuration."
+
+msgid "Error: Item path '{item_path}' does not match base path '{base_path}'."
+msgstr "Erreur : Le chemin de l'élément '{item_path}' ne correspond pas au chemin de base '{base_path}'."
+
+msgid "Error: Source directory '{path}' not found in the cloud drive."
+msgstr "Erreur : Répertoire source '{path}' non trouvé dans le lecteur cloud."
+
+msgid "• Copied metadata: {filename}"
+msgstr "• Métadonnées copiées : {filename}"
+
+msgid "Created"
+msgstr "Créé"
+
+msgid "Updated"
+msgstr "Mis à jour"
+
+msgid "⚠️ Warning: Failed to set file timestamp: {error}"
+msgstr "⚠️ Attention : Échec de la définition de l'horodatage du fichier : {error}"
+
+msgid "• {action} link: {filename}"
+msgstr "• Lien {action} : {filename}"
+
+msgid "✅ `/{path}` requires no update, files are already up to date."
+msgstr "✅ `/{path}` ne nécessite aucune mise à jour, les fichiers sont déjà à jour."
+
+msgid "✅ `/{path}` update complete."
+msgstr "✅ Mise à jour de `/{path}` terminée."
+
+msgid "✅ `/{path}` has been updated successfully!\n\nChange details:\n{details}"
+msgstr "✅ `/{path}` a été mis à jour avec succès !\n\nDétails des modifications :\n{details}"
+
+msgid "No deletion target specified."
+msgstr "Aucune cible de suppression spécifiée."
+
+msgid "🟡 {label} root directory is unknown or not configured."
+msgstr "🟡 Le répertoire racine de {label} est inconnu ou non configuré."
+
+msgid "✅ Deleted {label} directory: {path}"
+msgstr "✅ Répertoire {label} supprimé : {path}"
+
+msgid "❌ Failed to delete {label} directory: {path} | {error}"
+msgstr "❌ Échec de la suppression du répertoire {label} : {path} | {error}"
+
+msgid "🟡 {label} season directory not found: S{num:02d}"
+msgstr "🟡 Répertoire de saison {label} non trouvé : S{num:02d}"
+
+msgid "Local"
+msgstr "Local"
+
+msgid "Cloud"
+msgstr "Cloud"
+
+msgid "🟡 {label} files not found: S{s:02d}E{e:02d}"
+msgstr "🟡 Fichiers {label} non trouvés : S{s:02d}E{e:02d}"
+
+msgid "✅ Deleted {label} file: {path}"
+msgstr "✅ Fichier {label} supprimé : {path}"
+
+msgid "❌ Failed to delete {label} file: {path} | {error}"
+msgstr "❌ Échec de la suppression du fichier {label} : {path} | {error}"
+
+msgid "ℹ️ Compiling local season/episode numbers for series {id}."
+msgstr "ℹ️ Compilation des numéros de saison/épisode locaux pour la série {id}."
+
+msgid "✅ Local season/episode count complete ({count} seasons total)."
+msgstr "✅ Comptage local des saisons/épisodes terminé ({count} saisons au total)."
+
+msgid "Finished"
+msgstr "Terminé"
+
+msgid "Finished (may be inaccurate)"
+msgstr "Terminé (peut être inexact)"
+
+msgid "{count} episodes remaining"
+msgstr "{count} épisodes restants"
+
+msgid "Update Progress: {status}"
+msgstr "Progression de la mise à jour : {status}"
+
+msgid "…({count} episodes total)"
+msgstr "…({count} épisodes au total)"
+
+msgid "Missing: S{s:02d} {head}{suffix}"
+msgstr "Manquant : S{s:02d} {head}{suffix}"
+
+msgid "⚠️ Exception generating progress/missing info for new library notification: {error}"
+msgstr "⚠️ Exception lors de la génération des informations de progression/manquantes pour la notification de nouvelle bibliothèque : {error}"
+
+msgid "❌ Error: chat_id not specified."
+msgstr "❌ Erreur : chat_id non spécifié."
+
+msgid "💬 Sending Telegram notification to Chat ID {id}..."
+msgstr "💬 Envoi de la notification Telegram au Chat ID {id}..."
+
+msgid "💬 Sending deletable notification to Chat ID {id}, deleting after {seconds} seconds."
+msgstr "💬 Envoi d'une notification supprimable au Chat ID {id}, suppression après {seconds} secondes."
+
+msgid "⏳ Deleting message ID: {id}."
+msgstr "⏳ Suppression du message ID : {id}."
+
+msgid "ℹ️ Delete message {id}: It may no longer exist or permissions are insufficient. Ignored."
+msgstr "ℹ️ Supprimer le message {id} : Il n'existe peut-être plus ou les permissions sont insuffisantes. Ignoré."
+
+msgid "📞 Answering callback query: {id}"
+msgstr "📞 Réponse à la requête de rappel : {id}"
+
+msgid "✏️ Editing message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "✏️ Modification du message dans le Chat ID {chat_id}, Message ID {msg_id}."
+
+msgid "❌ Exception in edit_telegram_message call: {error}"
+msgstr "❌ Exception dans l'appel edit_telegram_message : {error}"
+
+msgid "🗑️ Deleting message in Chat ID {chat_id}, Message ID {msg_id}."
+msgstr "🗑️ Suppression du message dans le Chat ID {chat_id}, Message ID {msg_id}."
+
+msgid "⚠️ ADMIN_USER_ID not configured, all users will be unable to perform admin actions."
+msgstr "⚠️ ADMIN_USER_ID non configuré, tous les utilisateurs ne pourront pas effectuer d'actions d'administration."
+
+msgid "👥 Authorization status for user {id} retrieved from cache: {is_member}"
+msgstr "👥 Statut d'autorisation pour l'utilisateur {id} récupéré depuis le cache : {is_member}"
+
+msgid "👥 Querying membership status for user {user_id} in group {group_id}."
+msgstr "👥 Interrogation du statut de membre pour l'utilisateur {user_id} dans le groupe {group_id}."
+
+msgid "✅ User {id} verified successfully."
+msgstr "✅ Utilisateur {id} vérifié avec succès."
+
+msgid "❌ User {id} verification failed, status: {status}."
+msgstr "❌ Échec de la vérification de l'utilisateur {id}, statut : {status}."
+
+msgid "❌ Authorization failed: Error parsing group membership for user {id}."
+msgstr "❌ Échec de l'autorisation : Erreur lors de l'analyse de l'appartenance au groupe pour l'utilisateur {id}."
+
+msgid "❌ Authorization failed: Query for group membership of user {id} failed, access denied."
+msgstr "❌ Échec de l'autorisation : La requête d'appartenance au groupe pour l'utilisateur {id} a échoué, accès refusé."
+
+msgid "🚀 Server started on http://0.0.0.0:{port}..."
+msgstr "🚀 Serveur démarré sur http://0.0.0.0:{port}..."
+
+msgid "❌ Failed to start HTTP server, port {port} may already be in use. Error: {error}"
+msgstr "❌ Échec du démarrage du serveur HTTP, le port {port} est peut-être déjà utilisé. Erreur : {error}"
+
+msgid "❌ An unknown error occurred while starting the HTTP server: {error}"
+msgstr "❌ Une erreur inconnue s'est produite lors du démarrage du serveur HTTP : {error}"
+
+msgid "❌ Could not parse Bot ID from TELEGRAM_TOKEN. Auto-deleting reply messages may not work correctly."
+msgstr "❌ Impossible d'analyser l'ID du Bot depuis TELEGRAM_TOKEN. La suppression automatique des messages de réponse pourrait ne pas fonctionner correctement."
+
+msgid "🤖 Telegram command polling service started..."
+msgstr "🤖 Service d'interrogation des commandes Telegram démarré..."
+
+msgid "❌ API error while polling for Telegram updates: {error}"
+msgstr "❌ Erreur API lors de l'interrogation des mises à jour Telegram : {error}"
+
+msgid "⚠️ Received a message with missing core fields, skipping: {msg}"
+msgstr "⚠️ Message reçu avec des champs principaux manquants, ignoré : {msg}"
+
+msgid "❌ Error processing a single Telegram update (Update ID: {uid}). This update will be skipped. Error: {err}"
+msgstr "❌ Erreur lors du traitement d'une mise à jour Telegram (ID de mise à jour : {uid}). Cette mise à jour sera ignorée. Erreur : {err}"
+
+msgid "❌ Failed to poll for Telegram updates: {code} - {text}"
+msgstr "❌ Échec de l'interrogation des mises à jour Telegram : {code} - {text}"
+
+msgid "❌ Network error while polling Telegram: {error}"
+msgstr "❌ Erreur réseau lors de l'interrogation de Telegram : {error}"
+
+msgid "❌ A critical error occurred while polling Telegram: {error}"
+msgstr "❌ Une erreur critique s'est produite lors de l'interrogation de Telegram : {error}"
+
+msgid "Video Specs: "
+msgstr "Spécifications vidéo : "
+
+msgid "Video: "
+msgstr "Vidéo : "
+
+msgid "Audio Specs: "
+msgstr "Spécifications audio : "
+
+msgid "Audio: "
+msgstr "Audio : "
+
+msgid " and {count} more..."
+msgstr " et {count} de plus..."
+
+msgid "Subtitle Specs: "
+msgstr "Spécifications des sous-titres : "
+
+msgid "Subtitles: "
+msgstr "Sous-titres : "
+
+msgid "❌ Error reading directory {directory}: {error}"
+msgstr "❌ Erreur de lecture du répertoire {directory} : {error}"
+
+msgid "✅ NFO Parse: Found default <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ Analyse NFO : <uniqueid type='tmdb'> par défaut trouvé -> {id}"
+
+msgid "✅ NFO Parse: Found <uniqueid type='tmdb'> -> {id}"
+msgstr "✅ Analyse NFO : <uniqueid type='tmdb'> trouvé -> {id}"
+
+msgid "✅ NFO Parse: Found <tmdbid> -> {id}"
+msgstr "✅ Analyse NFO : <tmdbid> trouvé -> {id}"
+
+msgid "⚠️ NFO file '{filename}' is not valid XML, falling back to regex matching."
+msgstr "⚠️ Le fichier NFO '{filename}' n'est pas un XML valide, recours à la correspondance par expression régulière."
+
+msgid "✅ NFO Parse (regex): Found from URL -> {id}"
+msgstr "✅ Analyse NFO (regex) : Trouvé depuis l'URL -> {id}"
+
+msgid "✅ NFO Parse (regex): Found from tag -> {id}"
+msgstr "✅ Analyse NFO (regex) : Trouvé depuis la balise -> {id}"
+
+msgid "❌ Error parsing NFO file {path}: {error}"
+msgstr "❌ Erreur lors de l'analyse du fichier NFO {path} : {error}"
+
+msgid "❌ Failed to find TMDB ID in NFO file '{filename}'."
+msgstr "❌ Impossible de trouver l'ID TMDB dans le fichier NFO '{filename}'."
+
+msgid "============================================================\n⚠️ CRITICAL WARNING: 'user_id' not found in config.yaml.\n This may cause some Emby API requests that require user context to fail.\n It is strongly recommended to configure a valid user ID to ensure all features work correctly.\n============================================================"
+msgstr "============================================================\n⚠️ AVERTISSEMENT CRITIQUE : 'user_id' non trouvé dans config.yaml.\n Cela peut entraîner l'échec de certaines requêtes API Emby nécessitant un contexte utilisateur.\n Il est fortement recommandé de configurer un ID utilisateur valide pour garantir le bon fonctionnement de toutes les fonctionnalités.\n============================================================"
+
+msgid "⚙️ Main Menu"
+msgstr "⚙️ Menu principal"
+
+msgid "Manage the bot's various features and notifications!"
+msgstr "Gérez les différentes fonctionnalités et notifications du bot !"
+
+msgid "Content Settings"
+msgstr "Paramètres du contenu"
+
+msgid "New Content Notification Settings"
+msgstr "Paramètres de notification de nouveau contenu"
+
+msgid "Show Update Progress/Missing"
+msgstr "Afficher la progression/les manques de la mise à jour"
+
+msgid "Show Poster"
+msgstr "Afficher l'affiche"
+
+msgid "Show Media Details"
+msgstr "Afficher les détails du média"
+
+msgid "Add TMDB Link to Details"
+msgstr "Ajouter un lien TMDB aux détails"
+
+msgid "Show Overview"
+msgstr "Afficher la synopsis"
+
+msgid "Show Media Type"
+msgstr "Afficher le type de média"
+
+msgid "Show Video Specs"
+msgstr "Afficher les spécifications vidéo"
+
+msgid "Show Audio Specs"
+msgstr "Afficher les spécifications audio"
+
+msgid "Show Subtitle Specs"
+msgstr "Afficher les spécifications des sous-titres"
+
+msgid "Show Timestamp"
+msgstr "Afficher l'horodatage"
+
+msgid "Show \"View on Server\" Button"
+msgstr "Afficher le bouton « Voir sur le serveur »"
+
+msgid "Playback Status Feedback Settings"
+msgstr "Paramètres de retour d'état de la lecture"
+
+msgid "Show Player"
+msgstr "Afficher le lecteur"
+
+msgid "Show Device"
+msgstr "Afficher l'appareil"
+
+msgid "Show Location Info"
+msgstr "Afficher les informations de localisation"
+
+msgid "Show \"Terminate Session\" Button"
+msgstr "Afficher le bouton « Terminer la session »"
+
+msgid "Show \"Send Message\" Button"
+msgstr "Afficher le bouton « Envoyer un message »"
+
+msgid "Show \"Broadcast Message\" Button"
+msgstr "Afficher le bouton « Message de diffusion »"
+
+msgid "Show \"Terminate All\" Button"
+msgstr "Afficher le bouton « Tout terminer »"
+
+msgid "Playback Action Notification Settings"
+msgstr "Paramètres de notification d'action de lecture"
+
+msgid "Show Username"
+msgstr "Afficher le nom d'utilisateur"
+
+msgid "Show Playback Progress"
+msgstr "Afficher la progression de la lecture"
+
+msgid "Deleted Content Notification Settings"
+msgstr "Paramètres de notification de contenu supprimé"
+
+msgid "Show Deletion Time"
+msgstr "Afficher l'heure de suppression"
+
+msgid "Search Results Display Settings"
+msgstr "Paramètres d'affichage des résultats de recherche"
+
+msgid "Show Media Type in Search List"
+msgstr "Afficher le type de média dans la liste de recherche"
+
+msgid "Movie Display Settings"
+msgstr "Paramètres d'affichage des films"
+
+msgid "Add TMDB Link to Movie Title"
+msgstr "Ajouter un lien TMDB au titre du film"
+
+msgid "Show Type"
+msgstr "Afficher le type"
+
+msgid "Show Category"
+msgstr "Afficher la catégorie"
+
+msgid "Show Added Time"
+msgstr "Afficher l'heure d'ajout"
+
+msgid "Series Display Settings"
+msgstr "Paramètres d'affichage des séries"
+
+msgid "Add TMDB Link to Series Title"
+msgstr "Ajouter un lien TMDB au titre de la série"
+
+msgid "Season Specs"
+msgstr "Spécifications de la saison"
+
+msgid "Show Season Video Specs"
+msgstr "Afficher les spécifications vidéo de la saison"
+
+msgid "Show Season Audio Specs"
+msgstr "Afficher les spécifications audio de la saison"
+
+msgid "Show Season Subtitle Specs"
+msgstr "Afficher les spécifications des sous-titres de la saison"
+
+msgid "Update Progress"
+msgstr "Progression de la mise à jour"
+
+msgid "Show \"Updated to\""
+msgstr "Afficher « Mis à jour vers »"
+
+msgid "Add TMDB Link to \"Updated to\""
+msgstr "Ajouter un lien TMDB à « Mis à jour vers »"
+
+msgid "Show Update Progress"
+msgstr "Afficher la progression de la mise à jour"
+
+msgid "Notification Management"
+msgstr "Gestion des notifications"
+
+msgid "New/Deleted Content Notifications"
+msgstr "Notifications de contenu nouveau/supprimé"
+
+msgid "New Content Notifications"
+msgstr "Notifications de nouveau contenu"
+
+msgid "Deleted Content Notifications"
+msgstr "Notifications de contenu supprimé"
+
+msgid "Playback Action Notifications"
+msgstr "Notifications d'action de lecture"
+
+msgid "Playback Start/Resume Notifications"
+msgstr "Notifications de début/reprise de lecture"
+
+msgid "Playback Pause Notifications"
+msgstr "Notifications de pause de lecture"
+
+msgid "Playback Stop Notifications"
+msgstr "Notifications d'arrêt de lecture"
+
+msgid "Send to Group"
+msgstr "Envoyer au groupe"
+
+msgid "Send to Channel"
+msgstr "Envoyer au canal"
+
+msgid "Send to Admin"
+msgstr "Envoyer à l'administrateur"
+
+msgid "Advanced Notification Management"
+msgstr "Gestion avancée des notifications"
+
+msgid "User Login Success"
+msgstr "Connexion utilisateur réussie"
+
+msgid "User Login Failure"
+msgstr "Échec de la connexion utilisateur"
+
+msgid "User Creation/Deletion"
+msgstr "Création/Suppression d'utilisateur"
+
+msgid "User Policy/Password Updates"
+msgstr "Mises à jour de la politique/du mot de passe utilisateur"
+
+msgid "Server Restart Required"
+msgstr "Redémarrage du serveur requis"
+
+msgid "Auto-Delete Message Settings"
+msgstr "Paramètres de suppression automatique des messages"
+
+msgid "Auto-delete messages sent to Group"
+msgstr "Supprimer automatiquement les messages envoyés au groupe"
+
+msgid "Auto-delete messages sent to Channel"
+msgstr "Supprimer automatiquement les messages envoyés au canal"
+
+msgid "Auto-delete messages sent to Admin"
+msgstr "Supprimer automatiquement les messages envoyés à l'administrateur"
+
+msgid "Advanced Notifications"
+msgstr "Notifications avancées"
+
+msgid "User Login Success/Failure"
+msgstr "Succès/Échec de la connexion utilisateur"
+
+msgid "User Create/Delete/Update"
+msgstr "Créer/Supprimer/Mettre à jour l'utilisateur"
+
+msgid "Server Events"
+msgstr "Événements du serveur"
+
+msgid "System Settings"
+msgstr "Paramètres système"
+
+msgid "Language Settings"
+msgstr "Paramètres de langue"
+
+msgid "IP Geolocation API Settings"
+msgstr "Paramètres de l'API de géolocalisation IP"
+
+msgid "Please Restart Emby Server: {server_name}"
+msgstr "Veuillez redémarrer le serveur Emby : {server_name}"
+
+msgid "🔍 Specs not found, trying fallback: finding another episode in S{num:02d} for reference..."
+msgstr "🔍 Spécifications non trouvées, essai de repli : recherche d'un autre épisode dans S{num:02d} pour référence..."
+
+msgid "✅ Fallback successful: using specs from reference episode (ID: {id})."
+msgstr "✅ Repli réussi : utilisation des spécifications de l'épisode de référence (ID : {id})."
+
+msgid "Page {current}/{total}"
+msgstr "Page {current}/{total}"
+
+msgid "Previous Page"
+msgstr "Page Précédente"
+
+msgid "This message has expired."
+msgstr "Ce message a expiré."
+
+msgid "Name: <b>{title}</b>"
+msgstr "Nom: <b>{title}</b>"
+
+msgid "Name: <a href=\"{link}\">{title}</a>"
+msgstr "Nom: <a href=\"{link}\">{title}</a>"
+
+msgid "Updated to: <a href=\"{link}\">{info}</a>"
+msgstr "Mis à jour vers: <a href=\"{link}\">{info}</a>"
+
+msgid "Location: <code>{ip}</code> {loc}"
+msgstr "Emplacement: <code>{ip}</code> {loc}"
+
+msgid "Location: <code>{ip}</code> {location}"
+msgstr "Emplacement: <code>{ip}</code> {location}"
