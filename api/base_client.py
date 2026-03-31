@@ -3,7 +3,7 @@ import json as _json
 import requests
 
 from .. import i18n
-from ..core.config import TELEGRAM_TOKEN, EMBY_SERVER_URL
+from ..core.config import TELEGRAM_TOKEN, EMBY_SERVER_URL, REQUESTS_PROXIES
 
 def make_request_with_retry(method: str, url: str, max_retries: int = 3, retry_delay: int = 1, **kwargs):
     def _extract_payload_for_check(_kwargs):
@@ -74,7 +74,8 @@ def make_request_with_retry(method: str, url: str, max_retries: int = 3, retry_d
                     api_name=api_name, attempt=attempts + 1, url=display_url, timeout=timeout
                 ))
 
-            response = requests.request(method, url, timeout=timeout, **kwargs)
+            effective_proxies = REQUESTS_PROXIES if api_name == i18n._("Telegram") else None
+            response = requests.request(method, url, timeout=timeout, proxies=effective_proxies, **kwargs)
 
             if 200 <= response.status_code < 300:
                 if api_name != i18n._("Emby"):

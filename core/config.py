@@ -436,6 +436,7 @@ APP_SCHEME = None
 EMBY_TEMPLATE_USER_ID = None
 BOT_NAME = None
 CUSTOMER_SERVICE_ID = None
+REQUESTS_PROXIES = None
 
 DEFAULT_SETTINGS = _build_default_settings()
 build_toggle_maps()
@@ -486,6 +487,13 @@ g['BOT_NAME'] = get_setting('settings.bot_name') or 'EmbyBot'
 g['CUSTOMER_SERVICE_ID'] = CONFIG.get('telegram', {}).get('customer_service_id')
 g['TELEGRAM_WEBHOOK_URL'] = CONFIG.get('telegram', {}).get('webhook_url')
 g['TELEGRAM_MODE'] = get_setting('settings.telegram_mode') or 'polling'
+
+_proxy_url = CONFIG.get('proxy', {}).get('url') or None
+if _proxy_url:
+    g['REQUESTS_PROXIES'] = {'http': _proxy_url, 'https': _proxy_url}
+    print(i18n._("🌐 Proxy configured: {proxy}").format(proxy=_proxy_url))
+else:
+    g['REQUESTS_PROXIES'] = None
 
 if not g['TELEGRAM_TOKEN'] or not g['ADMIN_USER_ID']:
     print(i18n._("❌ ERROR: TELEGRAM_TOKEN or ADMIN_USER_ID is not set correctly in config.yaml"))

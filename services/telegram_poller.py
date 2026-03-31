@@ -3,7 +3,7 @@ import time
 import traceback
 
 from .. import i18n
-from ..core.config import TELEGRAM_TOKEN
+from ..core.config import TELEGRAM_TOKEN, REQUESTS_PROXIES
 from ..handlers import telegram_handler
 from ..notifications import telegram_driver
 
@@ -29,7 +29,7 @@ def poll_telegram_updates():
         print(i18n._("🧹 Clearing old updates before starting polling..."))
         url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getUpdates"
         params = {'offset': -1, 'timeout': 1}
-        response = requests.get(url, params=params, timeout=5)
+        response = requests.get(url, params=params, timeout=5, proxies=REQUESTS_PROXIES)
         if response.status_code == 200:
             updates = response.json().get('result', [])
             if updates:
@@ -46,7 +46,7 @@ def poll_telegram_updates():
             url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/getUpdates"
             params = {'offset': update_id + 1, 'timeout': 30}
 
-            response = requests.get(url, params=params, timeout=40)
+            response = requests.get(url, params=params, timeout=40, proxies=REQUESTS_PROXIES)
 
             if response.status_code == 200:
                 data = response.json()
