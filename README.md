@@ -125,6 +125,7 @@ requests[socks]>=2.28.0   # 使用 SOCKS5 代理时必须
 SQLAlchemy>=2.0
 psycopg2-binary>=2.9.0
 mysqlclient>=2.1.0
+requests[socks]>=2.28.0
 ```
 
 ---
