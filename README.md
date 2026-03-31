@@ -1,6 +1,6 @@
 # EmbyBot
 
-一个功能完整的 Telegram 机器人，用于管理 [Emby](https://emby.media/) 媒体服务器。EmbyBot 将 Telegram 与 Emby 无缝连接，让管理员可以直接在 Telegram 中监控播放会话、管理用户并接收实时通知。
+一个功能完整的 Telegram 机器人，用于管理 Emby 媒体服务器。EmbyBot 将 Telegram 与 Emby 无缝连接，让管理员可以直接在 Telegram 中监控播放会话、管理用户并接收实时通知。基于项目 [xpisce/emby-notifier](https://github.com/xpisce/emby-notifier)。
 
 ---
 
