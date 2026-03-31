@@ -217,8 +217,6 @@ proxy:
   url: "socks5://user:password@host:1080"  # 可选；仅作用于 Telegram API 请求
 ```
 
-> **注意：** SOCKS5 代理需要安装 `requests[socks]`。
-
 ### `server`
 
 ```yaml
